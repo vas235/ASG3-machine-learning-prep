@@ -1,0 +1,2838 @@
+variable,value,desc
+a1_born,1,In the United States
+a1_born,2,Outside of the United States
+a1_born,.m,No valid response
+a1_born,.n,Not in universe
+a1_born,.l,Logical skip
+a1_born,.d,Suppressed for confidentiality
+a1_grade_i,1,Less than High School
+a1_grade_i,2,High School Graduate
+a1_grade_i,3,More than High School
+a1_grade_i,.n,Not in universe
+a1_grade_i,.l,Logical skip
+a1_grade_i,.m,No valid response
+a1_grade_if,1,Imputed Value
+a1_grade,1,8th grade or less
+a1_grade,2,9th-12th grade; No diploma
+a1_grade,3,High School Graduate or GED Completed
+a1_grade,4,"Completed a vocational, trade, or business school program"
+a1_grade,5,"Some College Credit, but No Degree"
+a1_grade,6,"Associate Degree (AA, AS)"
+a1_grade,7,"Bachelor’s Degree (BA, BS, AB)"
+a1_grade,8,"Master’s Degree (MA, MS, MSW, MBA)"
+a1_grade,9,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, JD)"
+a1_grade,.m,No valid response
+a1_grade,.n,Not in universe
+a1_grade,.l,Logical skip
+a1_grade,.d,Suppressed for confidentiality
+a1_k11q50_r,1,Yes
+a1_k11q50_r,2,No
+a1_k11q50_r,.m,No valid response
+a1_k11q50_r,.n,Not in universe
+a1_k11q50_r,.l,Logical skip
+a1_k11q50_r,.d,Suppressed for confidentiality
+a1_marital,1,Married
+a1_marital,2,"Not married, but living with a partner"
+a1_marital,3,Never Married
+a1_marital,4,Divorced
+a1_marital,5,Separated
+a1_marital,6,Widowed
+a1_marital,.m,No valid response
+a1_marital,.n,Not in universe
+a1_marital,.l,Logical skip
+a1_marital,.d,Suppressed for confidentiality
+a1_menthealth,1,Excellent
+a1_menthealth,2,Very Good
+a1_menthealth,3,Good
+a1_menthealth,4,Fair
+a1_menthealth,5,Poor
+a1_menthealth,.m,No valid response
+a1_menthealth,.n,Not in universe
+a1_menthealth,.l,Logical skip
+a1_menthealth,.d,Suppressed for confidentiality
+a1_physhealth,1,Excellent
+a1_physhealth,2,Very Good
+a1_physhealth,3,Good
+a1_physhealth,4,Fair
+a1_physhealth,5,Poor
+a1_physhealth,.m,No valid response
+a1_physhealth,.n,Not in universe
+a1_physhealth,.l,Logical skip
+a1_physhealth,.d,Suppressed for confidentiality
+a1_relation,1,Biological or Adoptive Parent
+a1_relation,2,Step-parent
+a1_relation,3,Grandparent
+a1_relation,4,Foster Parent
+a1_relation,5,Aunt or Uncle
+a1_relation,6,Other: Relative
+a1_relation,7,Other: Non-Relative
+a1_relation,.m,No valid response
+a1_relation,.n,Not in universe
+a1_relation,.l,Logical skip
+a1_relation,.d,Suppressed for confidentiality
+a1_sex,1,Male
+a1_sex,2,Female
+a1_sex,.m,No valid response
+a1_sex,.n,Not in universe
+a1_sex,.l,Logical skip
+a1_sex,.d,Suppressed for confidentiality
+a2_born,1,In the United States
+a2_born,2,Outside of the United States
+a2_born,.m,No valid response
+a2_born,.n,Not in universe
+a2_born,.l,Logical skip
+a2_born,.d,Suppressed for confidentiality
+a2_grade,1,8th grade or less
+a2_grade,2,9th-12th grade; No diploma
+a2_grade,3,High School Graduate or GED Completed
+a2_grade,4,"Completed a vocational, trade, or business school program"
+a2_grade,5,"Some College Credit, but No Degree"
+a2_grade,6,"Associate Degree (AA, AS)"
+a2_grade,7,"Bachelor’s Degree (BA, BS, AB)"
+a2_grade,8,"Master’s Degree (MA, MS, MSW, MBA)"
+a2_grade,9,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, JD)"
+a2_grade,.m,No valid response
+a2_grade,.n,Not in universe
+a2_grade,.l,Logical skip
+a2_grade,.d,Suppressed for confidentiality
+a2_k11q50_r,1,Yes
+a2_k11q50_r,2,No
+a2_k11q50_r,.m,No valid response
+a2_k11q50_r,.n,Not in universe
+a2_k11q50_r,.l,Logical skip
+a2_k11q50_r,.d,Suppressed for confidentiality
+a2_marital,1,Married
+a2_marital,2,"Not married, but living with a partner"
+a2_marital,3,Never Married
+a2_marital,4,Divorced
+a2_marital,5,Separated
+a2_marital,6,Widowed
+a2_marital,.m,No valid response
+a2_marital,.n,Not in universe
+a2_marital,.l,Logical skip
+a2_marital,.d,Suppressed for confidentiality
+a2_menthealth,1,Excellent
+a2_menthealth,2,Very Good
+a2_menthealth,3,Good
+a2_menthealth,4,Fair
+a2_menthealth,5,Poor
+a2_menthealth,.m,No valid response
+a2_menthealth,.n,Not in universe
+a2_menthealth,.l,Logical skip
+a2_menthealth,.d,Suppressed for confidentiality
+a2_physhealth,1,Excellent
+a2_physhealth,2,Very Good
+a2_physhealth,3,Good
+a2_physhealth,4,Fair
+a2_physhealth,5,Poor
+a2_physhealth,.m,No valid response
+a2_physhealth,.n,Not in universe
+a2_physhealth,.l,Logical skip
+a2_physhealth,.d,Suppressed for confidentiality
+a2_relation,1,Biological or Adoptive Parent
+a2_relation,2,Step-parent
+a2_relation,3,Grandparent
+a2_relation,4,Foster Parent
+a2_relation,5,Aunt or Uncle
+a2_relation,6,Other: Relative
+a2_relation,7,Other: Non-Relative
+a2_relation,8,There is only one primary adult caregiver for this child
+a2_relation,.m,No valid response
+a2_relation,.n,Not in universe
+a2_relation,.l,Logical skip
+a2_relation,.d,Suppressed for confidentiality
+a2_sex,1,Male
+a2_sex,2,Female
+a2_sex,.m,No valid response
+a2_sex,.n,Not in universe
+a2_sex,.l,Logical skip
+a2_sex,.d,Suppressed for confidentiality
+ace1,1,Never
+ace1,2,Rarely
+ace1,3,Somewhat often
+ace1,4,Very often
+ace1,.m,No valid response
+ace1,.n,Not in universe
+ace1,.l,Logical skip
+ace1,.d,Suppressed for confidentiality
+ace10,1,Yes
+ace10,2,No
+ace10,.m,No valid response
+ace10,.n,Not in universe
+ace10,.l,Logical skip
+ace10,.d,Suppressed for confidentiality
+ace3,1,Yes
+ace3,2,No
+ace3,.m,No valid response
+ace3,.n,Not in universe
+ace3,.l,Logical skip
+ace3,.d,Suppressed for confidentiality
+ace4,1,Yes
+ace4,2,No
+ace4,.m,No valid response
+ace4,.n,Not in universe
+ace4,.l,Logical skip
+ace4,.d,Suppressed for confidentiality
+ace5,1,Yes
+ace5,2,No
+ace5,.m,No valid response
+ace5,.n,Not in universe
+ace5,.l,Logical skip
+ace5,.d,Suppressed for confidentiality
+ace6,1,Yes
+ace6,2,No
+ace6,.m,No valid response
+ace6,.n,Not in universe
+ace6,.l,Logical skip
+ace6,.d,Suppressed for confidentiality
+ace7,1,Yes
+ace7,2,No
+ace7,.m,No valid response
+ace7,.n,Not in universe
+ace7,.l,Logical skip
+ace7,.d,Suppressed for confidentiality
+ace8,1,Yes
+ace8,2,No
+ace8,.m,No valid response
+ace8,.n,Not in universe
+ace8,.l,Logical skip
+ace8,.d,Suppressed for confidentiality
+ace9,1,Yes
+ace9,2,No
+ace9,.m,No valid response
+ace9,.n,Not in universe
+ace9,.l,Logical skip
+ace9,.d,Suppressed for confidentiality
+addtreat,1,Yes
+addtreat,2,No
+addtreat,.m,No valid response
+addtreat,.n,Not in universe
+addtreat,.l,Logical skip
+addtreat,.d,Suppressed for confidentiality
+agepos4,1,Only child
+agepos4,2,Oldest child
+agepos4,3,Second oldest child
+agepos4,4,Third oldest child
+agepos4,5,Fourth or greater oldest child
+agepos4,.m,No valid response
+agepos4,.n,Not in universe
+agepos4,.l,Logical skip
+agepos4,.d,Suppressed for confidentiality
+allergies_curr,1,Yes
+allergies_curr,2,No
+allergies_curr,.m,No valid response
+allergies_curr,.n,Not in universe
+allergies_curr,.l,Logical skip
+allergies_curr,.d,Suppressed for confidentiality
+allergies_desc,1,Mild
+allergies_desc,2,Moderate
+allergies_desc,3,Severe
+allergies_desc,.m,No valid response
+allergies_desc,.n,Not in universe
+allergies_desc,.l,Logical skip
+allergies_desc,.d,Suppressed for confidentiality
+allergies,1,Yes
+allergies,2,No
+allergies,.m,No valid response
+allergies,.n,Not in universe
+allergies,.l,Logical skip
+allergies,.d,Suppressed for confidentiality
+althealth,1,Yes
+althealth,2,No
+althealth,.m,No valid response
+althealth,.n,Not in universe
+althealth,.l,Logical skip
+althealth,.d,Suppressed for confidentiality
+anyother_curr,1,Yes
+anyother_curr,2,No
+anyother_curr,.m,No valid response
+anyother_curr,.n,Not in universe
+anyother_curr,.l,Logical skip
+anyother_curr,.d,Suppressed for confidentiality
+anyother_desc,1,Mild
+anyother_desc,2,Moderate
+anyother_desc,3,Severe
+anyother_desc,.m,No valid response
+anyother_desc,.n,Not in universe
+anyother_desc,.l,Logical skip
+anyother_desc,.d,Suppressed for confidentiality
+anyother,1,Yes
+anyother,2,No
+anyother,.m,No valid response
+anyother,.n,Not in universe
+anyother,.l,Logical skip
+anyother,.d,Suppressed for confidentiality
+appointment,1,Yes
+appointment,2,No
+appointment,.m,No valid response
+appointment,.n,Not in universe
+appointment,.l,Logical skip
+appointment,.d,Suppressed for confidentiality
+arrangehc,6,This child does not need health care provided on a weekly basis
+arrangehc,1,No health or medical care was arranged or coordinated by me or other family members
+arrangehc,2,Less than 1 hour per week
+arrangehc,3,1-4 hours per week
+arrangehc,4,5-10 hours per week
+arrangehc,5,11 or more hours per week
+arrangehc,.m,No valid response
+arrangehc,.n,Not in universe
+arrangehc,.l,Logical skip
+arrangehc,.d,Suppressed for confidentiality
+arthritis_curr,1,Yes
+arthritis_curr,2,No
+arthritis_curr,.m,No valid response
+arthritis_curr,.n,Not in universe
+arthritis_curr,.l,Logical skip
+arthritis_curr,.d,Suppressed for confidentiality
+arthritis_desc,1,Mild
+arthritis_desc,2,Moderate
+arthritis_desc,3,Severe
+arthritis_desc,.m,No valid response
+arthritis_desc,.n,Not in universe
+arthritis_desc,.l,Logical skip
+arthritis_desc,.d,Suppressed for confidentiality
+arthritis,1,Yes
+arthritis,2,No
+arthritis,.m,No valid response
+arthritis,.n,Not in universe
+arthritis,.l,Logical skip
+arthritis,.d,Suppressed for confidentiality
+athomehc,6,This child does not need health care provided on a weekly basis
+athomehc,1,No at home care was provided by me or other family members
+athomehc,2,Less than 1 hour per week
+athomehc,3,1-4 hours per week
+athomehc,4,5-10 hours per week
+athomehc,5,11 or more hours per week
+athomehc,.m,No valid response
+athomehc,.n,Not in universe
+athomehc,.l,Logical skip
+athomehc,.d,Suppressed for confidentiality
+autismmed,1,Yes
+autismmed,2,No
+autismmed,.m,No valid response
+autismmed,.n,Not in universe
+autismmed,.l,Logical skip
+autismmed,.d,Suppressed for confidentiality
+autismtreat,1,Yes
+autismtreat,2,No
+autismtreat,.m,No valid response
+autismtreat,.n,Not in universe
+autismtreat,.l,Logical skip
+autismtreat,.d,Suppressed for confidentiality
+available,1,Yes
+available,2,No
+available,.m,No valid response
+available,.n,Not in universe
+available,.l,Logical skip
+available,.d,Suppressed for confidentiality
+avoidchg,1,Yes
+avoidchg,2,No
+avoidchg,.m,No valid response
+avoidchg,.n,Not in universe
+avoidchg,.l,Logical skip
+avoidchg,.d,Suppressed for confidentiality
+bedtime,1,Always
+bedtime,2,Usually
+bedtime,3,Sometimes
+bedtime,4,Rarely
+bedtime,5,Never
+bedtime,.m,No valid response
+bedtime,.n,Not in universe
+bedtime,.l,Logical skip
+bedtime,.d,Suppressed for confidentiality
+bestforchild,1,Always
+bestforchild,2,Usually
+bestforchild,3,Sometimes
+bestforchild,4,Never
+bestforchild,.m,No valid response
+bestforchild,.n,Not in universe
+bestforchild,.l,Logical skip
+bestforchild,.d,Suppressed for confidentiality
+birthwt_l,1,Yes
+birthwt_l,2,No
+birthwt_l,.m,No valid response
+birthwt_l,.n,Not in universe
+birthwt_l,.l,Logical skip
+birthwt_l,.d,Suppressed for confidentiality
+birthwt,1,Very Low Birth Weight
+birthwt,2,Low Birth Weight
+birthwt,3,Not Low Birth Weight
+birthwt,.n,Not in universe
+birthwt,.l,Logical skip
+birthwt,.m,No valid response
+birthwt_vl,1,Yes
+birthwt_vl,2,No
+birthwt_vl,.m,No valid response
+birthwt_vl,.n,Not in universe
+birthwt_vl,.l,Logical skip
+birthwt_vl,.d,Suppressed for confidentiality
+blindness,1,Yes
+blindness,2,No
+blindness,.m,No valid response
+blindness,.n,Not in universe
+blindness,.l,Logical skip
+blindness,.d,Suppressed for confidentiality
+blood_curr,1,Yes
+blood_curr,2,No
+blood_curr,.m,No valid response
+blood_curr,.n,Not in universe
+blood_curr,.l,Logical skip
+blood_curr,.d,Suppressed for confidentiality
+blood_desc,1,Mild
+blood_desc,2,Moderate
+blood_desc,3,Severe
+blood_desc,.m,No valid response
+blood_desc,.n,Not in universe
+blood_desc,.l,Logical skip
+blood_desc,.d,Suppressed for confidentiality
+blood,1,Yes
+blood,2,No
+blood,.m,No valid response
+blood,.n,Not in universe
+blood,.l,Logical skip
+blood,.d,Suppressed for confidentiality
+bmiclass,1,Less than the 5th percentile
+bmiclass,2,5th percentile to less than the 85th percentile
+bmiclass,3,85th percentile to less than the 95th percentile
+bmiclass,4,Equal to or greater than the 95th percentile
+bmiclass,.m,No valid response
+bmiclass,.n,Not in universe
+bmiclass,.l,Logical skip
+bmiclass,.d,Suppressed for confidentiality
+bornusa,1,Yes
+bornusa,2,No
+bornusa,.m,No valid response
+bornusa,.n,Not in universe
+bornusa,.l,Logical skip
+bornusa,.d,Suppressed for confidentiality
+breathing,1,Yes
+breathing,2,No
+breathing,.m,No valid response
+breathing,.n,Not in universe
+breathing,.l,Logical skip
+breathing,.d,Suppressed for confidentiality
+bullied,1,Definitely true
+bullied,2,Somewhat true
+bullied,3,Not true
+bullied,.m,No valid response
+bullied,.n,Not in universe
+bullied,.l,Logical skip
+bullied,.d,Suppressed for confidentiality
+c_cshcn,1,Special Health Care Needs
+c_cshcn,2,No Special Health Care Needs
+c_cshcn,.m,No valid response
+c_cshcn,.n,Not in universe
+c_cshcn,.l,Logical skip
+c_cshcn,.d,Suppressed for confidentiality
+c_english,1,Very well
+c_english,2,Well
+c_english,3,Not well
+c_english,4,Not at all
+c_english,.m,No valid response
+c_english,.n,Not in universe
+c_english,.l,Logical skip
+c_english,.d,Suppressed for confidentiality
+c_hispanic_r_if,1,Imputed Value
+c_hispanic_r,1,Hispanic or Latino Origin
+c_hispanic_r,2,Not Hispanic or Latino Origin
+c_hispanic_r,.m,No valid response
+c_hispanic_r,.n,Not in universe
+c_hispanic_r,.l,Logical skip
+c_hispanic_r,.d,Suppressed for confidentiality
+c_k2q10,1,Yes
+c_k2q10,2,No
+c_k2q10,.m,No valid response
+c_k2q10,.n,Not in universe
+c_k2q10,.l,Logical skip
+c_k2q10,.d,Suppressed for confidentiality
+c_k2q11,1,Yes
+c_k2q11,2,No
+c_k2q11,.m,No valid response
+c_k2q11,.n,Not in universe
+c_k2q11,.l,Logical skip
+c_k2q11,.d,Suppressed for confidentiality
+c_k2q12,1,Yes
+c_k2q12,2,No
+c_k2q12,.m,No valid response
+c_k2q12,.n,Not in universe
+c_k2q12,.l,Logical skip
+c_k2q12,.d,Suppressed for confidentiality
+c_k2q13,1,Yes
+c_k2q13,2,No
+c_k2q13,.m,No valid response
+c_k2q13,.n,Not in universe
+c_k2q13,.l,Logical skip
+c_k2q13,.d,Suppressed for confidentiality
+c_k2q14,1,Yes
+c_k2q14,2,No
+c_k2q14,.m,No valid response
+c_k2q14,.n,Not in universe
+c_k2q14,.l,Logical skip
+c_k2q14,.d,Suppressed for confidentiality
+c_k2q15,1,Yes
+c_k2q15,2,No
+c_k2q15,.m,No valid response
+c_k2q15,.n,Not in universe
+c_k2q15,.l,Logical skip
+c_k2q15,.d,Suppressed for confidentiality
+c_k2q16,1,Yes
+c_k2q16,2,No
+c_k2q16,.m,No valid response
+c_k2q16,.n,Not in universe
+c_k2q16,.l,Logical skip
+c_k2q16,.d,Suppressed for confidentiality
+c_k2q17,1,Yes
+c_k2q17,2,No
+c_k2q17,.m,No valid response
+c_k2q17,.n,Not in universe
+c_k2q17,.l,Logical skip
+c_k2q17,.d,Suppressed for confidentiality
+c_k2q18,1,Yes
+c_k2q18,2,No
+c_k2q18,.m,No valid response
+c_k2q18,.n,Not in universe
+c_k2q18,.l,Logical skip
+c_k2q18,.d,Suppressed for confidentiality
+c_k2q19,1,Yes
+c_k2q19,2,No
+c_k2q19,.m,No valid response
+c_k2q19,.n,Not in universe
+c_k2q19,.l,Logical skip
+c_k2q19,.d,Suppressed for confidentiality
+c_k2q20,1,Yes
+c_k2q20,2,No
+c_k2q20,.m,No valid response
+c_k2q20,.n,Not in universe
+c_k2q20,.l,Logical skip
+c_k2q20,.d,Suppressed for confidentiality
+c_k2q21,1,Yes
+c_k2q21,2,No
+c_k2q21,.m,No valid response
+c_k2q21,.n,Not in universe
+c_k2q21,.l,Logical skip
+c_k2q21,.d,Suppressed for confidentiality
+c_k2q22,1,Yes
+c_k2q22,2,No
+c_k2q22,.m,No valid response
+c_k2q22,.n,Not in universe
+c_k2q22,.l,Logical skip
+c_k2q22,.d,Suppressed for confidentiality
+c_k2q23,1,Yes
+c_k2q23,2,No
+c_k2q23,.m,No valid response
+c_k2q23,.n,Not in universe
+c_k2q23,.l,Logical skip
+c_k2q23,.d,Suppressed for confidentiality
+c_race_r_if,1,Imputed Value
+c_race_r,1,White alone
+c_race_r,2,Black or African American alone
+c_race_r,3,American Indian or Alaska Native alone
+c_race_r,4,Asian alone
+c_race_r,5,Native Hawaiian and Other Pacific Islander alone
+c_race_r,6,Some Other Race alone
+c_race_r,7,Two or More Races
+c_race_r,.m,No valid response
+c_race_r,.n,Not in universe
+c_race_r,.l,Logical skip
+c_race_r,.d,Suppressed for confidentiality
+c_sex_if,1,Imputed Value
+c_sex,1,Male
+c_sex,2,Female
+c_sex,.m,No valid response
+c_sex,.n,Not in universe
+c_sex,.l,Logical skip
+c_sex,.d,Suppressed for confidentiality
+c4q04,1,Never
+c4q04,2,Sometimes
+c4q04,3,Usually
+c4q04,4,Always
+c4q04,.m,No valid response
+c4q04,.n,Not in universe
+c4q04,.l,Logical skip
+c4q04,.d,Suppressed for confidentiality
+calmdown,1,All of the time
+calmdown,2,Most of the time
+calmdown,3,Some of the time
+calmdown,4,None of the time
+calmdown,.m,No valid response
+calmdown,.n,Not in universe
+calmdown,.l,Logical skip
+calmdown,.d,Suppressed for confidentiality
+cavities,1,Yes
+cavities,2,No
+cavities,.m,No valid response
+cavities,.n,Not in universe
+cavities,.l,Logical skip
+cavities,.d,Suppressed for confidentiality
+cbsafp_yn,1,Located within a CBSA
+cbsafp_yn,2,Located outside a CBSA
+cbsafp_yn,.m,No valid response
+cbsafp_yn,.n,Not in universe
+cbsafp_yn,.l,Logical skip
+cbsafp_yn,.d,Suppressed for confidentiality
+cerpals_desc,1,Mild
+cerpals_desc,2,Moderate
+cerpals_desc,3,Severe
+cerpals_desc,.m,No valid response
+cerpals_desc,.n,Not in universe
+cerpals_desc,.l,Logical skip
+cerpals_desc,.d,Suppressed for confidentiality
+changeage,1,Yes
+changeage,2,No
+changeage,3,Dont Know
+changeage,.m,No valid response
+changeage,.n,Not in universe
+changeage,.l,Logical skip
+changeage,.d,Suppressed for confidentiality
+clearexp,1,All of the time
+clearexp,2,Most of the time
+clearexp,3,Some of the time
+clearexp,4,None of the time
+clearexp,.m,No valid response
+clearexp,.n,Not in universe
+clearexp,.l,Logical skip
+clearexp,.d,Suppressed for confidentiality
+confident,1,Very confident
+confident,2,Mostly confident
+confident,3,Somewhat confident
+confident,4,Not confident at all
+confident,.m,No valid response
+confident,.n,Not in universe
+confident,.l,Logical skip
+confident,.d,Suppressed for confidentiality
+coordination,1,Yes
+coordination,2,No
+coordination,.m,No valid response
+coordination,.n,Not in universe
+coordination,.l,Logical skip
+coordination,.d,Suppressed for confidentiality
+countto,1,Not at all
+countto,2,Up to five
+countto,3,Up to ten
+countto,4,Up to 20
+countto,5,Up to 50
+countto,6,Up to 100
+countto,.m,No valid response
+countto,.n,Not in universe
+countto,.l,Logical skip
+countto,.d,Suppressed for confidentiality
+currcov,1,Yes
+currcov,2,No
+currcov,.m,No valid response
+currcov,.n,Not in universe
+currcov,.l,Logical skip
+currcov,.d,Suppressed for confidentiality
+currins,1,Currently insured
+currins,2,Currently uninsured
+currins,.m,No valid response
+currins,.n,Not in universe
+currins,.l,Logical skip
+currins,.d,Suppressed for confidentiality
+cuthours,1,Yes
+cuthours,2,No
+cuthours,.m,No valid response
+cuthours,.n,Not in universe
+cuthours,.l,Logical skip
+cuthours,.d,Suppressed for confidentiality
+cystfib_curr,1,Yes
+cystfib_curr,2,No
+cystfib_curr,.m,No valid response
+cystfib_curr,.n,Not in universe
+cystfib_curr,.l,Logical skip
+cystfib_curr,.d,Suppressed for confidentiality
+cystfib_desc,1,Mild
+cystfib_desc,2,Moderate
+cystfib_desc,3,Severe
+cystfib_desc,4,Moderate/Severe
+cystfib_desc,.m,No valid response
+cystfib_desc,.n,Not in universe
+cystfib_desc,.l,Logical skip
+cystfib_desc,.d,Suppressed for confidentiality
+cystfib,1,Yes
+cystfib,2,No
+cystfib,.m,No valid response
+cystfib,.n,Not in universe
+cystfib,.l,Logical skip
+cystfib,.d,Suppressed for confidentiality
+decisions,1,Yes
+decisions,2,No
+decisions,.m,No valid response
+decisions,.n,Not in universe
+decisions,.l,Logical skip
+decisions,.d,Suppressed for confidentiality
+dentalserv1,2,not selected
+dentalserv1,1,selected
+dentalserv1,.m,No valid response
+dentalserv1,.n,Not in universe
+dentalserv1,.l,Logical skip
+dentalserv1,.d,Suppressed for confidentiality
+dentalserv2,2,not selected
+dentalserv2,1,selected
+dentalserv2,.m,No valid response
+dentalserv2,.n,Not in universe
+dentalserv2,.l,Logical skip
+dentalserv2,.d,Suppressed for confidentiality
+dentalserv3,2,not selected
+dentalserv3,1,selected
+dentalserv3,.m,No valid response
+dentalserv3,.n,Not in universe
+dentalserv3,.l,Logical skip
+dentalserv3,.d,Suppressed for confidentiality
+dentalserv4,2,not selected
+dentalserv4,1,selected
+dentalserv4,.m,No valid response
+dentalserv4,.n,Not in universe
+dentalserv4,.l,Logical skip
+dentalserv4,.d,Suppressed for confidentiality
+dentalserv5,2,not selected
+dentalserv5,1,selected
+dentalserv5,.m,No valid response
+dentalserv5,.n,Not in universe
+dentalserv5,.l,Logical skip
+dentalserv5,.d,Suppressed for confidentiality
+dentalserv6,2,not selected
+dentalserv6,1,selected
+dentalserv6,.m,No valid response
+dentalserv6,.n,Not in universe
+dentalserv6,.l,Logical skip
+dentalserv6,.d,Suppressed for confidentiality
+dentalserv7,2,not selected
+dentalserv7,1,selected
+dentalserv7,.m,No valid response
+dentalserv7,.n,Not in universe
+dentalserv7,.l,Logical skip
+dentalserv7,.d,Suppressed for confidentiality
+dentistvisit,1,No preventive visits in past 12 months
+dentistvisit,2,"Yes, 1 visit"
+dentistvisit,3,"Yes, 2 or more visits"
+dentistvisit,.m,No valid response
+dentistvisit,.n,Not in universe
+dentistvisit,.l,Logical skip
+dentistvisit,.d,Suppressed for confidentiality
+discussopt,1,Always
+discussopt,2,Usually
+discussopt,3,Sometimes
+discussopt,4,Never
+discussopt,.m,No valid response
+discussopt,.n,Not in universe
+discussopt,.l,Logical skip
+discussopt,.d,Suppressed for confidentiality
+distracted,1,All of the time
+distracted,2,Most of the time
+distracted,3,Some of the time
+distracted,4,None of the time
+distracted,.m,No valid response
+distracted,.n,Not in universe
+distracted,.l,Logical skip
+distracted,.d,Suppressed for confidentiality
+docprivate,1,Yes
+docprivate,2,No
+docprivate,.m,No valid response
+docprivate,.n,Not in universe
+docprivate,.l,Logical skip
+docprivate,.d,Suppressed for confidentiality
+docroom,1,Less than 10 minutes
+docroom,2,10-20 minutes
+docroom,3,More than 20 minutes
+docroom,.m,No valid response
+docroom,.n,Not in universe
+docroom,.l,Logical skip
+docroom,.d,Suppressed for confidentiality
+downsyn_curr,1,Yes
+downsyn_curr,2,No
+downsyn_curr,.m,No valid response
+downsyn_curr,.n,Not in universe
+downsyn_curr,.l,Logical skip
+downsyn_curr,.d,Suppressed for confidentiality
+downsyn_desc,1,Mild
+downsyn_desc,4,Moderate/Severe
+downsyn_desc,.m,No valid response
+downsyn_desc,.n,Not in universe
+downsyn_desc,.l,Logical skip
+downsyn_desc,.d,Suppressed for confidentiality
+downsyn,1,Yes
+downsyn,2,No
+downsyn,.m,No valid response
+downsyn,.n,Not in universe
+downsyn,.l,Logical skip
+downsyn,.d,Suppressed for confidentiality
+dressing,1,Yes
+dressing,2,No
+dressing,.m,No valid response
+dressing,.n,Not in universe
+dressing,.l,Logical skip
+dressing,.d,Suppressed for confidentiality
+emosupadv,1,Yes
+emosupadv,2,No
+emosupadv,.m,No valid response
+emosupadv,.n,Not in universe
+emosupadv,.l,Logical skip
+emosupadv,.d,Suppressed for confidentiality
+emosupfam,1,Yes
+emosupfam,2,No
+emosupfam,.m,No valid response
+emosupfam,.n,Not in universe
+emosupfam,.l,Logical skip
+emosupfam,.d,Suppressed for confidentiality
+emosuphcp,1,Yes
+emosuphcp,2,No
+emosuphcp,.m,No valid response
+emosuphcp,.n,Not in universe
+emosuphcp,.l,Logical skip
+emosuphcp,.d,Suppressed for confidentiality
+emosupmhp,1,Yes
+emosupmhp,2,No
+emosupmhp,.m,No valid response
+emosupmhp,.n,Not in universe
+emosupmhp,.l,Logical skip
+emosupmhp,.d,Suppressed for confidentiality
+emosupoth,1,Yes
+emosupoth,2,No
+emosupoth,.m,No valid response
+emosupoth,.n,Not in universe
+emosupoth,.l,Logical skip
+emosupoth,.d,Suppressed for confidentiality
+emosuppeer,1,Yes
+emosuppeer,2,No
+emosuppeer,.m,No valid response
+emosuppeer,.n,Not in universe
+emosuppeer,.l,Logical skip
+emosuppeer,.d,Suppressed for confidentiality
+emosupspo,1,Yes
+emosupspo,2,No
+emosupspo,.m,No valid response
+emosupspo,.n,Not in universe
+emosupspo,.l,Logical skip
+emosupspo,.d,Suppressed for confidentiality
+emosupwor,1,Yes
+emosupwor,2,No
+emosupwor,.m,No valid response
+emosupwor,.n,Not in universe
+emosupwor,.l,Logical skip
+emosupwor,.d,Suppressed for confidentiality
+errandalone,1,Yes
+errandalone,2,No
+errandalone,.m,No valid response
+errandalone,.n,Not in universe
+errandalone,.l,Logical skip
+errandalone,.d,Suppressed for confidentiality
+expulsion,1,This child did not attend child care or preschool
+expulsion,2,No
+expulsion,3,"Yes, I was told to pick up my child early on 1 or more days"
+expulsion,4,"Yes, I had to keep my child home for 1 full day or more"
+expulsion,5,"Yes, permanently I was told my child could no longer attend this child care center or preschool"
+expulsion,.m,No valid response
+expulsion,.n,Not in universe
+expulsion,.l,Logical skip
+expulsion,.d,Suppressed for confidentiality
+family,1,"Two biogical/adoptive parents, currently married"
+family,2,"Two biogical/adoptive parents, not currently married"
+family,3,"Two parents (at least one not biological/adoptive), currently married"
+family,4,"Two parents (at least one not biological/adoptive), not currently married"
+family,5,"One mother, currently married (living apart) or formerly married"
+family,6,"One mother, never married"
+family,7,"Other, currently married or formerly married"
+family,8,"Other, never married"
+family,9,"Other, no parent in household"
+family,.m,No valid response
+family,.n,Not in universe
+family,.l,Logical skip
+family,.d,Suppressed for confidentiality
+foodsit,1,We could always afford to eat good nutritious meals.
+foodsit,2,We could always afford enough to eat but not always the kinds of food we should eat.
+foodsit,3,Sometimes we could not afford enough to eat.
+foodsit,4,Often we could not afford enough to eat.
+foodsit,.m,No valid response
+foodsit,.n,Not in universe
+foodsit,.l,Logical skip
+foodsit,.d,Suppressed for confidentiality
+fpl_if,1,Imputed Value
+gainskills,1,Yes
+gainskills,2,No
+gainskills,3,Dont Know
+gainskills,.m,No valid response
+gainskills,.n,Not in universe
+gainskills,.l,Logical skip
+gainskills,.d,Suppressed for confidentiality
+genetic_curr,1,Yes
+genetic_curr,2,No
+genetic_curr,.m,No valid response
+genetic_curr,.n,Not in universe
+genetic_curr,.l,Logical skip
+genetic_curr,.d,Suppressed for confidentiality
+genetic_desc,1,Mild
+genetic_desc,2,Moderate
+genetic_desc,3,Severe
+genetic_desc,.m,No valid response
+genetic_desc,.n,Not in universe
+genetic_desc,.l,Logical skip
+genetic_desc,.d,Suppressed for confidentiality
+genetic,1,Yes
+genetic,2,No
+genetic,.m,No valid response
+genetic,.n,Not in universe
+genetic,.l,Logical skip
+genetic,.d,Suppressed for confidentiality
+goforhelp,1,Definitely agree
+goforhelp,2,Somewhat agree
+goforhelp,3,Somewhat disagree
+goforhelp,4,Definitely disagree
+goforhelp,.m,No valid response
+goforhelp,.n,Not in universe
+goforhelp,.l,Logical skip
+goforhelp,.d,Suppressed for confidentiality
+gumbleed,1,Yes
+gumbleed,2,No
+gumbleed,.m,No valid response
+gumbleed,.n,Not in universe
+gumbleed,.l,Logical skip
+gumbleed,.d,Suppressed for confidentiality
+hands,1,Yes
+hands,2,No
+hands,.m,No valid response
+hands,.n,Not in universe
+hands,.l,Logical skip
+hands,.d,Suppressed for confidentiality
+hcability,1,This child does not have any conditions
+hcability,2,Never
+hcability,3,Sometimes
+hcability,4,Usually
+hcability,5,Always
+hcability,.m,No valid response
+hcability,.n,Not in universe
+hcability,.l,Logical skip
+hcability,.d,Suppressed for confidentiality
+hccovoth,1,Yes
+hccovoth,2,No
+hccovoth,.m,No valid response
+hccovoth,.n,Not in universe
+hccovoth,.l,Logical skip
+hccovoth,.d,Suppressed for confidentiality
+hcextent,1,Very little
+hcextent,2,Somewhat
+hcextent,3,A great deal
+hcextent,.m,No valid response
+hcextent,.n,Not in universe
+hcextent,.l,Logical skip
+hcextent,.d,Suppressed for confidentiality
+headache_curr,1,Yes
+headache_curr,2,No
+headache_curr,.m,No valid response
+headache_curr,.n,Not in universe
+headache_curr,.l,Logical skip
+headache_curr,.d,Suppressed for confidentiality
+headache_desc,1,Mild
+headache_desc,2,Moderate
+headache_desc,3,Severe
+headache_desc,.m,No valid response
+headache_desc,.n,Not in universe
+headache_desc,.l,Logical skip
+headache_desc,.d,Suppressed for confidentiality
+headache,1,Yes
+headache,2,No
+headache,.m,No valid response
+headache,.n,Not in universe
+headache,.l,Logical skip
+headache,.d,Suppressed for confidentiality
+healthknow,1,Yes
+healthknow,2,No
+healthknow,.m,No valid response
+healthknow,.n,Not in universe
+healthknow,.l,Logical skip
+healthknow,.d,Suppressed for confidentiality
+heart_curr,1,Yes
+heart_curr,2,No
+heart_curr,.m,No valid response
+heart_curr,.n,Not in universe
+heart_curr,.l,Logical skip
+heart_curr,.d,Suppressed for confidentiality
+heart_desc,1,Mild
+heart_desc,2,Moderate
+heart_desc,3,Severe
+heart_desc,.m,No valid response
+heart_desc,.n,Not in universe
+heart_desc,.l,Logical skip
+heart_desc,.d,Suppressed for confidentiality
+heart,1,Yes
+heart,2,No
+heart,.m,No valid response
+heart,.n,Not in universe
+heart,.l,Logical skip
+heart,.d,Suppressed for confidentiality
+hhlanguage,1,English
+hhlanguage,2,Spanish
+hhlanguage,3,Other
+hhlanguage,.m,No valid response
+hhlanguage,.n,Not in universe
+hhlanguage,.l,Logical skip
+hhlanguage,.d,Suppressed for confidentiality
+hhsize_i,5,5 or more
+hhsize_i,.n,Not in universe
+hhsize_i,.l,Logical skip
+hhsize_i,.m,No valid response
+hhsize_if,1,Imputed Value
+higrade,1,Less than High School
+higrade,2,"High School (including vocational, trade, or business school)"
+higrade,3,More than High School
+higrade,.m,No valid response
+higrade,.n,Not in universe
+higrade,.l,Logical skip
+higrade,.d,Suppressed for confidentiality
+higrade_tvis,1,Less than High School
+higrade_tvis,2,"High School (including vocational, trade, or business school)"
+higrade_tvis,3,Some college or Associate Degree
+higrade_tvis,4,College degree or higher
+higrade_tvis,.m,No valid response
+higrade_tvis,.n,Not in universe
+higrade_tvis,.l,Logical skip
+higrade_tvis,.d,Suppressed for confidentiality
+hopeful,1,All of the time
+hopeful,2,Most of the time
+hopeful,3,Some of the time
+hopeful,4,None of the time
+hopeful,.m,No valid response
+hopeful,.n,Not in universe
+hopeful,.l,Logical skip
+hopeful,.d,Suppressed for confidentiality
+hospitaler,1,No visits
+hospitaler,2,1 visit
+hospitaler,3,2 or more visits
+hospitaler,.m,No valid response
+hospitaler,.n,Not in universe
+hospitaler,.l,Logical skip
+hospitaler,.d,Suppressed for confidentiality
+hoursleep,1,Less than 6 hours
+hoursleep,2,6 hours
+hoursleep,3,7 hours
+hoursleep,4,8 hours
+hoursleep,5,9 hours
+hoursleep,6,10 hours
+hoursleep,7,11 or more hours
+hoursleep,.m,No valid response
+hoursleep,.n,Not in universe
+hoursleep,.l,Logical skip
+hoursleep,.d,Suppressed for confidentiality
+hoursleep05,1,Less than 7 hours
+hoursleep05,2,7 hours
+hoursleep05,3,8 hours
+hoursleep05,4,9 hours
+hoursleep05,5,10 hours
+hoursleep05,6,11 hours
+hoursleep05,7,12 or more hours
+hoursleep05,.m,No valid response
+hoursleep05,.n,Not in universe
+hoursleep05,.l,Logical skip
+hoursleep05,.d,Suppressed for confidentiality
+house_gen,1,1st generation household
+house_gen,2,2nd generation household
+house_gen,3,3rd+ generation
+house_gen,4,"Other (child born in United States, parents are not listed)"
+house_gen,.m,No valid response
+house_gen,.n,Not in universe
+house_gen,.l,Logical skip
+house_gen,.d,Suppressed for confidentiality
+howmuch,1,$0 (No medical or health-related expenses)
+howmuch,2,$1-$249
+howmuch,3,$250-$499
+howmuch,4,$500-$999
+howmuch,5,"$1,000-$5,000"
+howmuch,6,"More than $5,000"
+howmuch,.m,No valid response
+howmuch,.n,Not in universe
+howmuch,.l,Logical skip
+howmuch,.d,Suppressed for confidentiality
+hurtsad,1,All of the time
+hurtsad,2,Most of the time
+hurtsad,3,Some of the time
+hurtsad,4,None of the time
+hurtsad,.m,No valid response
+hurtsad,.n,Not in universe
+hurtsad,.l,Logical skip
+hurtsad,.d,Suppressed for confidentiality
+insgap,1,Insured all 12 months
+insgap,2,Insured during the past 12 months but with gaps in coverage
+insgap,3,No coverage past 12 months
+insgap,.m,No valid response
+insgap,.n,Not in universe
+insgap,.l,Logical skip
+insgap,.d,Suppressed for confidentiality
+instype,1,Public Only
+instype,2,Private Only
+instype,3,Private and public
+instype,4,Insurance type unspecified
+instype,5,Not insured
+instype,.m,No valid response
+instype,.n,Not in universe
+instype,.l,Logical skip
+instype,.d,Suppressed for confidentiality
+issuecost,1,Yes
+issuecost,2,No
+issuecost,.m,No valid response
+issuecost,.n,Not in universe
+issuecost,.l,Logical skip
+issuecost,.d,Suppressed for confidentiality
+k10q11,1,Yes
+k10q11,2,No
+k10q11,.m,No valid response
+k10q11,.n,Not in universe
+k10q11,.l,Logical skip
+k10q11,.d,Suppressed for confidentiality
+k10q12,1,Yes
+k10q12,2,No
+k10q12,.m,No valid response
+k10q12,.n,Not in universe
+k10q12,.l,Logical skip
+k10q12,.d,Suppressed for confidentiality
+k10q13,1,Yes
+k10q13,2,No
+k10q13,.m,No valid response
+k10q13,.n,Not in universe
+k10q13,.l,Logical skip
+k10q13,.d,Suppressed for confidentiality
+k10q14,1,Yes
+k10q14,2,No
+k10q14,.m,No valid response
+k10q14,.n,Not in universe
+k10q14,.l,Logical skip
+k10q14,.d,Suppressed for confidentiality
+k10q20,1,Yes
+k10q20,2,No
+k10q20,.m,No valid response
+k10q20,.n,Not in universe
+k10q20,.l,Logical skip
+k10q20,.d,Suppressed for confidentiality
+k10q22,1,Yes
+k10q22,2,No
+k10q22,.m,No valid response
+k10q22,.n,Not in universe
+k10q22,.l,Logical skip
+k10q22,.d,Suppressed for confidentiality
+k10q23,1,Yes
+k10q23,2,No
+k10q23,.m,No valid response
+k10q23,.n,Not in universe
+k10q23,.l,Logical skip
+k10q23,.d,Suppressed for confidentiality
+k10q30,1,Definitely agree
+k10q30,2,Somewhat agree
+k10q30,3,Somewhat disagree
+k10q30,4,Definitely disagree
+k10q30,.m,No valid response
+k10q30,.n,Not in universe
+k10q30,.l,Logical skip
+k10q30,.d,Suppressed for confidentiality
+k10q31,1,Definitely agree
+k10q31,2,Somewhat agree
+k10q31,3,Somewhat disagree
+k10q31,4,Definitely disagree
+k10q31,.m,No valid response
+k10q31,.n,Not in universe
+k10q31,.l,Logical skip
+k10q31,.d,Suppressed for confidentiality
+k10q40_r,1,Definitely agree
+k10q40_r,2,Somewhat agree
+k10q40_r,3,Somewhat disagree
+k10q40_r,4,Definitely disagree
+k10q40_r,.m,No valid response
+k10q40_r,.n,Not in universe
+k10q40_r,.l,Logical skip
+k10q40_r,.d,Suppressed for confidentiality
+k10q41_r,1,Definitely agree
+k10q41_r,2,Somewhat agree
+k10q41_r,3,Somewhat disagree
+k10q41_r,4,Definitely disagree
+k10q41_r,.m,No valid response
+k10q41_r,.n,Not in universe
+k10q41_r,.l,Logical skip
+k10q41_r,.d,Suppressed for confidentiality
+k11q03r,1,Yes
+k11q03r,2,No
+k11q03r,.m,No valid response
+k11q03r,.n,Not in universe
+k11q03r,.l,Logical skip
+k11q03r,.d,Suppressed for confidentiality
+k11q60,1,Yes
+k11q60,2,No
+k11q60,.m,No valid response
+k11q60,.n,Not in universe
+k11q60,.l,Logical skip
+k11q60,.d,Suppressed for confidentiality
+k11q61,1,Yes
+k11q61,2,No
+k11q61,.m,No valid response
+k11q61,.n,Not in universe
+k11q61,.l,Logical skip
+k11q61,.d,Suppressed for confidentiality
+k11q62,1,Yes
+k11q62,2,No
+k11q62,.m,No valid response
+k11q62,.n,Not in universe
+k11q62,.l,Logical skip
+k11q62,.d,Suppressed for confidentiality
+k12q01_a,1,Yes
+k12q01_a,2,No
+k12q01_a,.m,No valid response
+k12q01_a,.n,Not in universe
+k12q01_a,.l,Logical skip
+k12q01_a,.d,Suppressed for confidentiality
+k12q01_b,1,Yes
+k12q01_b,2,No
+k12q01_b,.m,No valid response
+k12q01_b,.n,Not in universe
+k12q01_b,.l,Logical skip
+k12q01_b,.d,Suppressed for confidentiality
+k12q01_c,1,Yes
+k12q01_c,2,No
+k12q01_c,.m,No valid response
+k12q01_c,.n,Not in universe
+k12q01_c,.l,Logical skip
+k12q01_c,.d,Suppressed for confidentiality
+k12q01_d,1,Yes
+k12q01_d,2,No
+k12q01_d,.m,No valid response
+k12q01_d,.n,Not in universe
+k12q01_d,.l,Logical skip
+k12q01_d,.d,Suppressed for confidentiality
+k12q01_e,1,Yes
+k12q01_e,2,No
+k12q01_e,.m,No valid response
+k12q01_e,.n,Not in universe
+k12q01_e,.l,Logical skip
+k12q01_e,.d,Suppressed for confidentiality
+k12q01_f,1,Yes
+k12q01_f,2,No
+k12q01_f,.m,No valid response
+k12q01_f,.n,Not in universe
+k12q01_f,.l,Logical skip
+k12q01_f,.d,Suppressed for confidentiality
+k12q01_g,1,Yes
+k12q01_g,2,No
+k12q01_g,.m,No valid response
+k12q01_g,.n,Not in universe
+k12q01_g,.l,Logical skip
+k12q01_g,.d,Suppressed for confidentiality
+k12q03,1,Yes
+k12q03,2,No
+k12q03,.m,No valid response
+k12q03,.n,Not in universe
+k12q03,.l,Logical skip
+k12q03,.d,Suppressed for confidentiality
+k12q04,1,Yes
+k12q04,2,No
+k12q04,.m,No valid response
+k12q04,.n,Not in universe
+k12q04,.l,Logical skip
+k12q04,.d,Suppressed for confidentiality
+k12q12,1,Yes
+k12q12,2,No
+k12q12,.m,No valid response
+k12q12,.n,Not in universe
+k12q12,.l,Logical skip
+k12q12,.d,Suppressed for confidentiality
+k2q01_d,1,Excellent
+k2q01_d,2,Very Good
+k2q01_d,3,Good
+k2q01_d,4,Fair
+k2q01_d,5,Poor
+k2q01_d,6,This child does not have any teeth [T1 only]
+k2q01_d,.m,No valid response
+k2q01_d,.n,Not in universe
+k2q01_d,.l,Logical skip
+k2q01_d,.d,Suppressed for confidentiality
+k2q01,1,Excellent
+k2q01,2,Very Good
+k2q01,3,Good
+k2q01,4,Fair
+k2q01,5,Poor
+k2q01,.m,No valid response
+k2q01,.n,Not in universe
+k2q01,.l,Logical skip
+k2q01,.d,Suppressed for confidentiality
+k2q05,1,Yes
+k2q05,2,No
+k2q05,.m,No valid response
+k2q05,.n,Not in universe
+k2q05,.l,Logical skip
+k2q05,.d,Suppressed for confidentiality
+k2q30a,1,Yes
+k2q30a,2,No
+k2q30a,.m,No valid response
+k2q30a,.n,Not in universe
+k2q30a,.l,Logical skip
+k2q30a,.d,Suppressed for confidentiality
+k2q30b,1,Yes
+k2q30b,2,No
+k2q30b,.m,No valid response
+k2q30b,.n,Not in universe
+k2q30b,.l,Logical skip
+k2q30b,.d,Suppressed for confidentiality
+k2q30c,1,Mild
+k2q30c,2,Moderate
+k2q30c,3,Severe
+k2q30c,.m,No valid response
+k2q30c,.n,Not in universe
+k2q30c,.l,Logical skip
+k2q30c,.d,Suppressed for confidentiality
+k2q31a,1,Yes
+k2q31a,2,No
+k2q31a,.m,No valid response
+k2q31a,.n,Not in universe
+k2q31a,.l,Logical skip
+k2q31a,.d,Suppressed for confidentiality
+k2q31b,1,Yes
+k2q31b,2,No
+k2q31b,.m,No valid response
+k2q31b,.n,Not in universe
+k2q31b,.l,Logical skip
+k2q31b,.d,Suppressed for confidentiality
+k2q31c,1,Mild
+k2q31c,2,Moderate
+k2q31c,3,Severe
+k2q31c,.m,No valid response
+k2q31c,.n,Not in universe
+k2q31c,.l,Logical skip
+k2q31c,.d,Suppressed for confidentiality
+k2q31d,1,Yes
+k2q31d,2,No
+k2q31d,.m,No valid response
+k2q31d,.n,Not in universe
+k2q31d,.l,Logical skip
+k2q31d,.d,Suppressed for confidentiality
+k2q32a,1,Yes
+k2q32a,2,No
+k2q32a,.m,No valid response
+k2q32a,.n,Not in universe
+k2q32a,.l,Logical skip
+k2q32a,.d,Suppressed for confidentiality
+k2q32b,1,Yes
+k2q32b,2,No
+k2q32b,.m,No valid response
+k2q32b,.n,Not in universe
+k2q32b,.l,Logical skip
+k2q32b,.d,Suppressed for confidentiality
+k2q32c,1,Mild
+k2q32c,2,Moderate
+k2q32c,3,Severe
+k2q32c,.m,No valid response
+k2q32c,.n,Not in universe
+k2q32c,.l,Logical skip
+k2q32c,.d,Suppressed for confidentiality
+k2q33a,1,Yes
+k2q33a,2,No
+k2q33a,.m,No valid response
+k2q33a,.n,Not in universe
+k2q33a,.l,Logical skip
+k2q33a,.d,Suppressed for confidentiality
+k2q33b,1,Yes
+k2q33b,2,No
+k2q33b,.m,No valid response
+k2q33b,.n,Not in universe
+k2q33b,.l,Logical skip
+k2q33b,.d,Suppressed for confidentiality
+k2q33c,1,Mild
+k2q33c,2,Moderate
+k2q33c,3,Severe
+k2q33c,.m,No valid response
+k2q33c,.n,Not in universe
+k2q33c,.l,Logical skip
+k2q33c,.d,Suppressed for confidentiality
+k2q34a,1,Yes
+k2q34a,2,No
+k2q34a,.m,No valid response
+k2q34a,.n,Not in universe
+k2q34a,.l,Logical skip
+k2q34a,.d,Suppressed for confidentiality
+k2q34b,1,Yes
+k2q34b,2,No
+k2q34b,.m,No valid response
+k2q34b,.n,Not in universe
+k2q34b,.l,Logical skip
+k2q34b,.d,Suppressed for confidentiality
+k2q34c,1,Mild
+k2q34c,2,Moderate
+k2q34c,3,Severe
+k2q34c,.m,No valid response
+k2q34c,.n,Not in universe
+k2q34c,.l,Logical skip
+k2q34c,.d,Suppressed for confidentiality
+k2q35a,1,Yes
+k2q35a,2,No
+k2q35a,.m,No valid response
+k2q35a,.n,Not in universe
+k2q35a,.l,Logical skip
+k2q35a,.d,Suppressed for confidentiality
+k2q35b,1,Yes
+k2q35b,2,No
+k2q35b,.m,No valid response
+k2q35b,.n,Not in universe
+k2q35b,.l,Logical skip
+k2q35b,.d,Suppressed for confidentiality
+k2q35c,1,Mild
+k2q35c,2,Moderate
+k2q35c,3,Severe
+k2q35c,.m,No valid response
+k2q35c,.n,Not in universe
+k2q35c,.l,Logical skip
+k2q35c,.d,Suppressed for confidentiality
+k2q35d,1,Primary Care Provider
+k2q35d,2,Specialist
+k2q35d,3,School Psychologist/Counselor
+k2q35d,4,Other Psychologist (Non-School)
+k2q35d,5,Psychiatrist
+k2q35d,6,Other
+k2q35d,7,Dont Know
+k2q35d,.m,No valid response
+k2q35d,.n,Not in universe
+k2q35d,.l,Logical skip
+k2q35d,.d,Suppressed for confidentiality
+k2q36a,1,Yes
+k2q36a,2,No
+k2q36a,.m,No valid response
+k2q36a,.n,Not in universe
+k2q36a,.l,Logical skip
+k2q36a,.d,Suppressed for confidentiality
+k2q36b,1,Yes
+k2q36b,2,No
+k2q36b,.m,No valid response
+k2q36b,.n,Not in universe
+k2q36b,.l,Logical skip
+k2q36b,.d,Suppressed for confidentiality
+k2q36c,1,Mild
+k2q36c,2,Moderate
+k2q36c,3,Severe
+k2q36c,.m,No valid response
+k2q36c,.n,Not in universe
+k2q36c,.l,Logical skip
+k2q36c,.d,Suppressed for confidentiality
+k2q37a,1,Yes
+k2q37a,2,No
+k2q37a,.m,No valid response
+k2q37a,.n,Not in universe
+k2q37a,.l,Logical skip
+k2q37a,.d,Suppressed for confidentiality
+k2q37b,1,Yes
+k2q37b,2,No
+k2q37b,.m,No valid response
+k2q37b,.n,Not in universe
+k2q37b,.l,Logical skip
+k2q37b,.d,Suppressed for confidentiality
+k2q37c,1,Mild
+k2q37c,2,Moderate
+k2q37c,3,Severe
+k2q37c,.m,No valid response
+k2q37c,.n,Not in universe
+k2q37c,.l,Logical skip
+k2q37c,.d,Suppressed for confidentiality
+k2q38a,1,Yes
+k2q38a,2,No
+k2q38a,.m,No valid response
+k2q38a,.n,Not in universe
+k2q38a,.l,Logical skip
+k2q38a,.d,Suppressed for confidentiality
+k2q38b,1,Yes
+k2q38b,2,No
+k2q38b,.m,No valid response
+k2q38b,.n,Not in universe
+k2q38b,.l,Logical skip
+k2q38b,.d,Suppressed for confidentiality
+k2q38c,1,Mild
+k2q38c,2,Moderate
+k2q38c,3,Severe
+k2q38c,4,Moderate/Severe
+k2q38c,.m,No valid response
+k2q38c,.n,Not in universe
+k2q38c,.l,Logical skip
+k2q38c,.d,Suppressed for confidentiality
+k2q40a,1,Yes
+k2q40a,2,No
+k2q40a,.m,No valid response
+k2q40a,.n,Not in universe
+k2q40a,.l,Logical skip
+k2q40a,.d,Suppressed for confidentiality
+k2q40b,1,Yes
+k2q40b,2,No
+k2q40b,.m,No valid response
+k2q40b,.n,Not in universe
+k2q40b,.l,Logical skip
+k2q40b,.d,Suppressed for confidentiality
+k2q40c,1,Mild
+k2q40c,2,Moderate
+k2q40c,3,Severe
+k2q40c,.m,No valid response
+k2q40c,.n,Not in universe
+k2q40c,.l,Logical skip
+k2q40c,.d,Suppressed for confidentiality
+k2q41a,1,Yes
+k2q41a,2,No
+k2q41a,.m,No valid response
+k2q41a,.n,Not in universe
+k2q41a,.l,Logical skip
+k2q41a,.d,Suppressed for confidentiality
+k2q41b,1,Yes
+k2q41b,2,No
+k2q41b,.m,No valid response
+k2q41b,.n,Not in universe
+k2q41b,.l,Logical skip
+k2q41b,.d,Suppressed for confidentiality
+k2q41c,1,Mild
+k2q41c,2,Moderate
+k2q41c,3,Severe
+k2q41c,.m,No valid response
+k2q41c,.n,Not in universe
+k2q41c,.l,Logical skip
+k2q41c,.d,Suppressed for confidentiality
+k2q42a,1,Yes
+k2q42a,2,No
+k2q42a,.m,No valid response
+k2q42a,.n,Not in universe
+k2q42a,.l,Logical skip
+k2q42a,.d,Suppressed for confidentiality
+k2q42b,1,Yes
+k2q42b,2,No
+k2q42b,.m,No valid response
+k2q42b,.n,Not in universe
+k2q42b,.l,Logical skip
+k2q42b,.d,Suppressed for confidentiality
+k2q42c,1,Mild
+k2q42c,2,Moderate
+k2q42c,3,Severe
+k2q42c,.m,No valid response
+k2q42c,.n,Not in universe
+k2q42c,.l,Logical skip
+k2q42c,.d,Suppressed for confidentiality
+k2q43b,1,Yes
+k2q43b,2,No
+k2q43b,.m,No valid response
+k2q43b,.n,Not in universe
+k2q43b,.l,Logical skip
+k2q43b,.d,Suppressed for confidentiality
+k2q46a,1,Yes
+k2q46a,2,No
+k2q46a,.m,No valid response
+k2q46a,.n,Not in universe
+k2q46a,.l,Logical skip
+k2q46a,.d,Suppressed for confidentiality
+k2q46b,1,Yes
+k2q46b,2,No
+k2q46b,.m,No valid response
+k2q46b,.n,Not in universe
+k2q46b,.l,Logical skip
+k2q46b,.d,Suppressed for confidentiality
+k2q46c,1,Mild
+k2q46c,2,Moderate
+k2q46c,3,Severe
+k2q46c,.m,No valid response
+k2q46c,.n,Not in universe
+k2q46c,.l,Logical skip
+k2q46c,.d,Suppressed for confidentiality
+k2q60a,1,Yes
+k2q60a,2,No
+k2q60a,.m,No valid response
+k2q60a,.n,Not in universe
+k2q60a,.l,Logical skip
+k2q60a,.d,Suppressed for confidentiality
+k2q60b,1,Yes
+k2q60b,2,No
+k2q60b,.m,No valid response
+k2q60b,.n,Not in universe
+k2q60b,.l,Logical skip
+k2q60b,.d,Suppressed for confidentiality
+k2q60c,1,Mild
+k2q60c,2,Moderate
+k2q60c,3,Severe
+k2q60c,.m,No valid response
+k2q60c,.n,Not in universe
+k2q60c,.l,Logical skip
+k2q60c,.d,Suppressed for confidentiality
+k2q61a,1,Yes
+k2q61a,2,No
+k2q61a,.m,No valid response
+k2q61a,.n,Not in universe
+k2q61a,.l,Logical skip
+k2q61a,.d,Suppressed for confidentiality
+k2q61b,1,Yes
+k2q61b,2,No
+k2q61b,.m,No valid response
+k2q61b,.n,Not in universe
+k2q61b,.l,Logical skip
+k2q61b,.d,Suppressed for confidentiality
+k3q04_r,1,"Yes, this child was covered all 12 months"
+k3q04_r,2,"Yes, but this child had a gap in coverage"
+k3q04_r,3,No
+k3q04_r,.m,No valid response
+k3q04_r,.n,Not in universe
+k3q04_r,.l,Logical skip
+k3q04_r,.d,Suppressed for confidentiality
+k3q20,1,Always
+k3q20,2,Usually
+k3q20,3,Sometimes
+k3q20,4,Never
+k3q20,.m,No valid response
+k3q20,.n,Not in universe
+k3q20,.l,Logical skip
+k3q20,.d,Suppressed for confidentiality
+k3q21b,1,Always
+k3q21b,2,Usually
+k3q21b,3,Sometimes
+k3q21b,4,Never
+k3q21b,.m,No valid response
+k3q21b,.n,Not in universe
+k3q21b,.l,Logical skip
+k3q21b,.d,Suppressed for confidentiality
+k3q22,1,Always
+k3q22,2,Usually
+k3q22,3,Sometimes
+k3q22,4,Never
+k3q22,.m,No valid response
+k3q22,.n,Not in universe
+k3q22,.l,Logical skip
+k3q22,.d,Suppressed for confidentiality
+k3q25,1,Yes
+k3q25,2,No
+k3q25,.m,No valid response
+k3q25,.n,Not in universe
+k3q25,.l,Logical skip
+k3q25,.d,Suppressed for confidentiality
+k4q01,1,Yes
+k4q01,2,No
+k4q01,.m,No valid response
+k4q01,.n,Not in universe
+k4q01,.l,Logical skip
+k4q01,.d,Suppressed for confidentiality
+k4q02_r,1,Doctors Office
+k4q02_r,2,Hospital Emergency Room
+k4q02_r,3,Hospital Outpatient Department
+k4q02_r,4,Clinic or Health Center
+k4q02_r,5,Retail Store Clinic or Minute Clinic
+k4q02_r,6,"School (Nurses Office, Athletic Trainers Office)"
+k4q02_r,7,Some other place
+k4q02_r,.m,No valid response
+k4q02_r,.n,Not in universe
+k4q02_r,.l,Logical skip
+k4q02_r,.d,Suppressed for confidentiality
+k4q04_r,1,"Yes, one person"
+k4q04_r,2,"Yes, more than one person"
+k4q04_r,3,No
+k4q04_r,.m,No valid response
+k4q04_r,.n,Not in universe
+k4q04_r,.l,Logical skip
+k4q04_r,.d,Suppressed for confidentiality
+k4q20r,1,0 visits
+k4q20r,2,1 visit
+k4q20r,3,2 or more visits
+k4q20r,.m,No valid response
+k4q20r,.n,Not in universe
+k4q20r,.l,Logical skip
+k4q20r,.d,Suppressed for confidentiality
+k4q22_r,1,Yes
+k4q22_r,2,"No, but this child needed to see a mental health professional"
+k4q22_r,3,"No, this child did not need to see a mental health professional"
+k4q22_r,.m,No valid response
+k4q22_r,.n,Not in universe
+k4q22_r,.l,Logical skip
+k4q22_r,.d,Suppressed for confidentiality
+k4q23,1,Yes
+k4q23,2,No
+k4q23,.m,No valid response
+k4q23,.n,Not in universe
+k4q23,.l,Logical skip
+k4q23,.d,Suppressed for confidentiality
+k4q24_r,1,Yes
+k4q24_r,2,"No, but this child needed to see a specialist"
+k4q24_r,3,"No, this child did not need to see a specialist"
+k4q24_r,.m,No valid response
+k4q24_r,.n,Not in universe
+k4q24_r,.l,Logical skip
+k4q24_r,.d,Suppressed for confidentiality
+k4q26,1,Not a problem
+k4q26,2,Small problem
+k4q26,3,Big problem
+k4q26,.m,No valid response
+k4q26,.n,Not in universe
+k4q26,.l,Logical skip
+k4q26,.d,Suppressed for confidentiality
+k4q27,1,Yes
+k4q27,2,No
+k4q27,.m,No valid response
+k4q27,.n,Not in universe
+k4q27,.l,Logical skip
+k4q27,.d,Suppressed for confidentiality
+k4q28x_ear,2,not selected
+k4q28x_ear,1,selected
+k4q28x_ear,.m,No valid response
+k4q28x_ear,.n,Not in universe
+k4q28x_ear,.l,Logical skip
+k4q28x_ear,.d,Suppressed for confidentiality
+k4q28x01,2,not selected
+k4q28x01,1,selected
+k4q28x01,.m,No valid response
+k4q28x01,.n,Not in universe
+k4q28x01,.l,Logical skip
+k4q28x01,.d,Suppressed for confidentiality
+k4q28x02,2,not selected
+k4q28x02,1,selected
+k4q28x02,.m,No valid response
+k4q28x02,.n,Not in universe
+k4q28x02,.l,Logical skip
+k4q28x02,.d,Suppressed for confidentiality
+k4q28x03,2,not selected
+k4q28x03,1,selected
+k4q28x03,.m,No valid response
+k4q28x03,.n,Not in universe
+k4q28x03,.l,Logical skip
+k4q28x03,.d,Suppressed for confidentiality
+k4q28x04,2,not selected
+k4q28x04,1,selected
+k4q28x04,.m,No valid response
+k4q28x04,.n,Not in universe
+k4q28x04,.l,Logical skip
+k4q28x04,.d,Suppressed for confidentiality
+k4q28x05,2,not selected
+k4q28x05,1,selected
+k4q28x05,.m,No valid response
+k4q28x05,.n,Not in universe
+k4q28x05,.l,Logical skip
+k4q28x05,.d,Suppressed for confidentiality
+k4q30_r,1,"Yes, saw a dentist"
+k4q30_r,2,"Yes, saw other oral health care provider"
+k4q30_r,3,No
+k4q30_r,.m,No valid response
+k4q30_r,.n,Not in universe
+k4q30_r,.l,Logical skip
+k4q30_r,.d,Suppressed for confidentiality
+k4q31_r,1,Yes
+k4q31_r,2,No
+k4q31_r,.m,No valid response
+k4q31_r,.n,Not in universe
+k4q31_r,.l,Logical skip
+k4q31_r,.d,Suppressed for confidentiality
+k4q32x01,2,not selected
+k4q32x01,1,selected
+k4q32x01,.m,No valid response
+k4q32x01,.n,Not in universe
+k4q32x01,.l,Logical skip
+k4q32x01,.d,Suppressed for confidentiality
+k4q32x02,2,not selected
+k4q32x02,1,selected
+k4q32x02,.m,No valid response
+k4q32x02,.n,Not in universe
+k4q32x02,.l,Logical skip
+k4q32x02,.d,Suppressed for confidentiality
+k4q32x03,2,not selected
+k4q32x03,1,selected
+k4q32x03,.m,No valid response
+k4q32x03,.n,Not in universe
+k4q32x03,.l,Logical skip
+k4q32x03,.d,Suppressed for confidentiality
+k4q32x04,2,not selected
+k4q32x04,1,selected
+k4q32x04,.m,No valid response
+k4q32x04,.n,Not in universe
+k4q32x04,.l,Logical skip
+k4q32x04,.d,Suppressed for confidentiality
+k4q32x05,2,not selected
+k4q32x05,1,selected
+k4q32x05,.m,No valid response
+k4q32x05,.n,Not in universe
+k4q32x05,.l,Logical skip
+k4q32x05,.d,Suppressed for confidentiality
+k4q36,1,Yes
+k4q36,2,No
+k4q36,.m,No valid response
+k4q36,.n,Not in universe
+k4q36,.l,Logical skip
+k4q36,.d,Suppressed for confidentiality
+k4q38,1,Yes
+k4q38,2,No
+k4q38,.m,No valid response
+k4q38,.n,Not in universe
+k4q38,.l,Logical skip
+k4q38,.d,Suppressed for confidentiality
+k5q10,1,Yes
+k5q10,2,No
+k5q10,.m,No valid response
+k5q10,.n,Not in universe
+k5q10,.l,Logical skip
+k5q10,.d,Suppressed for confidentiality
+k5q11,1,Not a problem
+k5q11,2,Small problem
+k5q11,3,Big problem
+k5q11,.m,No valid response
+k5q11,.n,Not in universe
+k5q11,.l,Logical skip
+k5q11,.d,Suppressed for confidentiality
+k5q20_r,1,Yes
+k5q20_r,2,No
+k5q20_r,3,Did not see more than one health care provider in past 12 months
+k5q20_r,.m,No valid response
+k5q20_r,.n,Not in universe
+k5q20_r,.l,Logical skip
+k5q20_r,.d,Suppressed for confidentiality
+k5q21,1,Yes
+k5q21,2,No
+k5q21,.m,No valid response
+k5q21,.n,Not in universe
+k5q21,.l,Logical skip
+k5q21,.d,Suppressed for confidentiality
+k5q22,1,Usually
+k5q22,2,Sometimes
+k5q22,3,Never
+k5q22,.m,No valid response
+k5q22,.n,Not in universe
+k5q22,.l,Logical skip
+k5q22,.d,Suppressed for confidentiality
+k5q30,1,Very Satisfied
+k5q30,2,Somewhat satisfied
+k5q30,3,Somewhat dissatisfied
+k5q30,4,Very dissatisfied
+k5q30,.m,No valid response
+k5q30,.n,Not in universe
+k5q30,.l,Logical skip
+k5q30,.d,Suppressed for confidentiality
+k5q31_r,1,Yes
+k5q31_r,2,No
+k5q31_r,3,Did not need health care provider to communicate with these providers
+k5q31_r,.m,No valid response
+k5q31_r,.n,Not in universe
+k5q31_r,.l,Logical skip
+k5q31_r,.d,Suppressed for confidentiality
+k5q32,1,Very Satisfied
+k5q32,2,Somewhat satisfied
+k5q32,3,Somewhat dissatisfied
+k5q32,4,Very dissatisfied
+k5q32,.m,No valid response
+k5q32,.n,Not in universe
+k5q32,.l,Logical skip
+k5q32,.d,Suppressed for confidentiality
+k5q40,1,Always
+k5q40,2,Usually
+k5q40,3,Sometimes
+k5q40,4,Never
+k5q40,.m,No valid response
+k5q40,.n,Not in universe
+k5q40,.l,Logical skip
+k5q40,.d,Suppressed for confidentiality
+k5q41,1,Always
+k5q41,2,Usually
+k5q41,3,Sometimes
+k5q41,4,Never
+k5q41,.m,No valid response
+k5q41,.n,Not in universe
+k5q41,.l,Logical skip
+k5q41,.d,Suppressed for confidentiality
+k5q42,1,Always
+k5q42,2,Usually
+k5q42,3,Sometimes
+k5q42,4,Never
+k5q42,.m,No valid response
+k5q42,.n,Not in universe
+k5q42,.l,Logical skip
+k5q42,.d,Suppressed for confidentiality
+k5q43,1,Always
+k5q43,2,Usually
+k5q43,3,Sometimes
+k5q43,4,Never
+k5q43,.m,No valid response
+k5q43,.n,Not in universe
+k5q43,.l,Logical skip
+k5q43,.d,Suppressed for confidentiality
+k5q44,1,Always
+k5q44,2,Usually
+k5q44,3,Sometimes
+k5q44,4,Never
+k5q44,.m,No valid response
+k5q44,.n,Not in universe
+k5q44,.l,Logical skip
+k5q44,.d,Suppressed for confidentiality
+k6q08_r,1,Very well
+k6q08_r,2,Somewhat
+k6q08_r,3,Poorly
+k6q08_r,4,Not at all
+k6q08_r,.m,No valid response
+k6q08_r,.n,Not in universe
+k6q08_r,.l,Logical skip
+k6q08_r,.d,Suppressed for confidentiality
+k6q10,1,Yes
+k6q10,2,No
+k6q10,.m,No valid response
+k6q10,.n,Not in universe
+k6q10,.l,Logical skip
+k6q10,.d,Suppressed for confidentiality
+k6q12,1,Yes
+k6q12,2,No
+k6q12,.m,No valid response
+k6q12,.n,Not in universe
+k6q12,.l,Logical skip
+k6q12,.d,Suppressed for confidentiality
+k6q13a,2,not selected
+k6q13a,1,selected
+k6q13a,.m,No valid response
+k6q13a,.n,Not in universe
+k6q13a,.l,Logical skip
+k6q13a,.d,Suppressed for confidentiality
+k6q13b,2,not selected
+k6q13b,1,selected
+k6q13b,.m,No valid response
+k6q13b,.n,Not in universe
+k6q13b,.l,Logical skip
+k6q13b,.d,Suppressed for confidentiality
+k6q14a,2,not selected
+k6q14a,1,selected
+k6q14a,.m,No valid response
+k6q14a,.n,Not in universe
+k6q14a,.l,Logical skip
+k6q14a,.d,Suppressed for confidentiality
+k6q14b,2,not selected
+k6q14b,1,selected
+k6q14b,.m,No valid response
+k6q14b,.n,Not in universe
+k6q14b,.l,Logical skip
+k6q14b,.d,Suppressed for confidentiality
+k6q15,1,Yes
+k6q15,2,No
+k6q15,.m,No valid response
+k6q15,.n,Not in universe
+k6q15,.l,Logical skip
+k6q15,.d,Suppressed for confidentiality
+k6q20,1,Yes
+k6q20,2,No
+k6q20,.m,No valid response
+k6q20,.n,Not in universe
+k6q20,.l,Logical skip
+k6q20,.d,Suppressed for confidentiality
+k6q27,1,Yes
+k6q27,2,No
+k6q27,.m,No valid response
+k6q27,.n,Not in universe
+k6q27,.l,Logical skip
+k6q27,.d,Suppressed for confidentiality
+k6q40,1,Yes
+k6q40,2,No
+k6q40,.m,No valid response
+k6q40,.n,Not in universe
+k6q40,.l,Logical skip
+k6q40,.d,Suppressed for confidentiality
+k6q41r_still,2,not selected
+k6q41r_still,1,selected
+k6q41r_still,.m,No valid response
+k6q41r_still,.n,Not in universe
+k6q41r_still,.l,Logical skip
+k6q41r_still,.d,Suppressed for confidentiality
+k6q42r_never,2,not selected
+k6q42r_never,1,selected
+k6q42r_never,.m,No valid response
+k6q42r_never,.n,Not in universe
+k6q42r_never,.l,Logical skip
+k6q42r_never,.d,Suppressed for confidentiality
+k6q43r_never,2,not selected
+k6q43r_never,1,selected
+k6q43r_never,.m,No valid response
+k6q43r_never,.n,Not in universe
+k6q43r_never,.l,Logical skip
+k6q43r_never,.d,Suppressed for confidentiality
+k6q60_r,1,0 days
+k6q60_r,2,1-3 days
+k6q60_r,3,4-6 days
+k6q60_r,4,Every day
+k6q60_r,.m,No valid response
+k6q60_r,.n,Not in universe
+k6q60_r,.l,Logical skip
+k6q60_r,.d,Suppressed for confidentiality
+k6q61_r,1,0 days
+k6q61_r,2,1-3 days
+k6q61_r,3,4-6 days
+k6q61_r,4,Every day
+k6q61_r,.m,No valid response
+k6q61_r,.n,Not in universe
+k6q61_r,.l,Logical skip
+k6q61_r,.d,Suppressed for confidentiality
+k6q70_r,1,Definitely true
+k6q70_r,2,Somewhat true
+k6q70_r,3,Not true
+k6q70_r,.m,No valid response
+k6q70_r,.n,Not in universe
+k6q70_r,.l,Logical skip
+k6q70_r,.d,Suppressed for confidentiality
+k6q71_r,1,Definitely true
+k6q71_r,2,Somewhat true
+k6q71_r,3,Not true
+k6q71_r,.m,No valid response
+k6q71_r,.n,Not in universe
+k6q71_r,.l,Logical skip
+k6q71_r,.d,Suppressed for confidentiality
+k6q72_r,1,Definitely true
+k6q72_r,2,Somewhat true
+k6q72_r,3,Not true
+k6q72_r,.m,No valid response
+k6q72_r,.n,Not in universe
+k6q72_r,.l,Logical skip
+k6q72_r,.d,Suppressed for confidentiality
+k6q73_r,1,Definitely true
+k6q73_r,2,Somewhat true
+k6q73_r,3,Not true
+k6q73_r,.m,No valid response
+k6q73_r,.n,Not in universe
+k6q73_r,.l,Logical skip
+k6q73_r,.d,Suppressed for confidentiality
+k7q02r_r,1,No missed school days
+k7q02r_r,2,1 - 3 days
+k7q02r_r,3,4 - 6 days
+k7q02r_r,4,7 - 10 days
+k7q02r_r,5,11 or more days
+k7q02r_r,.m,No valid response
+k7q02r_r,.n,Not in universe
+k7q02r_r,.l,Logical skip
+k7q02r_r,.d,Suppressed for confidentiality
+k7q04r_r,1,No times
+k7q04r_r,2,1 time
+k7q04r_r,3,2 or more times
+k7q04r_r,.m,No valid response
+k7q04r_r,.n,Not in universe
+k7q04r_r,.l,Logical skip
+k7q04r_r,.d,Suppressed for confidentiality
+k7q30,1,Yes
+k7q30,2,No
+k7q30,.m,No valid response
+k7q30,.n,Not in universe
+k7q30,.l,Logical skip
+k7q30,.d,Suppressed for confidentiality
+k7q31,1,Yes
+k7q31,2,No
+k7q31,.m,No valid response
+k7q31,.n,Not in universe
+k7q31,.l,Logical skip
+k7q31,.d,Suppressed for confidentiality
+k7q32,1,Yes
+k7q32,2,No
+k7q32,.m,No valid response
+k7q32,.n,Not in universe
+k7q32,.l,Logical skip
+k7q32,.d,Suppressed for confidentiality
+k7q33,1,Always
+k7q33,2,Usually
+k7q33,3,Sometimes
+k7q33,4,Rarely
+k7q33,5,Never
+k7q33,.m,No valid response
+k7q33,.n,Not in universe
+k7q33,.l,Logical skip
+k7q33,.d,Suppressed for confidentiality
+k7q37,1,Yes
+k7q37,2,No
+k7q37,.m,No valid response
+k7q37,.n,Not in universe
+k7q37,.l,Logical skip
+k7q37,.d,Suppressed for confidentiality
+k7q38,1,Yes
+k7q38,2,No
+k7q38,.m,No valid response
+k7q38,.n,Not in universe
+k7q38,.l,Logical skip
+k7q38,.d,Suppressed for confidentiality
+k7q60_r,1,None
+k7q60_r,2,Less than 1 hour
+k7q60_r,3,1 hour
+k7q60_r,4,2 hours
+k7q60_r,5,3 hours
+k7q60_r,6,4 or more hours
+k7q60_r,.m,No valid response
+k7q60_r,.n,Not in universe
+k7q60_r,.l,Logical skip
+k7q60_r,.d,Suppressed for confidentiality
+k7q70_r,1,Definitely true
+k7q70_r,2,Somewhat true
+k7q70_r,3,Not true
+k7q70_r,.m,No valid response
+k7q70_r,.n,Not in universe
+k7q70_r,.l,Logical skip
+k7q70_r,.d,Suppressed for confidentiality
+k7q71_r,1,Definitely true
+k7q71_r,2,Somewhat true
+k7q71_r,3,Not true
+k7q71_r,.m,No valid response
+k7q71_r,.n,Not in universe
+k7q71_r,.l,Logical skip
+k7q71_r,.d,Suppressed for confidentiality
+k7q82_r,1,Definitely true
+k7q82_r,2,Somewhat true
+k7q82_r,3,Not true
+k7q82_r,.m,No valid response
+k7q82_r,.n,Not in universe
+k7q82_r,.l,Logical skip
+k7q82_r,.d,Suppressed for confidentiality
+k7q83_r,1,Definitely true
+k7q83_r,2,Somewhat true
+k7q83_r,3,Not true
+k7q83_r,.m,No valid response
+k7q83_r,.n,Not in universe
+k7q83_r,.l,Logical skip
+k7q83_r,.d,Suppressed for confidentiality
+k7q84_r,1,Definitely true
+k7q84_r,2,Somewhat true
+k7q84_r,3,Not true
+k7q84_r,.m,No valid response
+k7q84_r,.n,Not in universe
+k7q84_r,.l,Logical skip
+k7q84_r,.d,Suppressed for confidentiality
+k7q85_r,1,Definitely true
+k7q85_r,2,Somewhat true
+k7q85_r,3,Not true
+k7q85_r,.m,No valid response
+k7q85_r,.n,Not in universe
+k7q85_r,.l,Logical skip
+k7q85_r,.d,Suppressed for confidentiality
+k7q91_r,1,None
+k7q91_r,2,Less than 1 hour
+k7q91_r,3,1 hour
+k7q91_r,4,2 hours
+k7q91_r,5,3 hours
+k7q91_r,6,4 or more hours
+k7q91_r,.m,No valid response
+k7q91_r,.n,Not in universe
+k7q91_r,.l,Logical skip
+k7q91_r,.d,Suppressed for confidentiality
+k8q11,1,0 days
+k8q11,2,1-3 days
+k8q11,3,4-6 days
+k8q11,4,Every day
+k8q11,.m,No valid response
+k8q11,.n,Not in universe
+k8q11,.l,Logical skip
+k8q11,.d,Suppressed for confidentiality
+k8q21,1,Very well
+k8q21,2,Somewhat well
+k8q21,3,Not very well
+k8q21,4,Not at all
+k8q21,.m,No valid response
+k8q21,.n,Not in universe
+k8q21,.l,Logical skip
+k8q21,.d,Suppressed for confidentiality
+k8q30,1,Very well
+k8q30,2,Somewhat well
+k8q30,3,Not very well
+k8q30,4,Not at all
+k8q30,.m,No valid response
+k8q30,.n,Not in universe
+k8q30,.l,Logical skip
+k8q30,.d,Suppressed for confidentiality
+k8q31,1,Never
+k8q31,2,Rarely
+k8q31,3,Sometimes
+k8q31,4,Usually
+k8q31,5,Always
+k8q31,.m,No valid response
+k8q31,.n,Not in universe
+k8q31,.l,Logical skip
+k8q31,.d,Suppressed for confidentiality
+k8q32,1,Never
+k8q32,2,Rarely
+k8q32,3,Sometimes
+k8q32,4,Usually
+k8q32,5,Always
+k8q32,.m,No valid response
+k8q32,.n,Not in universe
+k8q32,.l,Logical skip
+k8q32,.d,Suppressed for confidentiality
+k8q34,1,Never
+k8q34,2,Rarely
+k8q34,3,Sometimes
+k8q34,4,Usually
+k8q34,5,Always
+k8q34,.m,No valid response
+k8q34,.n,Not in universe
+k8q34,.l,Logical skip
+k8q34,.d,Suppressed for confidentiality
+k8q35,1,Yes
+k8q35,2,No
+k8q35,.m,No valid response
+k8q35,.n,Not in universe
+k8q35,.l,Logical skip
+k8q35,.d,Suppressed for confidentiality
+k9q40,1,Yes
+k9q40,2,No
+k9q40,.m,No valid response
+k9q40,.n,Not in universe
+k9q40,.l,Logical skip
+k9q40,.d,Suppressed for confidentiality
+k9q41,1,Yes
+k9q41,2,No
+k9q41,.m,No valid response
+k9q41,.n,Not in universe
+k9q41,.l,Logical skip
+k9q41,.d,Suppressed for confidentiality
+k9q96,1,Yes
+k9q96,2,No
+k9q96,.m,No valid response
+k9q96,.n,Not in universe
+k9q96,.l,Logical skip
+k9q96,.d,Suppressed for confidentiality
+keepinsadult,1,Yes
+keepinsadult,2,No
+keepinsadult,.m,No valid response
+keepinsadult,.n,Not in universe
+keepinsadult,.l,Logical skip
+keepinsadult,.d,Suppressed for confidentiality
+makefriend,1,No difficulty
+makefriend,2,A little difficulty
+makefriend,3,A lot of difficulty
+makefriend,.m,No valid response
+makefriend,.n,Not in universe
+makefriend,.l,Logical skip
+makefriend,.d,Suppressed for confidentiality
+memorycond,1,Yes
+memorycond,2,No
+memorycond,.m,No valid response
+memorycond,.n,Not in universe
+memorycond,.l,Logical skip
+memorycond,.d,Suppressed for confidentiality
+menbevcov,1,Always
+menbevcov,2,Usually
+menbevcov,3,Sometimes
+menbevcov,4,Never
+menbevcov,5,This child does not use mental or behavioral health services
+menbevcov,.m,No valid response
+menbevcov,.n,Not in universe
+menbevcov,.l,Logical skip
+menbevcov,.d,Suppressed for confidentiality
+metro_yn,1,In Metropolitan Statistical Area
+metro_yn,2,Not in Metropolitan Statistical Area
+metro_yn,.d,Suppressed for confidentiality
+mpc_yn,1,In Metropolitan Principal City
+mpc_yn,2,Not in Metropolitan Principal City
+mpc_yn,.d,Suppressed for confidentiality
+newactivity,1,All of the time
+newactivity,2,Most of the time
+newactivity,3,Some of the time
+newactivity,4,None of the time
+newactivity,.m,No valid response
+newactivity,.n,Not in universe
+newactivity,.l,Logical skip
+newactivity,.d,Suppressed for confidentiality
+notelig,1,Yes
+notelig,2,No
+notelig,.m,No valid response
+notelig,.n,Not in universe
+notelig,.l,Logical skip
+notelig,.d,Suppressed for confidentiality
+notopen,1,Yes
+notopen,2,No
+notopen,.m,No valid response
+notopen,.n,Not in universe
+notopen,.l,Logical skip
+notopen,.d,Suppressed for confidentiality
+physactiv,1,0 days
+physactiv,2,1 - 3 days
+physactiv,3,4 - 6 days
+physactiv,4,Every day
+physactiv,.m,No valid response
+physactiv,.n,Not in universe
+physactiv,.l,Logical skip
+physactiv,.d,Suppressed for confidentiality
+physicalpain,1,Yes
+physicalpain,2,No
+physicalpain,.m,No valid response
+physicalpain,.n,Not in universe
+physicalpain,.l,Logical skip
+physicalpain,.d,Suppressed for confidentiality
+planfuture,1,Yes
+planfuture,2,No
+planfuture,3,Dont Know
+planfuture,.m,No valid response
+planfuture,.n,Not in universe
+planfuture,.l,Logical skip
+planfuture,.d,Suppressed for confidentiality
+planneeds,1,Yes
+planneeds,2,No
+planneeds,.m,No valid response
+planneeds,.n,Not in universe
+planneeds,.l,Logical skip
+planneeds,.d,Suppressed for confidentiality
+planutd,1,Yes
+planutd,2,No
+planutd,.m,No valid response
+planutd,.n,Not in universe
+planutd,.l,Logical skip
+planutd,.d,Suppressed for confidentiality
+playwell,1,All of the time
+playwell,2,Most of the time
+playwell,3,Some of the time
+playwell,4,None of the time
+playwell,.m,No valid response
+playwell,.n,Not in universe
+playwell,.l,Logical skip
+playwell,.d,Suppressed for confidentiality
+poschoice,1,Yes
+poschoice,2,No
+poschoice,3,Dont Know
+poschoice,.m,No valid response
+poschoice,.n,Not in universe
+poschoice,.l,Logical skip
+poschoice,.d,Suppressed for confidentiality
+race_hi,1,White alone
+race_hi,2,Black or African American alone
+race_hi,3,Asian alone
+race_hi,4,Native Hawaiian and Other Pacific Islander alone
+race_hi,5,Other
+race_hi,.m,No valid response
+race_hi,.n,Not in universe
+race_hi,.l,Logical skip
+race_hi,.d,Suppressed for confidentiality
+raceaian,1,White alone
+raceaian,2,Black or African American alone
+raceaian,3,American Indian or Alaska Native alone
+raceaian,4,Other
+raceaian,.m,No valid response
+raceaian,.n,Not in universe
+raceaian,.l,Logical skip
+raceaian,.d,Suppressed for confidentiality
+raceasia,1,White alone
+raceasia,2,Black or African American alone
+raceasia,3,Asian alone
+raceasia,4,Other
+raceasia,.m,No valid response
+raceasia,.n,Not in universe
+raceasia,.l,Logical skip
+raceasia,.d,Suppressed for confidentiality
+racer,1,White alone
+racer,2,Black or African American alone
+racer,3,Other
+racer,.m,No valid response
+racer,.n,Not in universe
+racer,.l,Logical skip
+racer,.d,Suppressed for confidentiality
+raiseconc,1,Always
+raiseconc,2,Usually
+raiseconc,3,Sometimes
+raiseconc,4,Never
+raiseconc,.m,No valid response
+raiseconc,.n,Not in universe
+raiseconc,.l,Logical skip
+raiseconc,.d,Suppressed for confidentiality
+receivecopy,1,Yes
+receivecopy,2,No
+receivecopy,.m,No valid response
+receivecopy,.n,Not in universe
+receivecopy,.l,Logical skip
+receivecopy,.d,Suppressed for confidentiality
+recogabc,1,All of them
+recogabc,2,Most of them
+recogabc,3,Some of them
+recogabc,4,None of them
+recogabc,.m,No valid response
+recogabc,.n,Not in universe
+recogabc,.l,Logical skip
+recogabc,.d,Suppressed for confidentiality
+recogbegin,1,All of the time
+recogbegin,2,Most of the time
+recogbegin,3,Some of the time
+recogbegin,4,None of the time
+recogbegin,.m,No valid response
+recogbegin,.n,Not in universe
+recogbegin,.l,Logical skip
+recogbegin,.d,Suppressed for confidentiality
+recshapes,1,All of the time
+recshapes,2,Most of the time
+recshapes,3,Some of the time
+recshapes,4,None of the time
+recshapes,.m,No valid response
+recshapes,.n,Not in universe
+recshapes,.l,Logical skip
+recshapes,.d,Suppressed for confidentiality
+repeated,1,Yes
+repeated,2,No
+repeated,.m,No valid response
+repeated,.n,Not in universe
+repeated,.l,Logical skip
+repeated,.d,Suppressed for confidentiality
+rhymeword,1,Yes
+rhymeword,2,No
+rhymeword,.m,No valid response
+rhymeword,.n,Not in universe
+rhymeword,.l,Logical skip
+rhymeword,.d,Suppressed for confidentiality
+s4q01,1,Yes
+s4q01,2,No
+s4q01,.m,No valid response
+s4q01,.n,Not in universe
+s4q01,.l,Logical skip
+s4q01,.d,Suppressed for confidentiality
+s9q34,1,Yes
+s9q34,2,No
+s9q34,.m,No valid response
+s9q34,.n,Not in universe
+s9q34,.l,Logical skip
+s9q34,.d,Suppressed for confidentiality
+sc_age_lt10,1,LT 10 Months Old
+sc_age_lt10,2,GE 10 Months Old
+sc_age_lt10,.m,No valid response
+sc_age_lt10,.n,Not in universe
+sc_age_lt10,.l,Logical skip
+sc_age_lt10,.d,Suppressed for confidentiality
+sc_age_lt4,1,LT 4 Months Old
+sc_age_lt4,2,GE 4 Months Old
+sc_age_lt4,.m,No valid response
+sc_age_lt4,.n,Not in universe
+sc_age_lt4,.l,Logical skip
+sc_age_lt4,.d,Suppressed for confidentiality
+sc_age_lt6,1,LT 6 Months Old
+sc_age_lt6,2,GE 6 Months Old
+sc_age_lt6,.m,No valid response
+sc_age_lt6,.n,Not in universe
+sc_age_lt6,.l,Logical skip
+sc_age_lt6,.d,Suppressed for confidentiality
+sc_age_lt9,1,LT 9 Months Old
+sc_age_lt9,2,GE 9 Months Old
+sc_age_lt9,.m,No valid response
+sc_age_lt9,.n,Not in universe
+sc_age_lt9,.l,Logical skip
+sc_age_lt9,.d,Suppressed for confidentiality
+sc_cshcn,1,SHCN
+sc_cshcn,2,Non-SHCN
+sc_cshcn,.m,No valid response
+sc_cshcn,.n,Not in universe
+sc_cshcn,.l,Logical skip
+sc_cshcn,.d,Suppressed for confidentiality
+sc_hispanic_r_if,1,Imputed Value
+sc_hispanic_r,1,Hispanic or Latino Origin
+sc_hispanic_r,2,Not Hispanic or Latino Origin
+sc_hispanic_r,.m,No valid response
+sc_hispanic_r,.n,Not in universe
+sc_hispanic_r,.l,Logical skip
+sc_hispanic_r,.d,Suppressed for confidentiality
+sc_k2q10,1,Yes
+sc_k2q10,2,No
+sc_k2q10,.m,No valid response
+sc_k2q10,.n,Not in universe
+sc_k2q10,.l,Logical skip
+sc_k2q10,.d,Suppressed for confidentiality
+sc_k2q11,1,Yes
+sc_k2q11,2,No
+sc_k2q11,.m,No valid response
+sc_k2q11,.n,Not in universe
+sc_k2q11,.l,Logical skip
+sc_k2q11,.d,Suppressed for confidentiality
+sc_k2q12,1,Yes
+sc_k2q12,2,No
+sc_k2q12,.m,No valid response
+sc_k2q12,.n,Not in universe
+sc_k2q12,.l,Logical skip
+sc_k2q12,.d,Suppressed for confidentiality
+sc_k2q13,1,Yes
+sc_k2q13,2,No
+sc_k2q13,.m,No valid response
+sc_k2q13,.n,Not in universe
+sc_k2q13,.l,Logical skip
+sc_k2q13,.d,Suppressed for confidentiality
+sc_k2q14,1,Yes
+sc_k2q14,2,No
+sc_k2q14,.m,No valid response
+sc_k2q14,.n,Not in universe
+sc_k2q14,.l,Logical skip
+sc_k2q14,.d,Suppressed for confidentiality
+sc_k2q15,1,Yes
+sc_k2q15,2,No
+sc_k2q15,.m,No valid response
+sc_k2q15,.n,Not in universe
+sc_k2q15,.l,Logical skip
+sc_k2q15,.d,Suppressed for confidentiality
+sc_k2q16,1,Yes
+sc_k2q16,2,No
+sc_k2q16,.m,No valid response
+sc_k2q16,.n,Not in universe
+sc_k2q16,.l,Logical skip
+sc_k2q16,.d,Suppressed for confidentiality
+sc_k2q17,1,Yes
+sc_k2q17,2,No
+sc_k2q17,.m,No valid response
+sc_k2q17,.n,Not in universe
+sc_k2q17,.l,Logical skip
+sc_k2q17,.d,Suppressed for confidentiality
+sc_k2q18,1,Yes
+sc_k2q18,2,No
+sc_k2q18,.m,No valid response
+sc_k2q18,.n,Not in universe
+sc_k2q18,.l,Logical skip
+sc_k2q18,.d,Suppressed for confidentiality
+sc_k2q19,1,Yes
+sc_k2q19,2,No
+sc_k2q19,.m,No valid response
+sc_k2q19,.n,Not in universe
+sc_k2q19,.l,Logical skip
+sc_k2q19,.d,Suppressed for confidentiality
+sc_k2q20,1,Yes
+sc_k2q20,2,No
+sc_k2q20,.m,No valid response
+sc_k2q20,.n,Not in universe
+sc_k2q20,.l,Logical skip
+sc_k2q20,.d,Suppressed for confidentiality
+sc_k2q21,1,Yes
+sc_k2q21,2,No
+sc_k2q21,.m,No valid response
+sc_k2q21,.n,Not in universe
+sc_k2q21,.l,Logical skip
+sc_k2q21,.d,Suppressed for confidentiality
+sc_k2q22,1,Yes
+sc_k2q22,2,No
+sc_k2q22,.m,No valid response
+sc_k2q22,.n,Not in universe
+sc_k2q22,.l,Logical skip
+sc_k2q22,.d,Suppressed for confidentiality
+sc_k2q23,1,Yes
+sc_k2q23,2,No
+sc_k2q23,.m,No valid response
+sc_k2q23,.n,Not in universe
+sc_k2q23,.l,Logical skip
+sc_k2q23,.d,Suppressed for confidentiality
+sc_race_hi,1,White alone
+sc_race_hi,2,Black or African American alone
+sc_race_hi,3,Asian alone
+sc_race_hi,4,Native Hawaiian and Other Pacific Islander alone
+sc_race_hi,5,Other
+sc_race_hi,.m,No valid response
+sc_race_hi,.n,Not in universe
+sc_race_hi,.l,Logical skip
+sc_race_hi,.d,Suppressed for confidentiality
+sc_race_r_if,1,Imputed Value
+sc_race_r,1,White alone
+sc_race_r,2,Black or African American alone
+sc_race_r,3,American Indian or Alaska Native alone
+sc_race_r,4,Asian alone
+sc_race_r,5,Native Hawaiian and Other Pacific Islander alone
+sc_race_r,6,Some Other Race alone
+sc_race_r,7,Two or More Races
+sc_race_r,.m,No valid response
+sc_race_r,.n,Not in universe
+sc_race_r,.l,Logical skip
+sc_race_r,.d,Suppressed for confidentiality
+sc_raceaian,1,White alone
+sc_raceaian,2,Black or African American alone
+sc_raceaian,3,American Indian or Alaska Native alone
+sc_raceaian,4,Other
+sc_raceaian,.m,No valid response
+sc_raceaian,.n,Not in universe
+sc_raceaian,.l,Logical skip
+sc_raceaian,.d,Suppressed for confidentiality
+sc_raceasia,1,White alone
+sc_raceasia,2,Black or African American alone
+sc_raceasia,3,Asian alone
+sc_raceasia,4,Other
+sc_raceasia,.m,No valid response
+sc_raceasia,.n,Not in universe
+sc_raceasia,.l,Logical skip
+sc_raceasia,.d,Suppressed for confidentiality
+sc_racer,1,White alone
+sc_racer,2,Black or African American alone
+sc_racer,3,Other
+sc_racer,.m,No valid response
+sc_racer,.n,Not in universe
+sc_racer,.l,Logical skip
+sc_racer,.d,Suppressed for confidentiality
+sc_sex_if,1,Imputed Value
+sc_sex,1,Male
+sc_sex,2,Female
+sc_sex,.m,No valid response
+sc_sex,.n,Not in universe
+sc_sex,.l,Logical skip
+sc_sex,.d,Suppressed for confidentiality
+sescurrsvc,1,Yes
+sescurrsvc,2,No
+sescurrsvc,.m,No valid response
+sescurrsvc,.n,Not in universe
+sescurrsvc,.l,Logical skip
+sescurrsvc,.d,Suppressed for confidentiality
+simpleinst,1,All of the time
+simpleinst,2,Most of the time
+simpleinst,3,Some of the time
+simpleinst,4,None of the time
+simpleinst,.m,No valid response
+simpleinst,.n,Not in universe
+simpleinst,.l,Logical skip
+simpleinst,.d,Suppressed for confidentiality
+sitstill,1,All of the time
+sitstill,2,Most of the time
+sitstill,3,Some of the time
+sitstill,4,None of the time
+sitstill,.m,No valid response
+sitstill,.n,Not in universe
+sitstill,.l,Logical skip
+sitstill,.d,Suppressed for confidentiality
+sleeppos,1,On his or her side
+sleeppos,2,On his or her back
+sleeppos,3,On his or her stomach
+sleeppos,.m,No valid response
+sleeppos,.n,Not in universe
+sleeppos,.l,Logical skip
+sleeppos,.d,Suppressed for confidentiality
+startschool,1,Yes
+startschool,2,No
+startschool,.m,No valid response
+startschool,.n,Not in universe
+startschool,.l,Logical skip
+startschool,.d,Suppressed for confidentiality
+stomach,1,Yes
+stomach,2,No
+stomach,.m,No valid response
+stomach,.n,Not in universe
+stomach,.l,Logical skip
+stomach,.d,Suppressed for confidentiality
+stopwork,1,Yes
+stopwork,2,No
+stopwork,.m,No valid response
+stopwork,.n,Not in universe
+stopwork,.l,Logical skip
+stopwork,.d,Suppressed for confidentiality
+stratum,1,Stratum 1
+stratum,2,Stratum 2
+stratum,.m,No valid response
+stratum,.n,Not in universe
+stratum,.l,Logical skip
+stratum,.d,Suppressed for confidentiality
+strengths,1,All of the time
+strengths,2,Most of the time
+strengths,3,Some of the time
+strengths,4,None of the time
+strengths,.m,No valid response
+strengths,.n,Not in universe
+strengths,.l,Logical skip
+strengths,.d,Suppressed for confidentiality
+subabuse_curr,1,Yes
+subabuse_curr,2,No
+subabuse_curr,.m,No valid response
+subabuse_curr,.n,Not in universe
+subabuse_curr,.l,Logical skip
+subabuse_curr,.d,Suppressed for confidentiality
+subabuse_desc,1,Mild
+subabuse_desc,2,Moderate
+subabuse_desc,3,Severe
+subabuse_desc,.m,No valid response
+subabuse_desc,.n,Not in universe
+subabuse_desc,.l,Logical skip
+subabuse_desc,.d,Suppressed for confidentiality
+subabuse,1,Yes
+subabuse,2,No
+subabuse,.m,No valid response
+subabuse,.n,Not in universe
+subabuse,.l,Logical skip
+subabuse,.d,Suppressed for confidentiality
+swallowing,1,Yes
+swallowing,2,No
+swallowing,.m,No valid response
+swallowing,.n,Not in universe
+swallowing,.l,Logical skip
+swallowing,.d,Suppressed for confidentiality
+talkabout,1,All of the time
+talkabout,2,Most of the time
+talkabout,3,Some of the time
+talkabout,4,None of the time
+talkabout,.m,No valid response
+talkabout,.n,Not in universe
+talkabout,.l,Logical skip
+talkabout,.d,Suppressed for confidentiality
+temper,1,All of the time
+temper,2,Most of the time
+temper,3,Some of the time
+temper,4,None of the time
+temper,.m,No valid response
+temper,.n,Not in universe
+temper,.l,Logical skip
+temper,.d,Suppressed for confidentiality
+toothaches,1,Yes
+toothaches,2,No
+toothaches,.m,No valid response
+toothaches,.n,Not in universe
+toothaches,.l,Logical skip
+toothaches,.d,Suppressed for confidentiality
+totkids_r,1,1
+totkids_r,2,2
+totkids_r,3,3
+totkids_r,4,4 or more
+totkids_r,.m,No valid response
+totkids_r,.n,Not in universe
+totkids_r,.l,Logical skip
+totkids_r,.d,Suppressed for confidentiality
+transportcc,1,Yes
+transportcc,2,No
+transportcc,.m,No valid response
+transportcc,.n,Not in universe
+transportcc,.l,Logical skip
+transportcc,.d,Suppressed for confidentiality
+treatadult,1,Yes
+treatadult,2,No
+treatadult,.m,No valid response
+treatadult,.n,Not in universe
+treatadult,.l,Logical skip
+treatadult,.d,Suppressed for confidentiality
+treatchild,1,Yes
+treatchild,2,No
+treatchild,.m,No valid response
+treatchild,.n,Not in universe
+treatchild,.l,Logical skip
+treatchild,.d,Suppressed for confidentiality
+treatneed,1,Not a problem
+treatneed,2,Small problem
+treatneed,3,Big problem
+treatneed,.m,No valid response
+treatneed,.n,Not in universe
+treatneed,.l,Logical skip
+treatneed,.d,Suppressed for confidentiality
+tricare,1,Yes
+tricare,2,No
+tricare,.m,No valid response
+tricare,.n,Not in universe
+tricare,.l,Logical skip
+tricare,.d,Suppressed for confidentiality
+usepencil,1,Uses fingers
+usepencil,2,Grips in fist
+usepencil,3,Cannot hold a pencil
+usepencil,.m,No valid response
+usepencil,.n,Not in universe
+usepencil,.l,Logical skip
+usepencil,.d,Suppressed for confidentiality
+usualgo,1,Yes
+usualgo,2,No
+usualgo,.m,No valid response
+usualgo,.n,Not in universe
+usualgo,.l,Logical skip
+usualgo,.d,Suppressed for confidentiality
+usualsick,1,Yes
+usualsick,2,No
+usualsick,.m,No valid response
+usualsick,.n,Not in universe
+usualsick,.l,Logical skip
+usualsick,.d,Suppressed for confidentiality
+walkstairs,1,Yes
+walkstairs,2,No
+walkstairs,.m,No valid response
+walkstairs,.n,Not in universe
+walkstairs,.l,Logical skip
+walkstairs,.d,Suppressed for confidentiality
+wgtconc,1,"Yes, its too high"
+wgtconc,2,"Yes, its too low"
+wgtconc,3,"No, not concerned"
+wgtconc,.m,No valid response
+wgtconc,.n,Not in universe
+wgtconc,.l,Logical skip
+wgtconc,.d,Suppressed for confidentiality
+wktosolve,1,All of the time
+wktosolve,2,Most of the time
+wktosolve,3,Some of the time
+wktosolve,4,None of the time
+wktosolve,.m,No valid response
+wktosolve,.n,Not in universe
+wktosolve,.l,Logical skip
+wktosolve,.d,Suppressed for confidentiality
+worktofin,1,All of the time
+worktofin,2,Most of the time
+worktofin,3,Some of the time
+worktofin,4,None of the time
+worktofin,.m,No valid response
+worktofin,.n,Not in universe
+worktofin,.l,Logical skip
+worktofin,.d,Suppressed for confidentiality
+writename,1,All of the time
+writename,2,Most of the time
+writename,3,Some of the time
+writename,4,None of the time
+writename,.m,No valid response
+writename,.n,Not in universe
+writename,.l,Logical skip
+writename,.d,Suppressed for confidentiality
+writeplan,1,Yes
+writeplan,2,No
+writeplan,.m,No valid response
+writeplan,.n,Not in universe
+writeplan,.l,Logical skip
+writeplan,.d,Suppressed for confidentiality
+fipsst,01,Alabama
+fipsst,02,Alaska
+fipsst,04,Arizona
+fipsst,05,Arkansas
+fipsst,06,California
+fipsst,08,Colorado
+fipsst,09,Connecticut
+fipsst,10,Delaware
+fipsst,11,District of Columbia
+fipsst,12,Florida
+fipsst,13,Georgia
+fipsst,15,Hawaii
+fipsst,16,Idaho
+fipsst,17,Illinois
+fipsst,18,Indiana
+fipsst,19,Iowa
+fipsst,20,Kansas
+fipsst,21,Kentucky
+fipsst,22,Louisiana
+fipsst,23,Maine
+fipsst,24,Maryland
+fipsst,25,Massachusetts
+fipsst,26,Michigan
+fipsst,27,Minnesota
+fipsst,28,Mississippi
+fipsst,29,Missouri
+fipsst,30,Montana
+fipsst,31,Nebraska
+fipsst,32,Nevada
+fipsst,33,New Hampshire
+fipsst,34,New Jersey
+fipsst,35,New Mexico
+fipsst,36,New York
+fipsst,37,North Carolina
+fipsst,38,North Dakota
+fipsst,39,Ohio
+fipsst,40,Oklahoma
+fipsst,41,Oregon
+fipsst,42,Pennsylvania
+fipsst,44,Rhode Island
+fipsst,45,South Carolina
+fipsst,46,South Dakota
+fipsst,47,Tennessee
+fipsst,48,Texas
+fipsst,49,Utah
+fipsst,50,Vermont
+fipsst,51,Virginia
+fipsst,53,Washington
+fipsst,54,West Virginia
+fipsst,55,Wisconsin
+fipsst,56,Wyoming
+fpl,50,50 or Less
+fpl,400,400 or More
+momage,45,45 or older
+sesplanyr,16,16 or 17
+k4q37,16,16 or 17
+k11q43r,15,15 or more
+a1_age,75,75 or older
+a1_liveusa,1972,1972 or earlier
+a1_liveusa,2015,2015 or 2016
+a2_age,75,75 or older
+a2_liveusa,1972,1972 or earlier
+a2_liveusa,2015,2015 or 2016
+hhcount,12,12 or more
+famcount,8,8 or more
+sc_aian,1,American Indian or Alaska Native
+sc_aian,2,Not American Indian or Alaska Native
+sc_aian,.m,No valid response
+sc_aian,.n,Not in universe
+sc_aian,.l,Logical skip
+sc_aian,.d,Suppressed for confidentiality
+sc_asian,1,Asian
+sc_asian,2,Not Asian
+sc_asian,.m,No valid response
+sc_asian,.n,Not in universe
+sc_asian,.l,Logical skip
+sc_asian,.d,Suppressed for confidentiality
+sc_nhpi,1,Native Hawaiian or Other Pacific Islanders
+sc_nhpi,2,Not Native Hawaiian or Other Pacific Islanders
+sc_nhpi,.m,No valid response
+sc_nhpi,.n,Not in universe
+sc_nhpi,.l,Logical skip
+sc_nhpi,.d,Suppressed for confidentiality
+height,.m,No valid response
+height,.n,Not in universe
+height,.l,Logical skip
+height,.d,Suppressed for confidentiality
+weight,.m,No valid response
+weight,.n,Not in universe
+weight,.l,Logical skip
+weight,.d,Suppressed for confidentiality
+fpl_i,50,50 or Less
+fpl_i,400,400 or More

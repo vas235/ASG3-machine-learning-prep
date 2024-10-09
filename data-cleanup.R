@@ -3,116 +3,62 @@ library(haven)
 library(stringr)
 library(jsonlite)
 library(dplyr)
+library(forcats)
 
-parse_label_definitions <- function(do_lines, year) {
-  # Trim the lines to remove any trailing whitespace or incomplete lines
-  do_lines <- trimws(do_lines)
+
+# Function to parse labels from the .csv file, stopping at "writeplan"
+parse_label_csv <- function(csv_file) {
+  # Read the .csv file
+  labels_dt <- fread(csv_file, encoding = "UTF-8")
   
-  # Regular expression to capture variable, code, and label
-  pattern <- "label define (?<variable>\\w+)_lab\\s+(?<code>[\\.\\w]+)\\s+\"(?<label>[^\"]+)\""
-  matches <- stringr::str_match(do_lines, pattern)
+  # Identify the row where the "writeplan" variable appears
+  stop_row <- which(labels_dt$variable == "writeplan")[1]
   
-  # Detect missing data labels (.m, .n, .l, .d)
-  is_missing_label <- matches[, "code"] %in% c(".m", ".n", ".l", ".d")
+  # Subset the data to only include rows up to the "writeplan" variable
+  labels_dt <- labels_dt[1:stop_row, ]
   
-  # Detect numeric labels (integer values)
-  has_numeric_label <- grepl("^\\d+$", matches[, "code"])
+  # Recode missing data labels (.m, .n, .l, .d) to 996, 997, 998, and 999
+  labels_dt[value == ".m", value := 996]
+  labels_dt[value == ".n", value := 997]
+  labels_dt[value == ".l", value := 998]
+  labels_dt[value == ".d", value := 999]
   
-  # Initialize variables
-  numeric_columns <- character(0)  # Variables to treat as numeric
-  final_labels_dt <- data.table(variable = character(), code = character(), label = character())
-  variables_with_only_label <- unique(gsub(".*label var (\\w+).*", "\\1", grep("^label var", do_lines, value = TRUE)))
+  # Remove all types of apostrophes from the labels
+  labels_dt[, desc := gsub("[‘’'`]", "", desc)]
   
-  # Get unique variables
-  unique_variables <- unique(matches[, "variable"])
-  
-  # Iterate over variables
-  for (var in unique_variables) {
-    # Skip if variable is NA
-    if (is.na(var)) next
-    
-    # Extract all relevant rows for this variable
-    var_rows <- matches[matches[, "variable"] == var, ]
-    
-    # Initialize flags
-    numeric_found <- FALSE
-    factor_found <- FALSE
-    
-    # Iterate through the codes and labels for this variable
-    for (i in seq_len(nrow(var_rows))) {
-      code <- var_rows[i, "code"]
-      label <- var_rows[i, "label"]
-      
-      if (is.na(code) || is.na(label)) next
-      
-      # Check if it's a missing data label
-      if (code %in% c(".m", ".n", ".l", ".d")) {
-        # If no valid factor labels were found, mark this as numeric
-        if (!factor_found) {
-          numeric_columns <- unique(c(numeric_columns, var))
-          break  # Stop further processing for this variable
-        }
-      } else {
-        # If a valid factor label is found, mark the variable as a factor
-        factor_found <- TRUE
-        # Add label information for the factor
-        final_labels_dt <- rbind(final_labels_dt, data.table(
-          variable = var,
-          code = code,
-          label = label
-        ))
-      }
-    }
-    
-    # Handle variables with only a "label var" line (special 2016 case)
-    if (var %in% variables_with_only_label && !var %in% final_labels_dt$variable) {
-      numeric_columns <- unique(c(numeric_columns, var))
-    }
-  }
-  
-  # If no valid label definitions were found, return NULL and the list of numeric columns
-  if (nrow(final_labels_dt) == 0) {
-    return(list(labels_dt = NULL, numeric_columns = numeric_columns))
-  }
-  
-  # Convert the 'code' column to character for consistency
-  final_labels_dt[, code := as.character(code)]
-  
-  return(list(labels_dt = final_labels_dt, numeric_columns = numeric_columns))
+  return(labels_dt)
 }
 
 
-# Apply labels to each variable in the dataset
-apply_labels_to_data <- function(data, parsed_labels) {
-  labels_dt <- parsed_labels$labels_dt
-  numeric_columns <- parsed_labels$numeric_columns
-  
-  if (is.null(labels_dt) && length(numeric_columns) == 0) {
-    return(data)  # No labels and no numeric columns, return the data as-is
+
+# Apply labels to each variable in the dataset using the .csv file
+apply_labels_to_data_csv <- function(data, labels_dt) {
+  if (is.null(labels_dt)) {
+    return(data)  # No labels, return the data as-is
   }
   
   unique_variables <- unique(labels_dt$variable)
   
   for (var in unique_variables) {
-    
-    # Skip variables that should remain numeric
-    if (var %in% numeric_columns) next
-    
-    # Skip state field since the categorical variables don't come in correctly
-    if (var == "fipsst") next
-    
     if (var %in% names(data)) {
       var_labels <- labels_dt[variable == var]
       
-      # Check if the variable only defines missing data
-      is_missing_only <- all(var_labels$code %in% c(".m", ".n", ".l", ".d"))
+      # Check if there are labels for values below 900 (indicating a categorical variable)
+      has_labels_below_900 <- any(as.numeric(var_labels$value) < 900, na.rm = TRUE)
       
-      if (is_missing_only) {
-        # Replace only the missing data codes with NA, keep other data intact
-        data[[var]] <- replace(data[[var]], data[[var]] %in% var_labels$code, NA)
-      } else {
-        # Convert to factor with labels for other cases
-        data[[var]] <- factor(data[[var]], levels = var_labels$code, labels = var_labels$label)
+      if (has_labels_below_900) {
+        # Create a named vector for labels using numeric values
+        label_map <- setNames(var_labels$desc, as.character(var_labels$value))  # Ensure labels use character values for matching
+        
+        # Convert the variable values to character for comparison with label_map
+        data[[var]] <- as.character(data[[var]])
+        
+        # Create the "_label" column with the mapped labels
+        data[[paste0(var, "_label")]] <- ifelse(data[[var]] %in% names(label_map), label_map[data[[var]]], NA)
+        
+        # Convert the original column back to numeric
+        data[[var]] <- as.numeric(data[[var]])
+        
       }
     }
   }
@@ -123,99 +69,129 @@ apply_labels_to_data <- function(data, parsed_labels) {
 
 
 
-# Set directory and read files
-data_dir <- "ml-data-prep/download-nsch-data"
-do_files <- Sys.glob(file.path(data_dir, "*.do"))
+# Directory containing the .csv files
+csv_dir <- "ml-data-prep/download-nsch-data"
 
-# Process each .do and corresponding .dta file
+# Process each year's data
 all_data_list <- list()
 
-for (do_file in do_files) {
+for (year in 2016:2022) {
+  rds_file <- file.path(csv_dir, paste0("nsch_", year, "_topical.rds"))
+  csv_file <- file.path(csv_dir, paste0("nsch_", year, "_topical.do.define.csv"))
   
-  dta_file <- sub("do$", "dta", do_file)
-  raw_data <- read_dta(dta_file)
+  # Read the .rds file
+  raw_data <- readRDS(rds_file)
   
-  # Extract year from the filename
-  year <- sub(".*_(\\d{4})_.*", "\\1", dta_file)
+  # Parse labels from the .csv file
+  parsed_labels <- parse_label_csv(csv_file)
   
-  # Parse label definitions with the year included
-  do_lines <- readLines(do_file)
-  parsed_labels <- parse_label_definitions(do_lines, year)
+  # Remove stratum entries from 2016's parsed labels
+  if (year == 2016) {
+    parsed_labels <- parsed_labels[variable != "stratum"]
+  }
   
-  # Apply the labels, skipping numeric columns
-  labeled_data <- apply_labels_to_data(raw_data, parsed_labels)
+  # Apply labels to the data
+  labeled_data <- apply_labels_to_data_csv(raw_data, parsed_labels)
+  
+  # Print the unique stratum values for the current year
+  cat(paste("\n[DEBUG] Unique stratum values for year:", year, "\n"))
+  print(unique(labeled_data$stratum))
   
   # Store processed data
-  all_data_list[[dta_file]] <- data.table(labeled_data)
+  all_data_list[[as.character(year)]] <- data.table(labeled_data)
 }
 
 
 
-# Load configuration JSON
-config <- fromJSON("variable-config.json")
-desired_variables <- config$desired_variables
+
+
+
 
 apply_transformations <- function(data, transformations, year) {
   for (variable_name in names(transformations)) {
     details <- transformations[[variable_name]]
+    
     if (year %in% details$years && variable_name %in% names(data)) {
+      # Access the "_label" column
+      label_col <- paste0(variable_name, "_label")
+      
+      # Apply JSON transformations
       for (i in seq_along(details$value)) {
-        # Ensure the value is numeric if required
-        if (details$value[i] == ".l") {
-          old_val <- "Logical skip" 
-        } else {
-          old_val <- levels(data[[variable_name]])[as.numeric(details$value[i])]
-        }
-        new_val <- details$new_label[i]
+        old_val <- details$value[i]
+        new_val <- details$new_value[i]
+        new_label <- details$new_label[i]
         
-        # Dynamically recode the factor levels
-        data[[variable_name]] <- dplyr::recode_factor(data[[variable_name]], !!old_val := new_val)
+        # Update values: change raw data values if `old_val` and `new_val` are different
+        data[[variable_name]][data[[variable_name]] == as.numeric(old_val)] <- as.numeric(new_val)
+        
+        # Update labels: set new labels for updated values
+        data[[label_col]][data[[variable_name]] == new_val] <- new_label
       }
     }
   }
-  data
+  
+  return(data)
 }
+
+
+
 
 merge_columns <- function(data, merge_config, year) {
   for (variable_name in names(merge_config)) {
     details <- merge_config[[variable_name]]
+    
     if (year %in% details$years && details$column_1 %in% names(data) && details$column_2 %in% names(data)) {
       column_1 <- data[[details$column_1]]
       column_2 <- data[[details$column_2]]
       
-      if (is.factor(column_1) && is.factor(column_2)) {
-        levels_combined <- unique(c(levels(column_1), levels(column_2)))
-        column_1 <- factor(column_1, levels = levels_combined)
-        column_2 <- factor(column_2, levels = levels_combined)
-        new_column <- factor(ifelse(is.na(column_1), as.character(column_2), as.character(column_1)), levels = levels_combined)
-      } else {
-        new_column <- ifelse(is.na(column_1), column_2, column_1)
-      }
+      # Combine the labels from both columns
+      label_col_1 <- paste0(details$column_1, "_label")
+      label_col_2 <- paste0(details$column_2, "_label")
       
-      data[[variable_name]] <- new_column
+      combined_labels <- ifelse(is.na(column_1), data[[label_col_2]], data[[label_col_1]])
+      
+      # Merge the numeric columns
+      new_column <- ifelse(is.na(column_1), column_2, column_1)
+      data[[variable_name]] <- as.numeric(new_column)  # Ensure the merged column is numeric
+      data[[paste0(variable_name, "_label")]] <- combined_labels
     }
   }
-  data
+  return(data)
 }
 
-# Function to rename columns based on configuration
+
 rename_columns <- function(data, rename_config, year) {
   for (old_name in names(rename_config)) {
     details <- rename_config[[old_name]]
     if (year %in% details$years && old_name %in% names(data)) {
-      setnames(data, old_name, details$new_name)
+      new_name <- details$new_name
+      setnames(data, old_name, new_name)
+      # Also rename the "_label" column
+      setnames(data, paste0(old_name, "_label"), paste0(new_name, "_label"))
     }
   }
-  data
+  return(data)
 }
 
+
+
+
+
+
+
+# Load configuration JSON
+config <- fromJSON("ml-data-prep/variable-config.json")
+desired_variables <- config$desired_variables
+
 # Process all yearly datasets
-processed_datasets <- lapply(names(all_data_list), function(name) {
-  original_data <- all_data_list[[name]]
-  year <- sub(".*_(\\d{4})_.*", "\\1", name)  # Extract year from the filename
+processed_datasets <- lapply(names(all_data_list), function(year) {
+  # Access the original data table using the year name
+  original_data <- all_data_list[[as.character(year)]]
   
-  # Apply transformations
+  # Apply transformations using the year
   transformed_data <- apply_transformations(original_data, config$transformations$transform, year)
+  
+  print(unique(transformed_data$k2q01_d_label))
   
   # Apply column renaming
   renamed_data <- rename_columns(transformed_data, config$transformations$rename_columns, year)
@@ -223,63 +199,63 @@ processed_datasets <- lapply(names(all_data_list), function(name) {
   # Apply column merges
   merged_data <- merge_columns(renamed_data, config$transformations$merge_columns, year)
   
-  # Subset to desired variables
-  subset_data <- merged_data[, ..desired_variables]
+  # Subset to desired variables, including their corresponding _label columns if they exist
+  label_columns <- paste0(desired_variables, "_label")
+  existing_label_columns <- intersect(label_columns, names(merged_data))
   
-  subset_data
+  # Combine desired variables and the existing label columns for subsetting
+  subset_columns <- c(desired_variables, existing_label_columns)
+  
+  # Perform the subsetting
+  subset_data <- merged_data[, ..subset_columns]
+  
+  return(subset_data)
 })
+
+
+
 
 # Combine all data into one data.table
 combined_data <- rbindlist(processed_datasets, use.names = TRUE, fill = TRUE)
 
-# Make column names unique
-setnames(combined_data, make.names(names(combined_data), unique = TRUE))
 
-# Define the missing data categories to be replaced with NA
-na_categories <- c("No valid response", "Not in universe", "Logical skip", "Suppressed for confidentiality")
 
-# Function to replace specified categories with NA in a factor column
-replace_with_na <- function(column) {
-  if (is.factor(column)) {
-    levels(column)[levels(column) %in% na_categories] <- NA
+
+
+
+final_conversion_to_factors <- function(data) {
+  # Define the missing data labels
+  na_labels <- c("No valid response", "Not in universe", "Logical skip", "Suppressed for confidentiality")
+  
+  for (var in names(data)) {
+    label_col <- paste0(var, "_label")
+    
+    # Check if there is a corresponding "_label" column
+    if (label_col %in% names(data)) {
+      
+      # Convert the original column to a factor using the labels from the "_label" column
+      data[[var]] <- factor(data[[var]], levels = unique(data[[var]]), labels = unique(data[[label_col]]))
+      
+      # Replace missing data labels with NA
+      levels(data[[var]])[levels(data[[var]]) %in% na_labels] <- NA
+      
+      # Remove the "_label" column as it is no longer needed
+      data[[label_col]] <- NULL
+    }
   }
-  column
-}
-
-# Apply the function to all columns in the dataset
-combined_data <- combined_data %>%
-  mutate(across(everything(), replace_with_na))
-
-# Check the number of columns in combined_data
-num_columns_combined_data <- ncol(combined_data)
-print(paste("Number of columns in combined_data:", num_columns_combined_data))
-
-# Check the number of variables in desired_variables
-num_desired_variables <- length(desired_variables)
-print(paste("Number of variables in desired_variables:", num_desired_variables))
-
-# Compare the two numbers
-if (num_columns_combined_data == num_desired_variables) {
-  print("The number of columns in combined_data matches the number of variables in desired_variables.")
-} else {
-  print("The number of columns in combined_data does not match the number of variables in desired_variables.")
+  
+  return(data)
 }
 
 
 
-# Read in the devscrnng variable extracted from CAHMI datasets
-devscrnng_data <- readRDS("devscrnng.rds")
-
-# Ensure that hhid is a key in both data.tables
-setkey(combined_data, hhid)
-setkey(devscrnng_data, hhid)
-
-# Join the decscrnng variable to the combined dataset
-final_data <- combined_data[devscrnng_data, nomatch = 0]
+# Convert labeled vectors to factors and handle missing data
+combined_data <- final_conversion_to_factors(combined_data)
 
 
 
-# properly sets the fipsst codes to state names
+# Additional processing (fipsst to state conversion, merging additional data, etc.)
+# Properly sets the fipsst codes to state names
 fips_to_state <- setNames(
   c("Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", 
     "Delaware", "District of Columbia", "Florida", "Georgia", "Hawaii", "Idaho", 
@@ -295,10 +271,22 @@ fips_to_state <- setNames(
                  38, 39, 40, 41, 42, 44, 45, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56))
 )
 
+# Create a state category that has the state name instead of the code
+combined_data$state <- fips_to_state[as.character(combined_data$fipsst)]
 
-# create a state category that has the state name instead of the code
-final_data$state <- fips_to_state[as.character(final_data$fipsst)]
+
+
+# Read in the devscrnng variable extracted from CAHMI datasets
+devscrnng_data <- readRDS("ml-data-prep/devscrnng.rds")
+
+# Ensure that hhid is a key in both data.tables
+setkey(combined_data, hhid)
+setkey(devscrnng_data, hhid)
+
+# Join the decscrnng variable to the combined dataset
+final_data <- combined_data[devscrnng_data, nomatch = 0]
+
 
 
 # Save the final data
-saveRDS(final_data, "clean-data.rds")
+saveRDS(final_data, "ml-data-prep/clean-data.rds")

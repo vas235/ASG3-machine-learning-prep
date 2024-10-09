@@ -1,0 +1,449 @@
+variable,desc
+sc_asian,Asian Alone or in Combination with Other Race
+sc_aian,American Indian or Alaska Native Alone or in Combination with Other Race
+sc_nhpi,Native Hawaiian or Other Pacific Islanders Alone or in Combination with Other Race
+height,Height in CM
+weight,Weight in KG
+fpl_if,Imputation Flag for FPL
+a1_grade_if,Imputation Flag for A1_GRADE
+sc_hispanic_r_if,Imputation Flag for SC_HISPANIC_R
+sc_race_r_if,Imputation Flag for SC_RACE_R
+sc_sex_if,Imputation Flag for SC_SEX
+hhcount_if,Imputation Flag for HHCOUNT
+insgap,Health Insurance Coverage - Past 12 Months
+instype,Insurance Type (Revised)
+currins,Health Insurance Coverage - Currently Covered
+birthwt,Birth Weight Status
+mpc_yn,Metropolitan Principal City Status
+metro_yn,Metropolitan Statistical Area Status
+bmiclass,"Body Mass Index, Percentile"
+higrade_tvis,"Highest Level of Education among Reported Adults, Detail"
+higrade,Highest Level of Education among Reported Adults
+house_gen,Parental Nativity
+family_r,Family Structure
+famcount,Number of People That Are Family Members
+hhcount,Number of People Living at Address
+a2_k11q50_r,Adult 2 - Employed 50 Out Of Last 52 Weeks
+a2_deplstat,Adult 2 - Deployment Status
+a2_active,Adult 2 - Active Duty
+a2_menthealth,Adult 2 - Mental or Emotional Health
+a2_physhealth,Adult 2 - Physical Health
+a2_marital,Adult 2 - Marital Status
+a2_grade,Adult 2 - Highest Completed Year of School
+a2_liveusa,Adult 2 - Come to Live in the United States (Year)
+a2_born,Adult 2 - Where Born
+a2_age,Adult 2 - Age in Years
+a2_sex,Adult 2 - Sex
+a2_relation,Adult 2 - How Related to Child
+a1_k11q50_r,Adult 1 - Employed 50 Out Of Last 52 Weeks
+a1_deplstat,Adult 1 - Deployment Status
+a1_active,Adult 1 - Active Duty
+a1_menthealth,Adult 1 - Mental or Emotional Health
+a1_physhealth,Adult 1 - Physical Health
+a1_marital,Adult 1 - Marital Status
+a1_grade,Adult 1 - Highest Completed Year of School
+a1_liveusa,Adult 1 - Come to Live in the United States (Year)
+a1_born,Adult 1 - Where Born
+a1_age,Adult 1 - Age in Years
+a1_sex,Adult 1 - Sex
+a1_relation,Adult 1 - How Related to Child
+ace10,Child Experienced - Treated Unfairly Because of Race
+ace9,Child Experienced - Lived with Person with Alcohol/Drug Problem
+ace8,Child Experienced - Lived with Mentally Ill
+ace7,Child Experienced - Victim of Violence
+ace6,"Child Experienced - Adults Slap, Hit, Kick, Punch Others"
+ace5,Child Experienced - Parent or Guardian Time in Jail
+ace4,Child Experienced - Parent or Guardian Died
+ace3,Child Experienced - Parent or Guardian Divorced
+k9q96,Other Adult Child Can Rely On For Advice
+k10q41_r,Child Is Safe at School
+goforhelp,Know Where to Go For Help
+k10q40_r,Child is Safe In Neighborhood
+k10q31,Watch Out for Other's Children
+k10q30,People In Neighborhood Help Each Other Out
+k10q23,Neighborhood - Vandalism
+k10q22,Neighborhood - Poorly Kept or Rundown Housing
+k10q20,Neighborhood - Litter or Garbage
+k10q14,Neighborhood - Library or Bookmobile
+k10q13,Neighborhood - Recreation Center
+k10q12,Neighborhood - Park or Playground
+k10q11,Neighborhood - Sidewalks or Walking Paths
+s9q34,WIC Benefits - Past 12 Months
+k11q62,Free or Reduced Cost Meals - Past 12 Months
+k11q61,Food Stamps - Past 12 Months
+k11q60,Cash Assistance from Government - Past 12 Months
+foodsit,Food Situation In Household - Past 12 Months
+ace1,Hard to Cover Basics Like Food or Housing
+hopeful,Facing Problems - How Often Stay Hopeful
+strengths,Facing Problems - How Often Draw on Strengths
+wktosolve,Facing Problems - How Often Work Together
+talkabout,Facing Problems - How Often Talk Together
+mold,Mold Inside of Home
+pesticide,Pesticides Used Inside of Home
+k9q41,Anyone Smoke Inside of Home
+k9q40,Anyone in Household Use Cigarettes
+k8q11,How Many Days - Family Eat Meal Together
+k6q27,Job Change Because Problems with Child Care
+k6q20,Receive Care From Others at Least 10 Hours Per Week
+emosupoth,Emotional Support - Other
+emosupmhp,Emotional Support - Counselor
+emosuppeer,Emotional Support - Peer Support Group
+emosupadv,Emotional Support - Health Condition Support Group
+emosupwor,Emotional Support - Place of Worship
+emosuphcp,Emotional Support - Health Care Provider
+emosupfam,Emotional Support - Other Family or Friend
+emosupspo,Emotional Support - Spouse or Domestic Partner
+k8q35,Someone to Turn To for Emotional Support
+k8q34,How Often Have You Felt - Angry with Child
+k8q32,How Often Have You Felt - Child Really Bothers You
+k8q31,How Often Have You Felt - Child Hard to Care For
+k8q30,How Well Handling Demands of Raising Children
+k8q21,Share Ideas or Talk About Things That Matter
+k6q61_r,How Many Days Tell Stories or Sing to Child
+k6q60_r,How Many Days Read to Child
+sleeppos,Position Most Often Lay Your Baby Down to Sleep
+hoursleep,Past Week - How Many Hours of Sleep Average
+hoursleep05,Past Week - How Many Hours of Sleep Average
+bedtime,How Often - Go to Bed at Same Time
+k11q43r,How Many Times Moved to New Address
+liveusa_mo,How Long Living in the United States - Months
+liveusa_yr,How Long Living in the United States - Years
+bornusa,Born in the United States
+makefriend,Difficulty Making or Keeping Friends
+physactiv,"Exercise, Play Sport, or Physical Activity for 60 Minutes"
+k7q33,How Often Attend Events or Activities
+k7q38,Paid Work or Regular Job - Past 12 Months
+k7q37,Community Service or Volunteer Work - Past 12 Months
+k7q32,Organized Activities or Lessons - Past 12 Months
+k7q31,Clubs or Organizations - Past 12 Months
+k7q30,Sports Team or Sports Lessons - Past 12 Months
+repeated,Child Repeated Any Grades
+k7q04r_r,Times School Contacted Household About Problems
+k7q02r_r,Days Child Missed School - Illness or Injury
+sitstill,How Often - Able to Sit Still
+temper,How Often - Lose Control
+calmdown,How Often - Can Calm Down
+hurtsad,How Often - Show Concern
+newactivity,How Often - Become Angry or Anxious
+playwell,How Often - Play Well with Others
+usepencil,How Child Holds a Pencil
+simpleinst,How Often - Follow Instructions for Simple Task
+worktofin,How Often - Work Until Finished
+distracted,How Often - Easily Distracted
+color,Can Name Colors
+recshapes,How Often - Identify Basic Shapes
+countto,Can Count How High
+writename,How Often - Write First Name
+clearexp,How Often - Explain Things Good Idea
+rhymeword,Rhyme Words
+recogabc,Recognize Letters of Alphabet
+recogbegin,Recognize Beginning Sound of a Word
+confident,Confident Ready for School
+k6q08_r,Learning to Do Things For Him or Herself
+startschool,Has Child Started School
+arrangehc,Hours Spent Arranging Health Medical Care
+athomehc,Hours Spent Providing Home Health Care
+avoidchg,Past 12 Months - Avoided Changing Jobs to Maintain Health Insurance
+cuthours,Past 12 Months -Cut Hours because of Health Conditions
+stopwork,Past 12 Months - Stopped Working because of Health Status
+k3q25,Problems Paying for Medical or Health Care
+k3q21b,How Often Costs Reasonable
+howmuch,How Much Medical Health Care - Past 12 Months
+menbevcov,Health Insurance - Cover Mental Behavioral Needs
+k3q22,Health Insurance - Allow to See Provider
+k3q20,Health Insurance - Benefits Cover Services
+hccovoth,Health Insurance - Other
+k11q03r,Health Insurance - Indian Health Service
+tricare,Health Insurance - TRICARE
+k12q12,Health Insurance - Government Assistance Plan
+k12q04,Health Insurance - Insurance Company
+k12q03,Health Insurance - Current/Former Employer or Union
+currcov,Health Insurance Coverage - Currently Covered (Use CURRINS)
+k12q01_g,Reason Not Covered - Other
+k12q01_f,Reason Not Covered - Application/Renewal Problems
+k12q01_e,Reason Not Covered - Inadequate Providers
+k12q01_d,Reason Not Covered - Inadequate Benefits
+k12q01_c,Reason Not Covered - Unaffordable
+k12q01_b,Reason Not Covered - Cancellation Overdue Premiums
+k12q01_a,Reason Not Covered - Change in Employer/Employment
+k3q04_r,Health Insurance Coverage - Past 12 Months (Use INSGAP)
+keepinsadult,How to Obtain/Keep Health Insurance as Child Becomes Adult
+healthknow,How Child Will Be Insured as an Adult
+receivecopy,Have Access to Plan of Care
+planneeds_r,Plan Address Transition
+writeplan,Doctor Worked with You and Child To Create Written Plan
+changeage,Doctor Worked with Child to Understand Health Care Changes
+gainskills,Doctor Worked with Child to Gain Skills to Manage Health
+poschoice,Doctor Worked with Child to Make Positive Choices
+treatadult,Talked About Child Seeing Doctors Who Treat Adults
+treatchild,Doctors Treat Only Children
+k5q32,"Communication Satisfaction with School, Child Care, Special Education Program"
+k5q31_r,"Provider Communication with School, Child Care, Special Education Program"
+k5q30,Communication Satisfaction Among Doctors
+k5q22,Arrange Or Coordinate As Much Help As Wanted
+k5q21,Arrange Or Coordinate Care Extra Help
+k5q20_r,Arrange Or Coordinate Care Among Doctors
+bestforchild,How Often - Work to Decide Together Treatment
+raiseconc,How Often - Easy to Raise Concerns or Disagree
+discussopt,How Often - Provider Discussed Range of Options
+decisions,Health Care Decisions Needed
+k5q44,How Often - Feel Like a Partner
+k5q43,How Often - Provide Specific Information
+k5q42,How Often - Show Sensitivity
+k5q41,How Often - Listen Carefully
+k5q40,How Often - Spend Enough Time
+k5q11,Need a Referral - Problem
+k5q10,Need a Referral
+k4q04_r,Personal Doctor or Nurse - One or More
+k4q38,Received Special Services - Currently
+spcservmo,Received Special Services - Age in Months (use with K4Q37)
+k4q37,Received Special Services - Age in Years
+k4q36,Received Special Services
+sescurrsvc,Special Education Plan - Currently
+sesplanmo,Special Education Plan - Age in Months (use with SESPLANYR)
+sesplanyr,Special Education Plan - Age in Years
+k6q15,Special Education Plan
+hospitaler,Hospital Emergency Room Visits
+c4q04,Frustrated In Efforts to Get Service
+issuecost,Needed Health Care Not Received Due to - Cost
+notopen,Needed Health Care Not Received Due to - Office Not Open
+transportcc,Needed Health Care Not Received Due to - Getting Transportation
+appointment,Needed Health Care Not Received Due to - Getting Appointment
+available,Needed Health Care Not Received Due to - Not Available
+notelig,Needed Health Care Not Received Due to - Not Eligible
+k4q28x05,Needed Health Care Not Received - Other
+k4q28x04,Needed Health Care Not Received - Mental Health Services
+k4q28x_ear,Needed Health Care Not Received - Hearing Care
+k4q28x03,Needed Health Care Not Received - Vision Care
+k4q28x02,Needed Health Care Not Received - Dental Care
+k4q28x01,Needed Health Care Not Received - Medical Care
+k4q27,Needed Health Care Not Received
+althealth,Alternative Health Care
+k4q26,Specialist Visit - Problem
+k4q24_r,Specialist Visit
+k4q23,Emotions Concentration Behavior Medication
+treatneed,Mental Health Professional Treatment - Problem
+k4q22_r,Mental Health Professional Treatment
+dentalserv7,Dental Service - Don't Know
+dentalserv6,Dental Service - Sealant
+dentalserv5,Dental Service - Fluoride Treatment
+dentalserv4,Dental Service - X-Rays
+dentalserv3,Dental Service - Instructions on Toothbrushing
+dentalserv2,Dental Service - Cleaning
+dentalserv1,Dental Service - Check-up
+dentistvisit,Preventive Dental Visit - How Many Visits
+k4q30_r,Dental Provider Visit
+k4q32x05,Vision Tested - Other
+k4q32x04,Vision Tested - School
+k4q32x03,Vision Tested - Clinic or Health Center
+k4q32x02,Vision Tested - Pediatrician or General Doctor
+k4q32x01,Vision Tested - Eye Doctor or Eye Specialist
+k4q31_r,Vision Tested
+usualsick,Place Usually Goes for Sick Same As Preventive
+usualgo,Place Usually Goes for Preventive Care
+k4q02_r,Place Usually Goes Sick - Where
+k4q01,Place Usually Goes Sick
+k6q14b,Questionnaire Covers Behaves and Gets Along Concerns
+k6q14a,Questionnaire Covers Words and Phrases Concerns
+k6q13b,Questionnaire Covers Interaction Concerns
+k6q13a,Questionnaire Covers Talks or Speech Sounds Concerns
+k6q12,Questionnaire - Development Concerns
+k6q10,"Asked about Learning, Development, Behavior Concerns"
+wgtconc,Concerned About Weight
+docprivate,Child Spoke with Doctor Privately
+docroom,Preventive Visit - How Long with Doctor
+k4q20r,Preventive Visit - How Many Times
+s4q01,Doctor Visit
+momage,Age of Mother - Years
+birthwt_oz_s,"Standardized Birth Weight, Ounces"
+birthwt_l,Birth Weight is Low (<2500g)
+birthwt_vl,Birth Weight is Very Low (<1500g)
+birth_mo,Birth Month
+birth_yr,Birth Year
+k2q05,Born 3 or More Weeks Before Due Date
+k6q43r_never,First Fed Other - Never
+frstsolids_mo_s,First Fed Solids - Months (Standardized)
+frstsolids_wk_s,First Fed Solids - Weeks (Standardized)
+frstsolids_day_s,First Fed Solids - Days (Standardized)
+k6q42r_never,First Fed Formula - Never
+frstformula_mo_s,First Fed Formula - Months (Standardized)
+frstformula_wk_s,First Fed Formula - Weeks (Standardized)
+frstformula_day_s,First Fed Formula - Days (Standardized)
+k6q41r_still,Stopped Breastfeeding - Still Breastfeeding
+breastfedend_mo_s,Stopped Breastfeeding - Months (Standardized)
+breastfedend_wk_s,Stopped Breastfeeding - Weeks (Standardized)
+breastfedend_day_s,Stopped Breastfeeding - Days (Standardized)
+k6q40,Ever Breastfed
+hcextent,Health Affected Ability - Extent
+hcability,Health Affected Ability - How Often
+addtreat,ADD/ADHD - Behavioral Treatment
+k2q31d,ADD/ADHD - Medication Currently
+k2q31c,ADD/ADHD Severity Description
+k2q31b,ADD/ADHD Currently
+k2q31a,ADD/ADHD
+autismtreat,Autism ASD - Behavioral Treatment
+autismmed,Autism ASD - Medication Currently
+k2q35d,Autism ASD - First Told Doctor Type
+k2q35a_1_years,Autism ASD - First Told Age in Years
+k2q35c,Autism ASD Severity Description
+k2q35b,Autism ASD Currently
+k2q35a,Autism ASD
+k2q30c,Learning Disability Severity Description
+k2q30b,Learning Disability Currently
+k2q30a,Learning Disability
+k2q37c,Speech Disorder Severity Description
+k2q37b,Speech Disorder Currently
+k2q37a,Speech Disorder
+k2q60c,Intellectual Disability Severity Description
+k2q60b,Intellectual Disability Currently
+k2q60a,Intellectual Disability
+k2q36c,Developmental Delay Severity Description
+k2q36b,Developmental Delay Currently
+k2q36a,Developmental Delay
+subabuse_desc,Substance Use Disorder Severity Description
+subabuse_curr,Substance Use Disorder Currently
+subabuse,Substance Use Disorder
+k2q34c,Behavior Problems Severity Description
+k2q34b,Behavior Problems Currently
+k2q34a,Behavior Problems
+k2q32c,Depression Severity Description
+k2q32b,Depression Currently
+k2q32a,Depression
+k2q33c,Anxiety Severity Description
+k2q33b,Anxiety Currently
+k2q33a,Anxiety
+k2q38c,Tourette Syndrome Severity Description
+k2q38b,Tourette Syndrome Currently
+k2q38a,Tourette Syndrome
+headache_desc,Headaches Severity Description
+headache_curr,Headaches Currently
+headache,Headaches
+heart_desc,Heart Condition Severity Description
+heart_curr,Heart Condition Currently
+heart,Heart Condition
+genetic_desc,Genetic Condition Severity Description
+genetic,Genetic Condition
+k2q42c,Epilepsy Severity Description
+k2q42b,Epilepsy Currently
+k2q42a,Epilepsy
+downsyn_desc,Down Syndrome Severity Description
+downsyn,Down Syndrome
+k2q41c,Diabetes Severity Description
+k2q41b,Diabetes Currently
+k2q41a,Diabetes
+cystfib,Cystic Fibrosis
+cerpals_desc,Cerebral Palsy Severity Description
+k2q61b,Cerebral Palsy Currently
+k2q61a,Cerebral Palsy
+k2q46c,Brain Injury Severity Description
+k2q46b,Brain Injury Currently
+k2q46a,Brain Injury
+blood_desc,Blood Disorder Severity Description
+blood,Blood Disorder
+k2q40c,Asthma Severity Description
+k2q40b,Asthma Currently
+k2q40a,Asthma
+arthritis_desc,Arthritis Severity Description
+arthritis_curr,Arthritis Currently
+arthritis,Arthritis
+allergies_desc,Allergies Severity Description
+allergies_curr,Allergies Currently
+allergies,Allergies
+blindness,Blindness
+k2q43b,Deafness
+errandalone,Difficulty Doing Errands Alone
+dressing,Difficulty Dressing or Bathing
+walkstairs,Serious Difficulty Walking or Climbing Stairs
+memorycond,"Serious Difficulty Concentrating, Remembering, or Making Decisions"
+cavities,Difficulty Cavities Past 12 Months
+gumbleed,Difficulty Bleeding Gums Past 12 Months
+toothaches,Difficulty Toothaches Past 12 Months
+coordination,Difficulty Coordination Past 12 Months
+hands,Difficulty Hands Past 12 Months
+physicalpain,Difficulty Physical Pain Past 12 Months
+stomach,Difficulty Stomach Past 12 Months
+swallowing,Difficulty Swallowing Past 12 Months
+breathing,Difficulty Breathing Past 12 Months
+k7q70_r,Argues Too Much
+bully,"Bullies Others, Picks on Them, or Excludes Them"
+bullied_r,"Bullied, Picked On, or Excluded by Others"
+k7q83_r,Does All Required Homework
+k7q82_r,Cares About Doing Well in School
+k7q85_r,Stays Calm and In Control When Challenged
+k7q84_r,Works to Finish Tasks Started
+k6q72_r,Smiles Laughs
+k6q71_r,Show Interest and Curiosity
+k6q73_r,Bounces Back
+k6q70_r,Affectionate
+k2q01_d,Teeth Description
+k2q01,General Health
+agepos4,Birth Order of Selected Children in Household
+totnonshcn,Count of Children without Special Health Care Needs in Household
+totcshcn,Count of Children with Special Health Care Needs in Household
+totage_12_17,Count of Children Ages 12 to 17 in Household
+totage_6_11,Count of Children Ages 6 to 11 in Household
+totage_0_5,Count of Children Ages 0 to 5 in Household
+totfemale,Count of Female Children in Household
+totmale,Count of Male Children in Household
+sc_k2q23,SC Treatment for Chronic Emotion Develop Behave
+sc_k2q22,SC Needs Treatment for Emotion Develop Behave
+sc_k2q21,SC Special Therapy for Health Condition for 12 Months
+sc_k2q20,SC Special Therapy for Health Condition
+sc_k2q19,SC Special Therapy
+sc_k2q18,SC Limited Ability from Health Condition for 12 Months
+sc_k2q17,SC Limited Ability from Health Condition
+sc_k2q16,SC Limited Ability
+sc_k2q15,SC Medical Care Currently for 12 Months
+sc_k2q14,SC Medical Care Used or Needed for Health Condition
+sc_k2q13,SC Needs or Uses More Medical Care than Others
+sc_k2q12,SC Medication Currently for 12 Months
+sc_k2q11,SC Medication Used or Needed for Health Condition
+sc_k2q10,SC Needs or Uses Medication Currently
+sc_english,SC  Speaks English
+sc_hispanic_r,"Hispanic Origin of Selected Child, Recode"
+sc_raceaian,"Race of Selected Child, Recode, AIAN Included,||Reported for AK, AZ, NM, MT, ND, OK, SD"
+sc_raceasia,"Race of Selected Child, Recode, Asian Included,||Reported for CA, HI, MA, MD, MN, NJ, NV, NY, VA, WA."
+sc_racer,"Race of Selected Child, Recode"
+sc_race_r,"Race of Selected Child, Detailed"
+sc_cshcn,Special Health Care Needs Status of Selected Child
+sc_sex,Sex of Selected Child
+sc_age_lt10,Age of Selected Child - Less than 10 Months
+sc_age_lt9,Age of Selected Child - Less than 9 Months
+sc_age_lt6,Age of Selected Child - Less than 6 Months
+sc_age_lt4,Age of Selected Child - Less than 4 Months
+sc_age_years,Age of Selected Child - In Years
+hhlanguage,Primary Household Language
+totkids_r,Number of Children in Household
+formtype,Form Type
+cbsafp_yn,Core Based Statistical Area Status
+stratum,Sampling Stratum
+fipsst,State FIPS Code
+year,Survey Year
+fwc,Selected Child Weight
+hhid,Unique Household ID
+fpl_i1,"Family Poverty Ratio, First Implicate"
+fpl_i2,"Family Poverty Ratio, Second Implicate"
+fpl_i3,"Family Poverty Ratio, Third Implicate"
+fpl_i4,"Family Poverty Ratio, Fourth Implicate"
+fpl_i5,"Family Poverty Ratio, Fifth Implicate"
+fpl_i6,"Family Poverty Ratio, Sixth Implicate"
+tenure,The Conditions under Which Land or Buildings Are Held or Occupied
+tenure_if,Imputation Flag for TENURE
+blood_screen,Blood Disorder Newborn Screening
+genetic_screen,Genetic Condition Newborn Screening
+overweight,Doctor Identified as Overweight
+hospitalstay,Admitted to Hospital
+medhistory,Receive Summary of Medical History
+oneword,Say One Word
+twowords,Use Two Words Together
+threewords,Use Three Words Together
+askquestion,"Ask Questions: Who, What, When, Where"
+askquestion2,"Ask Questions:  Why, How"
+tellstory,Tell a Story
+understand,Understand 'No'
+directions,Follow Verbal Directions
+point,Point to Things
+directions2,Follow Two Step Directions
+understand2,"Understand 'In', 'On', 'Under'"
+screentime,"How Much Time Spent with TV, Cellphone, Computer"
+birth_yr_f,BIRTH_YR Data Quality Flag
