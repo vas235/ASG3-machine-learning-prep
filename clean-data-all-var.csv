@@ -5,6 +5,7 @@ year,variable,desc
 2020,a1_active,Adult 1 - Active Duty
 2021,a1_active,Adult 1 - Active Duty
 2022,a1_active,Adult 1 - Active Duty
+2023,a1_active,Adult 1 - Active Duty
 2016,a1_age,Adult 1 - Age in Years
 2017,a1_age,Adult 1 - Age in Years
 2018,a1_age,Adult 1 - Age in Years
@@ -12,6 +13,7 @@ year,variable,desc
 2020,a1_age,Adult 1 - Age in Years
 2021,a1_age,Adult 1 - Age in Years
 2022,a1_age,Adult 1 - Age in Years
+2023,a1_age,Adult 1 - Age in Years
 2016,a1_born,Adult 1 - Where Born
 2017,a1_born,Adult 1 - Where Born
 2018,a1_born,Adult 1 - Where Born
@@ -19,15 +21,18 @@ year,variable,desc
 2020,a1_born,Adult 1 - Where Born
 2021,a1_born,Adult 1 - Where Born
 2022,a1_born,Adult 1 - Where Born
+2023,a1_born,Adult 1 - Where Born
 2017,a1_deplstat,Adult 1 - Deployment Status
 2018,a1_deplstat,Adult 1 - Deployment Status
 2019,a1_deplstat,Adult 1 - Deployment Status
 2020,a1_deplstat,Adult 1 - Deployment Status
 2021,a1_deplstat,Adult 1 - Deployment Status
 2022,a1_deplstat,Adult 1 - Deployment Status
+2023,a1_deplstat,Adult 1 - Deployment Status
 2020,a1_employed,Adult 1 - Current Employment Status
 2021,a1_employed,Adult 1 - Current Employment Status
 2022,a1_employed,Adult 1 - Current Employment Status
+2023,a1_employed_r,Adult 1 - Current Employment Status
 2016,a1_grade,Adult 1 - Highest Completed Year of School
 2017,a1_grade,Adult 1 - Highest Completed Year of School
 2018,a1_grade,Adult 1 - Highest Completed Year of School
@@ -35,6 +40,7 @@ year,variable,desc
 2020,a1_grade,Adult 1 - Highest Completed Year of School
 2021,a1_grade,Adult 1 - Highest Completed Year of School
 2022,a1_grade,Adult 1 - Highest Completed Year of School
+2023,a1_grade,Adult 1 - Highest Completed Year of School
 2016,a1_grade_i,Adult 1 - Highest Completed Year of School (Imputed)
 2016,a1_grade_if,Imputation Flag for A1_GRADE_I
 2017,a1_grade_if,Imputation Flag for A1_GRADE
@@ -43,6 +49,7 @@ year,variable,desc
 2020,a1_grade_if,Imputation Flag for A1_GRADE
 2021,a1_grade_if,Imputation Flag for A1_GRADE
 2022,a1_grade_if,Imputation Flag for A1_GRADE
+2023,a1_grade_if,Imputation Flag for A1_GRADE
 2016,a1_k11q50_r,Adult 1 - Employed 50 Out Of Last 52 Weeks
 2017,a1_k11q50_r,Adult 1 - Employed 50 Out Of Last 52 Weeks
 2018,a1_k11q50_r,Adult 1 - Employed 50 Out Of Last 52 Weeks
@@ -61,6 +68,7 @@ year,variable,desc
 2020,a1_marital,Adult 1 - Marital Status
 2021,a1_marital,Adult 1 - Marital Status
 2022,a1_marital,Adult 1 - Marital Status
+2023,a1_marital,Adult 1 - Marital Status
 2016,a1_menthealth,Adult 1 - Mental or Emotional Health
 2017,a1_menthealth,Adult 1 - Mental or Emotional Health
 2018,a1_menthealth,Adult 1 - Mental or Emotional Health
@@ -68,6 +76,7 @@ year,variable,desc
 2020,a1_menthealth,Adult 1 - Mental or Emotional Health
 2021,a1_menthealth,Adult 1 - Mental or Emotional Health
 2022,a1_menthealth,Adult 1 - Mental or Emotional Health
+2023,a1_menthealth,Adult 1 - Mental or Emotional Health
 2016,a1_physhealth,Adult 1 - Physical Health
 2017,a1_physhealth,Adult 1 - Physical Health
 2018,a1_physhealth,Adult 1 - Physical Health
@@ -75,6 +84,7 @@ year,variable,desc
 2020,a1_physhealth,Adult 1 - Physical Health
 2021,a1_physhealth,Adult 1 - Physical Health
 2022,a1_physhealth,Adult 1 - Physical Health
+2023,a1_physhealth,Adult 1 - Physical Health
 2016,a1_relation,Adult 1 - How Related to Child
 2017,a1_relation,Adult 1 - How Related to Child
 2018,a1_relation,Adult 1 - How Related to Child
@@ -82,6 +92,7 @@ year,variable,desc
 2020,a1_relation,Adult 1 - How Related to Child
 2021,a1_relation,Adult 1 - How Related to Child
 2022,a1_relation,Adult 1 - How Related to Child
+2023,a1_relation,Adult 1 - How Related to Child
 2016,a1_sex,Adult 1 - Sex
 2017,a1_sex,Adult 1 - Sex
 2018,a1_sex,Adult 1 - Sex
@@ -89,12 +100,14 @@ year,variable,desc
 2020,a1_sex,Adult 1 - Sex
 2021,a1_sex,Adult 1 - Sex
 2022,a1_sex,Adult 1 - Sex
+2023,a1_sex,Adult 1 - Sex
 2017,a2_active,Adult 2 - Active Duty
 2018,a2_active,Adult 2 - Active Duty
 2019,a2_active,Adult 2 - Active Duty
 2020,a2_active,Adult 2 - Active Duty
 2021,a2_active,Adult 2 - Active Duty
 2022,a2_active,Adult 2 - Active Duty
+2023,a2_active,Adult 2 - Active Duty
 2016,a2_age,Adult 2 - Age in Years
 2017,a2_age,Adult 2 - Age in Years
 2018,a2_age,Adult 2 - Age in Years
@@ -102,6 +115,7 @@ year,variable,desc
 2020,a2_age,Adult 2 - Age in Years
 2021,a2_age,Adult 2 - Age in Years
 2022,a2_age,Adult 2 - Age in Years
+2023,a2_age,Adult 2 - Age in Years
 2016,a2_born,Adult 2 - Where Born
 2017,a2_born,Adult 2 - Where Born
 2018,a2_born,Adult 2 - Where Born
@@ -109,15 +123,18 @@ year,variable,desc
 2020,a2_born,Adult 2 - Where Born
 2021,a2_born,Adult 2 - Where Born
 2022,a2_born,Adult 2 - Where Born
+2023,a2_born,Adult 2 - Where Born
 2017,a2_deplstat,Adult 2 - Deployment Status
 2018,a2_deplstat,Adult 2 - Deployment Status
 2019,a2_deplstat,Adult 2 - Deployment Status
 2020,a2_deplstat,Adult 2 - Deployment Status
 2021,a2_deplstat,Adult 2 - Deployment Status
 2022,a2_deplstat,Adult 2 - Deployment Status
+2023,a2_deplstat,Adult 2 - Deployment Status
 2020,a2_employed,Adult 2 - Current Employment Status
 2021,a2_employed,Adult 2 - Current Employment Status
 2022,a2_employed,Adult 2 - Current Employment Status
+2023,a2_employed_r,Adult 2 - Current Employment Status
 2016,a2_grade,Adult 2 - Highest Completed Year of School
 2017,a2_grade,Adult 2 - Highest Completed Year of School
 2018,a2_grade,Adult 2 - Highest Completed Year of School
@@ -125,6 +142,7 @@ year,variable,desc
 2020,a2_grade,Adult 2 - Highest Completed Year of School
 2021,a2_grade,Adult 2 - Highest Completed Year of School
 2022,a2_grade,Adult 2 - Highest Completed Year of School
+2023,a2_grade,Adult 2 - Highest Completed Year of School
 2018,a2_if,Imputation Flag for A2 Variables
 2016,a2_k11q50_r,Adult 2 - Employed 50 Out Of Last 52 Weeks
 2017,a2_k11q50_r,Adult 2 - Employed 50 Out Of Last 52 Weeks
@@ -144,6 +162,7 @@ year,variable,desc
 2020,a2_marital,Adult 2 - Marital Status
 2021,a2_marital,Adult 2 - Marital Status
 2022,a2_marital,Adult 2 - Marital Status
+2023,a2_marital,Adult 2 - Marital Status
 2016,a2_menthealth,Adult 2 - Mental or Emotional Health
 2017,a2_menthealth,Adult 2 - Mental or Emotional Health
 2018,a2_menthealth,Adult 2 - Mental or Emotional Health
@@ -151,6 +170,7 @@ year,variable,desc
 2020,a2_menthealth,Adult 2 - Mental or Emotional Health
 2021,a2_menthealth,Adult 2 - Mental or Emotional Health
 2022,a2_menthealth,Adult 2 - Mental or Emotional Health
+2023,a2_menthealth,Adult 2 - Mental or Emotional Health
 2016,a2_physhealth,Adult 2 - Physical Health
 2017,a2_physhealth,Adult 2 - Physical Health
 2018,a2_physhealth,Adult 2 - Physical Health
@@ -158,6 +178,7 @@ year,variable,desc
 2020,a2_physhealth,Adult 2 - Physical Health
 2021,a2_physhealth,Adult 2 - Physical Health
 2022,a2_physhealth,Adult 2 - Physical Health
+2023,a2_physhealth,Adult 2 - Physical Health
 2016,a2_relation,Adult 2 - How Related to Child
 2017,a2_relation,Adult 2 - How Related to Child
 2018,a2_relation,Adult 2 - How Related to Child
@@ -165,6 +186,7 @@ year,variable,desc
 2020,a2_relation,Adult 2 - How Related to Child
 2021,a2_relation,Adult 2 - How Related to Child
 2022,a2_relation,Adult 2 - How Related to Child
+2023,a2_relation,Adult 2 - How Related to Child
 2016,a2_sex,Adult 2 - Sex
 2017,a2_sex,Adult 2 - Sex
 2018,a2_sex,Adult 2 - Sex
@@ -172,6 +194,7 @@ year,variable,desc
 2020,a2_sex,Adult 2 - Sex
 2021,a2_sex,Adult 2 - Sex
 2022,a2_sex,Adult 2 - Sex
+2023,a2_sex,Adult 2 - Sex
 2016,ace1,Hard to Cover Basics Like Food or Housing
 2017,ace1,Hard to Cover Basics Like Food or Housing
 2018,ace1,Hard to Cover Basics Like Food or Housing
@@ -179,6 +202,7 @@ year,variable,desc
 2020,ace1,Hard to Cover Basics Like Food or Housing
 2021,ace1,Hard to Cover Basics Like Food or Housing
 2022,ace1,Hard to Cover Basics Like Food or Housing
+2023,ace1,Hard to Cover Basics Like Food or Housing
 2016,ace10,Child Experienced - Treated Unfairly Because of Race
 2017,ace10,Child Experienced - Treated Unfairly Because of Race
 2018,ace10,Child Experienced - Treated Unfairly Because of Race
@@ -186,11 +210,14 @@ year,variable,desc
 2020,ace10,Child Experienced - Treated Unfairly Because of Race
 2021,ace10,Child Experienced - Treated Unfairly Because of Race
 2022,ace10,Child Experienced - Treated Unfairly Because of Race
+2023,ace10,Child Experienced - Treated Unfairly Because of Race
 2021,ace11,Child Experienced - Treated Unfairly Because of Health Condition
 2022,ace11,Child Experienced - Treated Unfairly Because of Health Condition
+2023,ace11,Child Experienced - Treated Unfairly Because of Health Condition
 2020,ace12,Child Experienced - Treated Unfairly Because of their Sexual Orientation or Gender Identity
 2021,ace12,Child Experienced - Treated Unfairly Because of their Sexual Orientation or Gender Identity
 2022,ace12,Child Experienced - Treated Unfairly Because of their Sexual Orientation or Gender Identity
+2023,ace12,Child Experienced - Treated Unfairly Because of their Sexual Orientation or Gender Identity
 2016,ace3,Child Experienced - Parent or Guardian Divorced
 2017,ace3,Child Experienced - Parent or Guardian Divorced
 2018,ace3,Child Experienced - Parent or Guardian Divorced
@@ -198,6 +225,7 @@ year,variable,desc
 2020,ace3,Child Experienced - Parent or Guardian Divorced
 2021,ace3,Child Experienced - Parent or Guardian Divorced
 2022,ace3,Child Experienced - Parent or Guardian Divorced
+2023,ace3,Child Experienced - Parent or Guardian Divorced
 2016,ace4,Child Experienced - Parent or Guardian Died
 2017,ace4,Child Experienced - Parent or Guardian Died
 2018,ace4,Child Experienced - Parent or Guardian Died
@@ -205,6 +233,7 @@ year,variable,desc
 2020,ace4,Child Experienced - Parent or Guardian Died
 2021,ace4,Child Experienced - Parent or Guardian Died
 2022,ace4,Child Experienced - Parent or Guardian Died
+2023,ace4,Child Experienced - Parent or Guardian Died
 2016,ace5,Child Experienced - Parent or Guardian Time in Jail
 2017,ace5,Child Experienced - Parent or Guardian Time in Jail
 2018,ace5,Child Experienced - Parent or Guardian Time in Jail
@@ -212,6 +241,7 @@ year,variable,desc
 2020,ace5,Child Experienced - Parent or Guardian Time in Jail
 2021,ace5,Child Experienced - Parent or Guardian Time in Jail
 2022,ace5,Child Experienced - Parent or Guardian Time in Jail
+2023,ace5,Child Experienced - Parent or Guardian Time in Jail
 2016,ace6,"Child Experienced - Adults Slap, Hit, Kick, Punch Others"
 2017,ace6,"Child Experienced - Adults Slap, Hit, Kick, Punch Others"
 2018,ace6,"Child Experienced - Adults Slap, Hit, Kick, Punch Others"
@@ -219,6 +249,7 @@ year,variable,desc
 2020,ace6,"Child Experienced - Adults Slap, Hit, Kick, Punch Others"
 2021,ace6,"Child Experienced - Adults Slap, Hit, Kick, Punch Others"
 2022,ace6,"Child Experienced - Adults Slap, Hit, Kick, Punch Others"
+2023,ace6,"Child Experienced - Adults Slap, Hit, Kick, Punch Others"
 2016,ace7,Child Experienced - Victim of Violence
 2017,ace7,Child Experienced - Victim of Violence
 2018,ace7,Child Experienced - Victim of Violence
@@ -226,6 +257,7 @@ year,variable,desc
 2020,ace7,Child Experienced - Victim of Violence
 2021,ace7,Child Experienced - Victim of Violence
 2022,ace7,Child Experienced - Victim of Violence
+2023,ace7,Child Experienced - Victim of Violence
 2016,ace8,Child Experienced - Lived with Mentally Ill
 2017,ace8,Child Experienced - Lived with Mentally Ill
 2018,ace8,Child Experienced - Lived with Mentally Ill
@@ -233,6 +265,7 @@ year,variable,desc
 2020,ace8,Child Experienced - Lived with Mentally Ill
 2021,ace8,Child Experienced - Lived with Mentally Ill
 2022,ace8,Child Experienced - Lived with Mentally Ill
+2023,ace8,Child Experienced - Lived with Mentally Ill
 2016,ace9,Child Experienced - Lived with Person with Alcohol/Drug Problem
 2017,ace9,Child Experienced - Lived with Person with Alcohol/Drug Problem
 2018,ace9,Child Experienced - Lived with Person with Alcohol/Drug Problem
@@ -240,6 +273,7 @@ year,variable,desc
 2020,ace9,Child Experienced - Lived with Person with Alcohol/Drug Problem
 2021,ace9,Child Experienced - Lived with Person with Alcohol/Drug Problem
 2022,ace9,Child Experienced - Lived with Person with Alcohol/Drug Problem
+2023,ace9,Child Experienced - Lived with Person with Alcohol/Drug Problem
 2016,addtreat,ADD/ADHD - Behavioral Treatment
 2017,addtreat,ADD/ADHD - Behavioral Treatment
 2018,addtreat,ADD/ADHD - Behavioral Treatment
@@ -247,6 +281,7 @@ year,variable,desc
 2020,addtreat,ADD/ADHD - Behavioral Treatment
 2021,addtreat,ADD/ADHD - Behavioral Treatment
 2022,addtreat,ADD/ADHD - Behavioral Treatment
+2023,addtreat,ADD/ADHD - Behavioral Treatment
 2016,agepos4,Birth Order of Selected Children in Household
 2017,agepos4,Birth Order of Selected Children in Household
 2018,agepos4,Birth Order of Selected Children in Household
@@ -254,6 +289,7 @@ year,variable,desc
 2020,agepos4,Birth Order of Selected Children in Household
 2021,agepos4,Birth Order of Selected Children in Household
 2022,agepos4,Birth Order of Selected Children in Household
+2023,agepos4,Birth Order of Selected Children in Household
 2016,allergies,Allergies
 2017,allergies,Allergies
 2018,allergies,Allergies
@@ -261,6 +297,7 @@ year,variable,desc
 2020,allergies,Allergies
 2021,allergies,Allergies
 2022,allergies,Allergies
+2023,allergies,Allergies
 2016,allergies_curr,Allergies Currently
 2017,allergies_curr,Allergies Currently
 2018,allergies_curr,Allergies Currently
@@ -268,6 +305,7 @@ year,variable,desc
 2020,allergies_curr,Allergies Currently
 2021,allergies_curr,Allergies Currently
 2022,allergies_curr,Allergies Currently
+2023,allergies_curr,Allergies Currently
 2016,allergies_desc,Allergies Description
 2017,allergies_desc,Allergies Severity Description
 2018,allergies_desc,Allergies Severity Description
@@ -275,6 +313,7 @@ year,variable,desc
 2020,allergies_desc,Allergies Severity Description
 2021,allergies_desc,Allergies Severity Description
 2022,allergies_desc,Allergies Severity Description
+2023,allergies_desc,Allergies Severity Description
 2016,althealth,Alternative Health Care
 2017,althealth,Alternative Health Care
 2018,althealth,Alternative Health Care
@@ -298,6 +337,7 @@ year,variable,desc
 2020,appointment,Needed Health Care Not Received Due to - Getting Appointment
 2021,appointment,Needed Health Care Not Received Due to - Getting Appointment
 2022,appointment,Needed Health Care Not Received Due to - Getting Appointment
+2023,appointment,Needed Health Care Not Received Due to - Getting Appointment
 2016,arrangehc,Hours Spent Arranging Health Medical Care
 2017,arrangehc,Hours Spent Arranging Health Medical Care
 2018,arrangehc,Hours Spent Arranging Health Medical Care
@@ -305,6 +345,7 @@ year,variable,desc
 2020,arrangehc,Hours Spent Arranging Health Medical Care
 2021,arrangehc,Hours Spent Arranging Health Medical Care
 2022,arrangehc,Hours Spent Arranging Health Medical Care
+2023,arrangehc,Hours Spent Arranging Health Medical Care
 2016,arthritis,Arthritis
 2017,arthritis,Arthritis
 2018,arthritis,Arthritis
@@ -328,11 +369,13 @@ year,variable,desc
 2020,askquestion,"Ask Questions: Who, What, When, Where"
 2021,askquestion,"Ask Questions: Who, What, When, Where"
 2022,askquestion,"Ask Questions: Who, What, When, Where"
+2023,askquestion,"Ask Questions: Who, What, When, Where"
 2018,askquestion2,"Ask Questions:  Why, How"
 2019,askquestion2,"Ask Questions:  Why, How"
 2020,askquestion2,"Ask Questions:  Why, How"
 2021,askquestion2,"Ask Questions:  Why, How"
 2022,askquestion2,"Ask Questions:  Why, How"
+2023,askquestion2,"Ask Questions:  Why, How"
 2016,athomehc,Hours Spent Providing Home Health Care
 2017,athomehc,Hours Spent Providing Home Health Care
 2018,athomehc,Hours Spent Providing Home Health Care
@@ -340,6 +383,7 @@ year,variable,desc
 2020,athomehc,Hours Spent Providing Home Health Care
 2021,athomehc,Hours Spent Providing Home Health Care
 2022,athomehc,Hours Spent Providing Home Health Care
+2023,athomehc,Hours Spent Providing Home Health Care
 2016,autismmed,Autism ASD - Medication Currently
 2017,autismmed,Autism ASD - Medication Currently
 2018,autismmed,Autism ASD - Medication Currently
@@ -347,6 +391,7 @@ year,variable,desc
 2020,autismmed,Autism ASD - Medication Currently
 2021,autismmed,Autism ASD - Medication Currently
 2022,autismmed,Autism ASD - Medication Currently
+2023,autismmed,Autism ASD - Medication Currently
 2016,autismtreat,Autism ASD - Behavioral Treatment
 2017,autismtreat,Autism ASD - Behavioral Treatment
 2018,autismtreat,Autism ASD - Behavioral Treatment
@@ -354,8 +399,11 @@ year,variable,desc
 2020,autismtreat,Autism ASD - Behavioral Treatment
 2021,autismtreat,Autism ASD - Behavioral Treatment
 2022,autismtreat,Autism ASD - Behavioral Treatment
+2023,autismtreat,Autism ASD - Behavioral Treatment
 2022,autoimmune,Autoimmune Disease
+2023,autoimmune,Autoimmune Disease
 2022,autoimmune_desc,Autoimmune Disease Description
+2023,autoimmune_desc,Autoimmune Disease Description
 2016,available,Needed Health Care Not Received Due to - Not Available
 2017,available,Needed Health Care Not Received Due to - Not Available
 2018,available,Needed Health Care Not Received Due to - Not Available
@@ -363,6 +411,7 @@ year,variable,desc
 2020,available,Needed Health Care Not Received Due to - Not Available
 2021,available,Needed Health Care Not Received Due to - Not Available
 2022,available,Needed Health Care Not Received Due to - Not Available
+2023,available,Needed Health Care Not Received Due to - Not Available
 2016,avoidchg,Past 12 Months - Avoided Changing Jobs to Maintain Health Insurance
 2017,avoidchg,Past 12 Months - Avoided Changing Jobs to Maintain Health Insurance
 2018,avoidchg,Past 12 Months - Avoided Changing Jobs to Maintain Health Insurance
@@ -370,6 +419,7 @@ year,variable,desc
 2020,avoidchg,Past 12 Months - Avoided Changing Jobs to Maintain Health Insurance
 2021,avoidchg,Past 12 Months - Avoided Changing Jobs to Maintain Health Insurance
 2022,avoidchg,Past 12 Months - Avoided Changing Jobs to Maintain Health Insurance
+2023,avoidchg,Past 12 Months - Avoided Changing Jobs to Maintain Health Insurance
 2016,bedtime,How Often - Go to Bed at Same Time
 2017,bedtime,How Often - Go to Bed at Same Time
 2018,bedtime,How Often - Go to Bed at Same Time
@@ -377,6 +427,7 @@ year,variable,desc
 2020,bedtime,How Often - Go to Bed at Same Time
 2021,bedtime,How Often - Go to Bed at Same Time
 2022,bedtime,How Often - Go to Bed at Same Time
+2023,bedtime,How Often - Go to Bed at Same Time
 2016,bestforchild,How Often - Work to Decide Together Treatment
 2017,bestforchild,How Often - Work to Decide Together Treatment
 2018,bestforchild,How Often - Work to Decide Together Treatment
@@ -384,18 +435,22 @@ year,variable,desc
 2020,bestforchild,How Often - Work to Decide Together Treatment
 2021,bestforchild,How Often - Work to Decide Together Treatment
 2022,bestforchild,How Often - Work to Decide Together Treatment
+2023,bestforchild,How Often - Work to Decide Together Treatment
 2019,birth_mo,Birth Month
 2020,birth_mo,Birth Month
 2021,birth_mo,Birth Month
 2022,birth_mo,Birth Month
+2023,birth_mo,Birth Month
 2019,birth_yr,Birth Year
 2020,birth_yr,Birth Year
 2021,birth_yr,Birth Year
 2022,birth_yr,Birth Year
+2023,birth_yr,Birth Year
 2019,birth_yr_f,BIRTH_YR Data Quality Flag
 2020,birth_yr_f,BIRTH_YR Data Quality Flag
 2021,birth_yr_f,BIRTH_YR Data Quality Flag
 2022,birth_yr_f,BIRTH_YR Data Quality Flag
+2023,birth_yr_f,BIRTH_YR Data Quality Flag
 2016,birthwt,Birth Weight Status
 2017,birthwt,Birth Weight Status
 2018,birthwt,Birth Weight Status
@@ -403,6 +458,7 @@ year,variable,desc
 2020,birthwt,Birth Weight Status
 2021,birthwt,Birth Weight Status
 2022,birthwt,Birth Weight Status
+2023,birthwt,Birth Weight Status
 2016,birthwt_l,Birth Weight is Low (<2500g)
 2017,birthwt_l,Birth Weight is Low (<2500g)
 2018,birthwt_l,Birth Weight is Low (<2500g)
@@ -410,6 +466,7 @@ year,variable,desc
 2020,birthwt_l,Birth Weight is Low (<2500g)
 2021,birthwt_l,Birth Weight is Low (<2500g)
 2022,birthwt_l,Birth Weight is Low (<2500g)
+2023,birthwt_l,Birth Weight is Low (<2500g)
 2016,birthwt_oz_s,"Standardized Birth Weight, Ounces"
 2017,birthwt_oz_s,"Standardized Birth Weight, Ounces"
 2018,birthwt_oz_s,"Standardized Birth Weight, Ounces"
@@ -417,6 +474,7 @@ year,variable,desc
 2020,birthwt_oz_s,"Standardized Birth Weight, Ounces"
 2021,birthwt_oz_s,"Standardized Birth Weight, Ounces"
 2022,birthwt_oz_s,"Standardized Birth Weight, Ounces"
+2023,birthwt_oz_s,"Standardized Birth Weight, Ounces"
 2016,birthwt_vl,Birth Weight is Very Low (<1500g)
 2017,birthwt_vl,Birth Weight is Very Low (<1500g)
 2018,birthwt_vl,Birth Weight is Very Low (<1500g)
@@ -424,6 +482,7 @@ year,variable,desc
 2020,birthwt_vl,Birth Weight is Very Low (<1500g)
 2021,birthwt_vl,Birth Weight is Very Low (<1500g)
 2022,birthwt_vl,Birth Weight is Very Low (<1500g)
+2023,birthwt_vl,Birth Weight is Very Low (<1500g)
 2016,blindness,Blindness
 2017,blindness,Blindness
 2018,blindness,Blindness
@@ -431,6 +490,7 @@ year,variable,desc
 2020,blindness,Blindness
 2021,blindness,Blindness
 2022,blindness,Blindness
+2023,blindness,Blindness
 2016,blood,Blood Disorder
 2017,blood,Blood Disorder
 2018,blood,Blood Disorder
@@ -438,6 +498,7 @@ year,variable,desc
 2020,blood,Blood Disorder
 2021,blood,Blood Disorder
 2022,blood,Blood Disorder
+2023,blood,Blood Disorder
 2016,blood_curr,Blood Disorder Currently
 2017,blood_curr,Blood Disorder Currently
 2016,blood_desc,Blood Disorder Description
@@ -447,14 +508,17 @@ year,variable,desc
 2020,blood_desc,Blood Disorder Severity Description
 2021,blood_desc,Blood Disorder Severity Description
 2022,blood_desc,Blood Disorder Severity Description
+2023,blood_desc,Blood Disorder Severity Description
 2020,blood_other,Blood Disorder Other (includes Hemophilia)
 2021,blood_other,Blood Disorder Other (includes Hemophilia)
 2022,blood_other,Blood Disorder Other (includes Hemophilia)
+2023,blood_other,Blood Disorder Other (includes Hemophilia)
 2018,blood_screen,Blood Disorder Newborn Screening
 2019,blood_screen,Blood Disorder Newborn Screening
 2020,blood_screen,Blood Disorder Newborn Screening
 2021,blood_screen,Blood Disorder Newborn Screening
 2022,blood_screen,Blood Disorder Newborn Screening
+2023,blood_screen,Blood Disorder Newborn Screening
 2016,bmiclass,"Body Mass Index, Percentile"
 2017,bmiclass,"Body Mass Index, Percentile"
 2018,bmiclass,"Body Mass Index, Percentile"
@@ -462,7 +526,9 @@ year,variable,desc
 2020,bmiclass,"Body Mass Index, Percentile"
 2021,bmiclass,"Body Mass Index, Percentile"
 2022,bmiclass,"Body Mass Index, Percentile"
+2023,bmiclass,"Body Mass Index, Percentile"
 2022,bodyimage,Child's concern over body image 
+2023,bodyimage,Child's concern over body image 
 2016,bornusa,Born in the United States
 2017,bornusa,Born in the United States
 2018,bornusa,Born in the United States
@@ -470,7 +536,9 @@ year,variable,desc
 2020,bornusa,Born in the United States
 2021,bornusa,Born in the United States
 2022,bornusa,Born in the United States
+2023,bornusa,Born in the United States
 2022,bounceaball,Bounce Ball
+2023,bounceaball,Bounce Ball
 2016,breastfedend_day_s,Stopped Breastfeeding - Days (Standardized)
 2017,breastfedend_day_s,Stopped Breastfeeding - Days (Standardized)
 2018,breastfedend_day_s,Stopped Breastfeeding - Days (Standardized)
@@ -478,6 +546,7 @@ year,variable,desc
 2020,breastfedend_day_s,Stopped Breastfeeding - Days (Standardized)
 2021,breastfedend_day_s,Stopped Breastfeeding - Days (Standardized)
 2022,breastfedend_day_s,Stopped Breastfeeding - Days (Standardized)
+2023,breastfedend_day_s,Stopped Breastfeeding - Days (Standardized)
 2016,breastfedend_mo_s,Stopped Breastfeeding - Months (Standardized)
 2017,breastfedend_mo_s,Stopped Breastfeeding - Months (Standardized)
 2018,breastfedend_mo_s,Stopped Breastfeeding - Months (Standardized)
@@ -485,6 +554,7 @@ year,variable,desc
 2020,breastfedend_mo_s,Stopped Breastfeeding - Months (Standardized)
 2021,breastfedend_mo_s,Stopped Breastfeeding - Months (Standardized)
 2022,breastfedend_mo_s,Stopped Breastfeeding - Months (Standardized)
+2023,breastfedend_mo_s,Stopped Breastfeeding - Months (Standardized)
 2016,breastfedend_wk_s,Stopped Breastfeeding - Weeks (Standardized)
 2017,breastfedend_wk_s,Stopped Breastfeeding - Weeks (Standardized)
 2018,breastfedend_wk_s,Stopped Breastfeeding - Weeks (Standardized)
@@ -492,6 +562,7 @@ year,variable,desc
 2020,breastfedend_wk_s,Stopped Breastfeeding - Weeks (Standardized)
 2021,breastfedend_wk_s,Stopped Breastfeeding - Weeks (Standardized)
 2022,breastfedend_wk_s,Stopped Breastfeeding - Weeks (Standardized)
+2023,breastfedend_wk_s,Stopped Breastfeeding - Weeks (Standardized)
 2016,breathing,Difficulty Breathing
 2017,breathing,Difficulty Breathing Past 12 Months
 2018,breathing,Difficulty Breathing Past 12 Months
@@ -499,6 +570,7 @@ year,variable,desc
 2020,breathing,Difficulty Breathing Past 12 Months
 2021,breathing,Difficulty Breathing Past 12 Months
 2022,breathing,Difficulty Breathing Past 12 Months
+2023,breathing,Difficulty Breathing Past 12 Months
 2016,bullied,"Bullied, Picked On, or Excluded by Others"
 2017,bullied,"Bullied, Picked On, or Excluded by Others"
 2018,bullied_r,"Bullied, Picked On, or Excluded by Others"
@@ -506,11 +578,13 @@ year,variable,desc
 2020,bullied_r,"Bullied, Picked On, or Excluded by Others"
 2021,bullied_r,"Bullied, Picked On, or Excluded by Others"
 2022,bullied_r,"Bullied, Picked On, or Excluded by Others"
+2023,bullied_r,"Bullied, Picked On, or Excluded by Others"
 2018,bully,"Bullies Others, Picks on Them, or Excludes Them"
 2019,bully,"Bullies Others, Picks on Them, or Excludes Them"
 2020,bully,"Bullies Others, Picks on Them, or Excludes Them"
 2021,bully,"Bullies Others, Picks on Them, or Excludes Them"
 2022,bully,"Bullies Others, Picks on Them, or Excludes Them"
+2023,bully,"Bullies Others, Picks on Them, or Excludes Them"
 2016,c4q04,Frustrated In Efforts to Get Service
 2017,c4q04,Frustrated In Efforts to Get Service
 2018,c4q04,Frustrated In Efforts to Get Service
@@ -518,6 +592,7 @@ year,variable,desc
 2020,c4q04,Frustrated In Efforts to Get Service
 2021,c4q04,Frustrated In Efforts to Get Service
 2022,c4q04,Frustrated In Efforts to Get Service
+2023,c4q04,Frustrated In Efforts to Get Service
 2016,calmdown,How Often - Can Calm Down
 2017,calmdown,How Often - Can Calm Down
 2018,calmdown,How Often - Can Calm Down
@@ -525,6 +600,7 @@ year,variable,desc
 2020,calmdown,How Often - Can Calm Down
 2021,calmdown,How Often - Can Calm Down
 2022,calmdown_r,How Often - Calms Down When Excited
+2023,calmdown_r,How Often - Calms Down When Excited
 2016,cavities,Difficulty Cavities
 2017,cavities,Difficulty Cavities Past 12 Months
 2018,cavities,Difficulty Cavities Past 12 Months
@@ -532,6 +608,7 @@ year,variable,desc
 2020,cavities,Difficulty Cavities Past 12 Months
 2021,cavities,Difficulty Cavities Past 12 Months
 2022,cavities,Difficulty Cavities Past 12 Months
+2023,cavities,Difficulty Cavities Past 12 Months
 2016,cbsafp_yn,Core Based Statistical Area Status
 2017,cbsafp_yn,Core Based Statistical Area Status
 2018,cbsafp_yn,Core Based Statistical Area Status
@@ -539,6 +616,7 @@ year,variable,desc
 2020,cbsafp_yn,Core Based Statistical Area Status
 2021,cbsafp_yn,Core Based Statistical Area Status
 2022,cbsafp_yn,Core Based Statistical Area Status
+2023,cbsafp_yn,Core Based Statistical Area Status
 2016,cerpals_desc,Cerebral Palsy Description
 2017,cerpals_desc,Cerebral Palsy Severity Description
 2018,cerpals_desc,Cerebral Palsy Severity Description
@@ -546,6 +624,7 @@ year,variable,desc
 2020,cerpals_desc,Cerebral Palsy Severity Description
 2021,cerpals_desc,Cerebral Palsy Severity Description
 2022,cerpals_desc,Cerebral Palsy Severity Description
+2023,cerpals_desc,Cerebral Palsy Severity Description
 2016,changeage,Doctor Worked with Child to Understand Health Care Changes
 2017,changeage,Doctor Worked with Child to Understand Health Care Changes
 2018,changeage,Doctor Worked with Child to Understand Health Care Changes
@@ -553,6 +632,7 @@ year,variable,desc
 2020,changeage,Doctor Worked with Child to Understand Health Care Changes
 2021,changeage,Doctor Worked with Child to Understand Health Care Changes
 2022,changeage,Doctor Worked with Child to Understand Health Care Changes
+2023,changeage,Doctor Worked with Child to Understand Health Care Changes
 2016,clearexp,How Often - Explain Things Good Idea
 2017,clearexp,How Often - Explain Things Good Idea
 2018,clearexp,How Often - Explain Things Good Idea
@@ -560,6 +640,7 @@ year,variable,desc
 2020,clearexp,How Often - Explain Things Good Idea
 2021,clearexp,How Often - Explain Things Good Idea
 2022,clearexp,How Often - Explain Things Good Idea
+2023,clearexp,How Often - Explain Things Good Idea
 2017,color,Can Name Colors
 2018,color,Can Name Colors
 2019,color,Can Name Colors
@@ -568,6 +649,7 @@ year,variable,desc
 2020,concussion,Concussion/Brain Injury
 2021,concussion,Concussion/Brain Injury
 2022,concussion,Concussion/Brain Injury
+2023,concussion,Concussion/Brain Injury
 2016,confident,Confident Ready for School
 2017,confident,Confident Ready for School
 2018,confident,Confident Ready for School
@@ -577,6 +659,7 @@ year,variable,desc
 2020,confirminjury,Concussion/Brain Injury - Confirmed Injury
 2021,confirminjury,Concussion/Brain Injury - Confirmed Injury
 2022,confirminjury,Concussion/Brain Injury - Confirmed Injury
+2023,confirminjury,Concussion/Brain Injury - Confirmed Injury
 2016,coordination,Difficulty Coordination
 2017,coordination,Difficulty Coordination Past 12 Months
 2018,coordination,Difficulty Coordination Past 12 Months
@@ -584,6 +667,7 @@ year,variable,desc
 2020,coordination,Difficulty Coordination Past 12 Months
 2021,coordination,Difficulty Coordination Past 12 Months
 2022,coordination,Difficulty Coordination Past 12 Months
+2023,coordination,Difficulty Coordination Past 12 Months
 2016,countto,Can Count How High
 2017,countto,Can Count How High
 2018,countto,Can Count How High
@@ -591,6 +675,7 @@ year,variable,desc
 2020,countto,Can Count How High
 2021,countto,Can Count How High
 2022,countto_r,Can Count How High
+2023,countto_r,Can Count How High
 2021,covidarrange,COVID - Closed School or Daycare
 2022,covidarrange,COVID - Closed School or Daycare
 2021,covidcheckups,COVID - Missed Preventative Check-Ups
@@ -602,6 +687,7 @@ year,variable,desc
 2020,currcov,Health Insurance Coverage - Currently Covered (Use CURRINS)
 2021,currcov,Health Insurance Coverage - Currently Covered (Use CURRINS)
 2022,currcov,Health Insurance Coverage - Currently Covered (Use CURRINS)
+2023,currcov,Health Insurance Coverage - Currently Covered (Use CURRINS)
 2016,currins,Health Insurance Coverage - Currently Covered
 2017,currins,Health Insurance Coverage - Currently Covered
 2018,currins,Health Insurance Coverage - Currently Covered
@@ -609,6 +695,7 @@ year,variable,desc
 2020,currins,Health Insurance Coverage - Currently Covered
 2021,currins,Health Insurance Coverage - Currently Covered
 2022,currins,Health Insurance Coverage - Currently Covered
+2023,currins,Health Insurance Coverage - Currently Covered
 2016,cuthours,Past 12 Months -Cut Hours because of Health Conditions
 2017,cuthours,Past 12 Months -Cut Hours because of Health Conditions
 2018,cuthours,Past 12 Months -Cut Hours because of Health Conditions
@@ -616,6 +703,7 @@ year,variable,desc
 2020,cuthours,Past 12 Months -Cut Hours because of Health Conditions
 2021,cuthours,Past 12 Months -Cut Hours because of Health Conditions
 2022,cuthours,Past 12 Months -Cut Hours because of Health Conditions
+2023,cuthours,Past 12 Months -Cut Hours because of Health Conditions
 2016,cystfib,Cystic Fibrosis
 2017,cystfib,Cystic Fibrosis
 2018,cystfib,Cystic Fibrosis
@@ -623,6 +711,7 @@ year,variable,desc
 2020,cystfib,Cystic Fibrosis
 2021,cystfib,Cystic Fibrosis
 2022,cystfib,Cystic Fibrosis
+2023,cystfib,Cystic Fibrosis
 2016,cystfib_curr,Cystic Fibrosis Currently
 2017,cystfib_curr,Cystic Fibrosis Currently
 2021,cystfib_desc,Cystic Fibrosis Severity Description
@@ -630,6 +719,7 @@ year,variable,desc
 2020,cystfib_screen,Cystic Fibrosis Newborn Screening
 2021,cystfib_screen,Cystic Fibrosis Newborn Screening
 2022,cystfib_screen,Cystic Fibrosis Newborn Screening
+2023,cystfib_screen,Cystic Fibrosis Newborn Screening
 2016,decisions,Health Care Services Treatment Decisions
 2017,decisions,Health Care Decisions Needed
 2018,decisions,Health Care Decisions Needed
@@ -637,6 +727,7 @@ year,variable,desc
 2020,decisions,Health Care Decisions Needed
 2021,decisions,Health Care Decisions Needed
 2022,decisions,Health Care Decisions Needed
+2023,decisions_r,Health Care Decisions Needed
 2016,dentalserv1,Dental Service - Check-up
 2017,dentalserv1,Dental Service - Check-up
 2018,dentalserv1,Dental Service - Check-up
@@ -644,6 +735,7 @@ year,variable,desc
 2020,dentalserv1,Dental Service - Check-up
 2021,dentalserv1,Dental Service - Check-up
 2022,dentalserv1,Dental Service - Check-up
+2023,dentalserv1,Dental Service - Check-up
 2016,dentalserv2,Dental Service - Cleaning
 2017,dentalserv2,Dental Service - Cleaning
 2018,dentalserv2,Dental Service - Cleaning
@@ -651,6 +743,7 @@ year,variable,desc
 2020,dentalserv2,Dental Service - Cleaning
 2021,dentalserv2,Dental Service - Cleaning
 2022,dentalserv2,Dental Service - Cleaning
+2023,dentalserv2,Dental Service - Cleaning
 2016,dentalserv3,Dental Service - Instructions on Toothbrushing
 2017,dentalserv3,Dental Service - Instructions on Toothbrushing
 2018,dentalserv3,Dental Service - Instructions on Toothbrushing
@@ -658,6 +751,7 @@ year,variable,desc
 2020,dentalserv3,Dental Service - Instructions on Toothbrushing
 2021,dentalserv3,Dental Service - Instructions on Toothbrushing
 2022,dentalserv3,Dental Service - Instructions on Toothbrushing
+2023,dentalserv3,Dental Service - Instructions on Toothbrushing
 2016,dentalserv4,Dental Service - X-Rays
 2017,dentalserv4,Dental Service - X-Rays
 2018,dentalserv4,Dental Service - X-Rays
@@ -665,6 +759,7 @@ year,variable,desc
 2020,dentalserv4,Dental Service - X-Rays
 2021,dentalserv4,Dental Service - X-Rays
 2022,dentalserv4,Dental Service - X-Rays
+2023,dentalserv4,Dental Service - X-Rays
 2016,dentalserv5,Dental Service - Fluoride Treatment
 2017,dentalserv5,Dental Service - Fluoride Treatment
 2018,dentalserv5,Dental Service - Fluoride Treatment
@@ -672,6 +767,7 @@ year,variable,desc
 2020,dentalserv5,Dental Service - Fluoride Treatment
 2021,dentalserv5,Dental Service - Fluoride Treatment
 2022,dentalserv5,Dental Service - Fluoride Treatment
+2023,dentalserv5,Dental Service - Fluoride Treatment
 2016,dentalserv6,Dental Service - Sealant
 2017,dentalserv6,Dental Service - Sealant
 2018,dentalserv6,Dental Service - Sealant
@@ -679,6 +775,7 @@ year,variable,desc
 2020,dentalserv6,Dental Service - Sealant
 2021,dentalserv6,Dental Service - Sealant
 2022,dentalserv6,Dental Service - Sealant
+2023,dentalserv6,Dental Service - Sealant
 2016,dentalserv7,Dental Service - Don't Know
 2017,dentalserv7,Dental Service - Don't Know
 2018,dentalserv7,Dental Service - Don't Know
@@ -686,6 +783,7 @@ year,variable,desc
 2020,dentalserv7,Dental Service - Don't Know
 2021,dentalserv7,Dental Service - Don't Know
 2022,dentalserv7,Dental Service - Don't Know
+2023,dentalserv7,Dental Service - Don't Know
 2016,dentistvisit,Dental Provider Visit - How Many Visits
 2017,dentistvisit,Preventive Dental Visit - How Many Visits
 2018,dentistvisit,Preventive Dental Visit - How Many Visits
@@ -693,19 +791,25 @@ year,variable,desc
 2020,dentistvisit,Preventive Dental Visit - How Many Visits
 2021,dentistvisit,Preventive Dental Visit - How Many Visits
 2022,dentistvisit,Preventive Dental Visit - How Many Visits
+2023,dentistvisit,Preventive Dental Visit - How Many Visits
 2022,diabetes,Diabetes
+2023,diabetes,Diabetes
 2022,diabetes_curr,Diabetes Currently
+2023,diabetes_curr,Diabetes Currently
 2022,diabetes_desc,Diabetes Severity Description
+2023,diabetes_desc,Diabetes Severity Description
 2018,directions,Follow Verbal Directions
 2019,directions,Follow Verbal Directions
 2020,directions,Follow Verbal Directions
 2021,directions,Follow Verbal Directions
 2022,directions,Follow Verbal Directions
+2023,directions,Follow Verbal Directions
 2018,directions2,Follow Two Step Directions
 2019,directions2,Follow Two Step Directions
 2020,directions2,Follow Two Step Directions
 2021,directions2,Follow Two Step Directions
 2022,directions2,Follow Two Step Directions
+2023,directions2,Follow Two Step Directions
 2016,discussopt,How Often - Discussed Range of Options
 2017,discussopt,How Often - Provider Discussed Range of Options
 2018,discussopt,How Often - Provider Discussed Range of Options
@@ -713,6 +817,7 @@ year,variable,desc
 2020,discussopt,How Often - Provider Discussed Range of Options
 2021,discussopt,How Often - Provider Discussed Range of Options
 2022,discussopt,How Often - Provider Discussed Range of Options
+2023,discussopt,How Often - Provider Discussed Range of Options
 2016,distracted,How Often - Easily Distracted
 2017,distracted,How Often - Easily Distracted
 2018,distracted,How Often - Easily Distracted
@@ -720,6 +825,7 @@ year,variable,desc
 2020,distracted,How Often - Easily Distracted
 2021,distracted,How Often - Easily Distracted
 2022,distracted,How Often - Easily Distracted
+2023,distracted,How Often - Easily Distracted
 2016,docprivate,Child Speak with Doctor Privately
 2017,docprivate,Child Spoke with Doctor Privately
 2018,docprivate,Child Spoke with Doctor Privately
@@ -727,6 +833,7 @@ year,variable,desc
 2020,docprivate,Child Spoke with Doctor Privately
 2021,docprivate,Child Spoke with Doctor Privately
 2022,docprivate,Child Spoke with Doctor Privately
+2023,docprivate,Child Spoke with Doctor Privately
 2016,docroom,Doctor Visit - How Long with Doctor
 2017,docroom,Preventive Visit - How Long with Doctor
 2018,docroom,Preventive Visit - How Long with Doctor
@@ -734,6 +841,7 @@ year,variable,desc
 2020,docroom,Preventive Visit - How Long with Doctor
 2021,docroom,Preventive Visit - How Long with Doctor
 2022,docroom,Preventive Visit - How Long with Doctor
+2023,docroom,Preventive Visit - How Long with Doctor
 2016,downsyn,Down Syndrome
 2017,downsyn,Down Syndrome
 2018,downsyn,Down Syndrome
@@ -741,14 +849,18 @@ year,variable,desc
 2020,downsyn,Down Syndrome
 2021,downsyn,Down Syndrome
 2022,downsyn,Down Syndrome
+2023,downsyn,Down Syndrome
 2016,downsyn_curr,Down Syndrome Currently
 2017,downsyn_curr,Down Syndrome Currently
 2016,downsyn_desc,Down Syndrome Description
 2017,downsyn_desc,Down Syndrome Severity Description
 2019,downsyn_desc,Down Syndrome Severity Description
 2022,drawacircle,Draw a Circle
+2023,drawacircle,Draw a Circle
 2022,drawaface,Draw a Face
+2023,drawaface,Draw a Face
 2022,drawaperson,Draw a Person
+2023,drawaperson,Draw a Person
 2016,dressing,Difficulty Dressing or Bathing
 2017,dressing,Difficulty Dressing or Bathing
 2018,dressing,Difficulty Dressing or Bathing
@@ -756,7 +868,9 @@ year,variable,desc
 2020,dressing,Difficulty Dressing or Bathing
 2021,dressing,Difficulty Dressing or Bathing
 2022,dressing,Difficulty Dressing or Bathing
+2023,dressing,Difficulty Dressing or Bathing
 2022,ebtcards,School Meal Debit 
+2023,ebtcards,School Meal Debit 
 2016,emosupadv,Emotional Support - Health Condition Support Group
 2017,emosupadv,Emotional Support - Health Condition Support Group
 2018,emosupadv,Emotional Support - Health Condition Support Group
@@ -814,14 +928,23 @@ year,variable,desc
 2021,emosupwor,Emotional Support - Place of Worship
 2022,emosupwor,Emotional Support - Place of Worship
 2022,engage_binge,Eating Engagement - Binging
+2023,engage_binge,Eating Engagement - Binging
 2022,engage_exercise,Eating Engagement - Over-Exercise
+2023,engage_exercise,Eating Engagement - Over-Exercise
 2022,engage_fast,Eating Engagement - Fasting
+2023,engage_fast,Eating Engagement - Fasting
 2022,engage_interest,Eating Engagement - No Interest
+2023,engage_interest,Eating Engagement - No Interest
 2022,engage_noeat,Eating Engagement - Not Eating
+2023,engage_noeat,Eating Engagement - Not Eating
 2022,engage_picky,Eating Engagement - Picky
+2023,engage_picky,Eating Engagement - Picky
 2022,engage_pills,Eating Engagement - Pills
+2023,engage_pills,Eating Engagement - Pills
 2022,engage_purg,Eating Engagement - Purging
+2023,engage_purg,Eating Engagement - Purging
 2022,engageconcern,Concerned over Child's Engagement in Eating Behaviors
+2023,engageconcern,Concerned over Child's Engagement in Eating Behaviors
 2016,errandalone,Difficulty Doing Errands Alone
 2017,errandalone,Difficulty Doing Errands Alone
 2018,errandalone,Difficulty Doing Errands Alone
@@ -829,19 +952,27 @@ year,variable,desc
 2020,errandalone,Difficulty Doing Errands Alone
 2021,errandalone,Difficulty Doing Errands Alone
 2022,errandalone,Difficulty Doing Errands Alone
+2023,errandalone,Difficulty Doing Errands Alone
 2022,evalfasd,Evaluation for a Fetal Alcohol Spectrum Disorder Recommended
+2023,evalfasd,Evaluation for a Fetal Alcohol Spectrum Disorder Recommended
 2022,everhomeless,Homeless or Lived in Shelter 
+2023,everhomeless,Homeless or Lived in Shelter 
 2016,expulsion,Asked To Keep Child Home
 2021,eyecare1,Eye Doctor Care - Examination
 2022,eyecare1,Eye Doctor Care - Examination
+2023,eyecare1,Eye Doctor Care - Examination
 2021,eyecare2,Eye Doctor Care - Corrective Lenses
 2022,eyecare2,Eye Doctor Care - Corrective Lenses
+2023,eyecare2,Eye Doctor Care - Corrective Lenses
 2021,eyecare3,Eye Doctor Care - Vision Disorder
 2022,eyecare3,Eye Doctor Care - Vision Disorder
+2023,eyecare3,Eye Doctor Care - Vision Disorder
 2021,eyecare4,Eye Doctor Care - Some other care
 2022,eyecare4,Eye Doctor Care - Some other care
+2023,eyecare4,Eye Doctor Care - Some other care
 2021,eyedoctor,Visition Tested by Eye Doctor
 2022,eyedoctor,Visition Tested by Eye Doctor
+2023,eyedoctor,Visition Tested by Eye Doctor
 2016,famcount,Number of People That Are Family Members
 2017,famcount,Number of People That Are Family Members
 2018,famcount,Number of People That Are Family Members
@@ -849,6 +980,7 @@ year,variable,desc
 2020,famcount,Number of People That Are Family Members
 2021,famcount,Number of People That Are Family Members
 2022,famcount,Number of People That Are Family Members
+2023,famcount,Number of People That Are Family Members
 2016,family,Family Structure
 2017,family_r,Family Structure
 2018,family_r,Family Structure
@@ -856,7 +988,9 @@ year,variable,desc
 2020,family_r,Family Structure
 2021,family_r,Family Structure
 2022,family_r,Family Structure
+2023,family_r,Family Structure
 2022,fasd,Fetal Alcohol Spectrum Disorder (FASD)
+2023,fasd,Fetal Alcohol Spectrum Disorder (FASD)
 2016,fipsst,State FIPS Code
 2017,fipsst,State FIPS Code
 2018,fipsst,State FIPS Code
@@ -864,7 +998,9 @@ year,variable,desc
 2020,fipsst,State FIPS Code
 2021,fipsst,State FIPS Code
 2022,fipsst,State FIPS Code
+2023,fipsst,State FIPS Code
 2022,focuson,Focus on a Task
+2023,focuson,Focus on a Task
 2016,foodsit,Food Situation In Household - Past 12 Months
 2017,foodsit,Food Situation In Household - Past 12 Months
 2018,foodsit,Food Situation In Household - Past 12 Months
@@ -872,6 +1008,7 @@ year,variable,desc
 2020,foodsit,Food Situation In Household - Past 12 Months
 2021,foodsit,Food Situation In Household - Past 12 Months
 2022,foodsit,Food Situation In Household - Past 12 Months
+2023,foodsit,Food Situation In Household - Past 12 Months
 2016,formtype,Form Type
 2017,formtype,Form Type
 2018,formtype,Form Type
@@ -879,6 +1016,7 @@ year,variable,desc
 2020,formtype,Form Type
 2021,formtype,Form Type
 2022,formtype,Form Type
+2023,formtype,Form Type
 2016,fpl_i1,"Family Poverty Ratio, First Implicate"
 2017,fpl_i1,"Family Poverty Ratio, First Implicate"
 2018,fpl_i1,"Family Poverty Ratio, First Implicate"
@@ -886,6 +1024,7 @@ year,variable,desc
 2020,fpl_i1,"Family Poverty Ratio, First Implicate"
 2021,fpl_i1,"Family Poverty Ratio, First Implicate"
 2022,fpl_i1,"Family Poverty Ratio, First Implicate"
+2023,fpl_i1,"Family Poverty Ratio, First Implicate"
 2016,fpl_i2,"Family Poverty Ratio, Second Implicate"
 2017,fpl_i2,"Family Poverty Ratio, Second Implicate"
 2018,fpl_i2,"Family Poverty Ratio, Second Implicate"
@@ -893,6 +1032,7 @@ year,variable,desc
 2020,fpl_i2,"Family Poverty Ratio, Second Implicate"
 2021,fpl_i2,"Family Poverty Ratio, Second Implicate"
 2022,fpl_i2,"Family Poverty Ratio, Second Implicate"
+2023,fpl_i2,"Family Poverty Ratio, Second Implicate"
 2016,fpl_i3,"Family Poverty Ratio, Third Implicate"
 2017,fpl_i3,"Family Poverty Ratio, Third Implicate"
 2018,fpl_i3,"Family Poverty Ratio, Third Implicate"
@@ -900,6 +1040,7 @@ year,variable,desc
 2020,fpl_i3,"Family Poverty Ratio, Third Implicate"
 2021,fpl_i3,"Family Poverty Ratio, Third Implicate"
 2022,fpl_i3,"Family Poverty Ratio, Third Implicate"
+2023,fpl_i3,"Family Poverty Ratio, Third Implicate"
 2016,fpl_i4,"Family Poverty Ratio, Fourth Implicate"
 2017,fpl_i4,"Family Poverty Ratio, Fourth Implicate"
 2018,fpl_i4,"Family Poverty Ratio, Fourth Implicate"
@@ -907,6 +1048,7 @@ year,variable,desc
 2020,fpl_i4,"Family Poverty Ratio, Fourth Implicate"
 2021,fpl_i4,"Family Poverty Ratio, Fourth Implicate"
 2022,fpl_i4,"Family Poverty Ratio, Fourth Implicate"
+2023,fpl_i4,"Family Poverty Ratio, Fourth Implicate"
 2016,fpl_i5,"Family Poverty Ratio, Fifth Implicate"
 2017,fpl_i5,"Family Poverty Ratio, Fifth Implicate"
 2018,fpl_i5,"Family Poverty Ratio, Fifth Implicate"
@@ -914,6 +1056,7 @@ year,variable,desc
 2020,fpl_i5,"Family Poverty Ratio, Fifth Implicate"
 2021,fpl_i5,"Family Poverty Ratio, Fifth Implicate"
 2022,fpl_i5,"Family Poverty Ratio, Fifth Implicate"
+2023,fpl_i5,"Family Poverty Ratio, Fifth Implicate"
 2016,fpl_i6,"Family Poverty Ratio, Sixth Implicate"
 2017,fpl_i6,"Family Poverty Ratio, Sixth Implicate"
 2018,fpl_i6,"Family Poverty Ratio, Sixth Implicate"
@@ -921,6 +1064,7 @@ year,variable,desc
 2020,fpl_i6,"Family Poverty Ratio, Sixth Implicate"
 2021,fpl_i6,"Family Poverty Ratio, Sixth Implicate"
 2022,fpl_i6,"Family Poverty Ratio, Sixth Implicate"
+2023,fpl_i6,"Family Poverty Ratio, Sixth Implicate"
 2016,fpl_if,Imputation Flag for FPL
 2017,fpl_if,Imputation Flag for FPL
 2018,fpl_if,Imputation Flag for FPL
@@ -928,6 +1072,7 @@ year,variable,desc
 2020,fpl_if,Imputation Flag for FPL
 2021,fpl_if,Imputation Flag for FPL
 2022,fpl_if,Imputation Flag for FPL
+2023,fpl_if,Imputation Flag for FPL
 2016,frstformula_day_s,First Fed Formula - Days (Standardized)
 2017,frstformula_day_s,First Fed Formula - Days (Standardized)
 2018,frstformula_day_s,First Fed Formula - Days (Standardized)
@@ -935,6 +1080,7 @@ year,variable,desc
 2020,frstformula_day_s,First Fed Formula - Days (Standardized)
 2021,frstformula_day_s,First Fed Formula - Days (Standardized)
 2022,frstformula_day_s,First Fed Formula - Days (Standardized)
+2023,frstformula_day_s,First Fed Formula - Days (Standardized)
 2016,frstformula_mo_s,First Fed Formula - Months (Standardized)
 2017,frstformula_mo_s,First Fed Formula - Months (Standardized)
 2018,frstformula_mo_s,First Fed Formula - Months (Standardized)
@@ -942,6 +1088,7 @@ year,variable,desc
 2020,frstformula_mo_s,First Fed Formula - Months (Standardized)
 2021,frstformula_mo_s,First Fed Formula - Months (Standardized)
 2022,frstformula_mo_s,First Fed Formula - Months (Standardized)
+2023,frstformula_mo_s,First Fed Formula - Months (Standardized)
 2016,frstformula_wk_s,First Fed Formula - Weeks (Standardized)
 2017,frstformula_wk_s,First Fed Formula - Weeks (Standardized)
 2018,frstformula_wk_s,First Fed Formula - Weeks (Standardized)
@@ -949,6 +1096,7 @@ year,variable,desc
 2020,frstformula_wk_s,First Fed Formula - Weeks (Standardized)
 2021,frstformula_wk_s,First Fed Formula - Weeks (Standardized)
 2022,frstformula_wk_s,First Fed Formula - Weeks (Standardized)
+2023,frstformula_wk_s,First Fed Formula - Weeks (Standardized)
 2016,frstsolids_day_s,First Fed Solids - Days (Standardized)
 2017,frstsolids_day_s,First Fed Solids - Days (Standardized)
 2018,frstsolids_day_s,First Fed Solids - Days (Standardized)
@@ -956,6 +1104,7 @@ year,variable,desc
 2020,frstsolids_day_s,First Fed Solids - Days (Standardized)
 2021,frstsolids_day_s,First Fed Solids - Days (Standardized)
 2022,frstsolids_day_s,First Fed Solids - Days (Standardized)
+2023,frstsolids_day_s,First Fed Solids - Days (Standardized)
 2016,frstsolids_mo_s,First Fed Solids - Months (Standardized)
 2017,frstsolids_mo_s,First Fed Solids - Months (Standardized)
 2018,frstsolids_mo_s,First Fed Solids - Months (Standardized)
@@ -963,6 +1112,7 @@ year,variable,desc
 2020,frstsolids_mo_s,First Fed Solids - Days (Standardized)
 2021,frstsolids_mo_s,First Fed Solids - Days (Standardized)
 2022,frstsolids_mo_s,First Fed Solids - Days (Standardized)
+2023,frstsolids_mo_s,First Fed Solids - Days (Standardized)
 2016,frstsolids_wk_s,First Fed Solids - Weeks (Standardized)
 2017,frstsolids_wk_s,First Fed Solids - Weeks (Standardized)
 2018,frstsolids_wk_s,First Fed Solids - Weeks (Standardized)
@@ -970,8 +1120,10 @@ year,variable,desc
 2020,frstsolids_wk_s,First Fed Solids - Days (Standardized)
 2021,frstsolids_wk_s,First Fed Solids - Days (Standardized)
 2022,frstsolids_wk_s,First Fed Solids - Days (Standardized)
+2023,frstsolids_wk_s,First Fed Solids - Days (Standardized)
 2021,fruit,How Many Fruits
 2022,fruit,How Many Fruits
+2023,fruit,How Many Fruits
 2016,fwc,Selected Child Weight
 2017,fwc,Selected Child Weight
 2018,fwc,Selected Child Weight
@@ -979,6 +1131,7 @@ year,variable,desc
 2020,fwc,Selected Child Weight
 2021,fwc,Selected Child Weight
 2022,fwc,Selected Child Weight
+2023,fwc,Selected Child Weight
 2016,gainskills,Doctor Worked with Child to Gain Skills to Manage Health
 2017,gainskills,Doctor Worked with Child to Gain Skills to Manage Health
 2018,gainskills,Doctor Worked with Child to Gain Skills to Manage Health
@@ -986,6 +1139,7 @@ year,variable,desc
 2020,gainskills,Doctor Worked with Child to Gain Skills to Manage Health
 2021,gainskills,Doctor Worked with Child to Gain Skills to Manage Health
 2022,gainskills,Doctor Worked with Child to Gain Skills to Manage Health
+2023,gainskills,Doctor Worked with Child to Gain Skills to Manage Health
 2016,genetic,Genetic Condition
 2017,genetic,Genetic Condition
 2018,genetic,Genetic Condition
@@ -1014,8 +1168,12 @@ year,variable,desc
 2020,goforhelp,Know Where to Go For Help
 2021,goforhelp,Know Where to Go For Help
 2022,goforhelp,Know Where to Go For Help
+2023,goforhelp,Know Where to Go For Help
+2023,gowhensick,Place Usually Goes Sick - Where
 2022,grades,Grades Received in School 
+2023,grades,Grades Received in School 
 2022,groupofobjects,Group of Objects
+2023,groupofobjects,Group of Objects
 2016,gumbleed,Difficulty Bleeding Gums
 2017,gumbleed,Difficulty Bleeding Gums Past 12 Months
 2018,gumbleed,Difficulty Bleeding Gums Past 12 Months
@@ -1023,6 +1181,7 @@ year,variable,desc
 2020,gumbleed,Difficulty Bleeding Gums Past 12 Months
 2021,gumbleed,Difficulty Bleeding Gums Past 12 Months
 2022,gumbleed,Difficulty Bleeding Gums Past 12 Months
+2023,gumbleed,Difficulty Bleeding Gums Past 12 Months
 2016,hands,Difficulty Hands
 2017,hands,Difficulty Hands Past 12 Months
 2018,hands,Difficulty Hands Past 12 Months
@@ -1030,7 +1189,9 @@ year,variable,desc
 2020,hands,Difficulty Hands Past 12 Months
 2021,hands,Difficulty Hands Past 12 Months
 2022,hands,Difficulty Hands Past 12 Months
+2023,hands,Difficulty Hands Past 12 Months
 2022,hardwork,How Often - Work even when hard 
+2023,hardwork,How Often - Work even when hard 
 2016,hcability,Health Affected Ability - How Often
 2017,hcability,Health Affected Ability - How Often
 2018,hcability,Health Affected Ability - How Often
@@ -1038,6 +1199,7 @@ year,variable,desc
 2020,hcability,Health Affected Ability - How Often
 2021,hcability,Health Affected Ability - How Often
 2022,hcability,Health Affected Ability - How Often
+2023,hcability,Health Affected Ability - How Often
 2016,hccovoth,Health Insurance - Other
 2017,hccovoth,Health Insurance - Other
 2018,hccovoth,Health Insurance - Other
@@ -1045,6 +1207,7 @@ year,variable,desc
 2020,hccovoth,Health Insurance - Other
 2021,hccovoth,Health Insurance - Other
 2022,hccovoth,Health Insurance - Other
+2023,hccovoth,Health Insurance - Other
 2016,hcextent,Health Affected Ability - Extent
 2017,hcextent,Health Affected Ability - Extent
 2018,hcextent,Health Affected Ability - Extent
@@ -1052,6 +1215,7 @@ year,variable,desc
 2020,hcextent,Health Affected Ability - Extent
 2021,hcextent,Health Affected Ability - Extent
 2022,hcextent,Health Affected Ability - Extent
+2023,hcextent,Health Affected Ability - Extent
 2016,headache,Headaches
 2017,headache,Headaches
 2018,headache,Headaches
@@ -1059,6 +1223,7 @@ year,variable,desc
 2020,headache,Headaches
 2021,headache,Headaches
 2022,headache,Headaches
+2023,headache,Headaches
 2016,headache_curr,Headaches Currently
 2017,headache_curr,Headaches Currently
 2018,headache_curr,Headaches Currently
@@ -1066,6 +1231,7 @@ year,variable,desc
 2020,headache_curr,Headaches Currently
 2021,headache_curr,Headaches Currently
 2022,headache_curr,Headaches Currently
+2023,headache_curr,Headaches Currently
 2016,headache_desc,Headaches Description
 2017,headache_desc,Headaches Severity Description
 2018,headache_desc,Headaches Severity Description
@@ -1073,6 +1239,7 @@ year,variable,desc
 2020,headache_desc,Headaches Severity Description
 2021,headache_desc,Headaches Severity Description
 2022,headache_desc,Headaches Severity Description
+2023,headache_desc,Headaches Severity Description
 2016,healthknow,How Child Will Be Insured as an Adult
 2017,healthknow,How Child Will Be Insured as an Adult
 2018,healthknow,How Child Will Be Insured as an Adult
@@ -1080,6 +1247,7 @@ year,variable,desc
 2020,healthknow,How Child Will Be Insured as an Adult
 2021,healthknow,How Child Will Be Insured as an Adult
 2022,healthknow,How Child Will Be Insured as an Adult
+2023,healthknow,How Child Will Be Insured as an Adult
 2016,heart,Heart Condition
 2017,heart,Heart Condition
 2018,heart,Heart Condition
@@ -1087,9 +1255,11 @@ year,variable,desc
 2020,heart,Heart Condition
 2021,heart,Heart Condition
 2022,heart,Heart Condition
+2023,heart,Heart Condition
 2020,heart_born,Heart Born
 2021,heart_born,Heart Born
 2022,heart_born,Heart Born
+2023,heart_born,Heart Born
 2016,heart_curr,Heart Condition Currently
 2017,heart_curr,Heart Condition Currently
 2018,heart_curr,Heart Condition Currently
@@ -1097,6 +1267,7 @@ year,variable,desc
 2020,heart_curr,Heart Condition Currently
 2021,heart_curr,Heart Condition Currently
 2022,heart_curr,Heart Condition Currently
+2023,heart_curr,Heart Condition Currently
 2016,heart_desc,Heart Condition Description
 2017,heart_desc,Heart Condition Severity Description
 2018,heart_desc,Heart Condition Severity Description
@@ -1104,6 +1275,7 @@ year,variable,desc
 2020,heart_desc,Heart Condition Severity Description
 2021,heart_desc,Heart Condition Severity Description
 2022,heart_desc,Heart Condition Severity Description
+2023,heart_desc,Heart Condition Severity Description
 2016,height,Height in CM
 2017,height,Height in CM
 2018,height,Height in CM
@@ -1111,8 +1283,10 @@ year,variable,desc
 2020,height,Height in CM
 2021,height,Height in CM
 2022,height,HEIGHT
+2023,height,Child's Height (CM)
 2021,hemophilia,Blood Disorder Hemophilia
 2022,hemophilia,Blood Disorder Hemophilia
+2023,hemophilia,Blood Disorder Hemophilia
 2016,hhcount,Number of People Living at Address
 2017,hhcount,Number of People Living at Address
 2018,hhcount,Number of People Living at Address
@@ -1120,12 +1294,14 @@ year,variable,desc
 2020,hhcount,Number of People Living at Address
 2021,hhcount,Number of People Living at Address
 2022,hhcount,Number of People Living at Address
+2023,hhcount,Number of People Living at Address
 2017,hhcount_if,Imputation Flag for HHCOUNT
 2018,hhcount_if,Imputation Flag for HHCOUNT
 2019,hhcount_if,Imputation Flag for HHCOUNT
 2020,hhcount_if,Imputation Flag for HHCOUNT
 2021,hhcount_if,Imputation Flag for HHCOUNT
 2022,hhcount_if,Imputation Flag for HHCOUNT
+2023,hhcount_if,Imputation Flag for HHCOUNT
 2016,hhid,Unique HH ID
 2017,hhid,Unique Household ID
 2018,hhid,Unique Household ID
@@ -1133,6 +1309,7 @@ year,variable,desc
 2020,hhid,Unique Household ID
 2021,hhid,Unique Household ID
 2022,hhid,Unique Household ID
+2023,hhid,Unique Household ID
 2016,hhlanguage,Primary HH Language
 2017,hhlanguage,Primary Household Language
 2018,hhlanguage,Primary Household Language
@@ -1140,6 +1317,7 @@ year,variable,desc
 2020,hhlanguage,Primary Household Language
 2021,hhlanguage,Primary Household Language
 2022,hhlanguage,Primary Household Language
+2023,hhlanguage,Primary Household Language
 2016,hhsize_i,Number of People Living at Address (Recode)
 2016,hhsize_if,Imputation Flag for HHSIZE_I
 2016,higrade,Highest Level of Education among Reported Adults
@@ -1149,6 +1327,7 @@ year,variable,desc
 2020,higrade,Highest Level of Education among Reported Adults
 2021,higrade,Highest Level of Education among Reported Adults
 2022,higrade,Highest Level of Education among Reported Adults
+2023,higrade,Highest Level of Education among Reported Adults
 2016,higrade_tvis,"Highest Level of Education among Reported Adults, Detail"
 2017,higrade_tvis,"Highest Level of Education among Reported Adults, Detail"
 2018,higrade_tvis,"Highest Level of Education among Reported Adults, Detail"
@@ -1156,7 +1335,9 @@ year,variable,desc
 2020,higrade_tvis,"Highest Level of Education among Reported Adults, Detail"
 2021,higrade_tvis,"Highest Level of Education among Reported Adults, Detail"
 2022,higrade_tvis,"Highest Level of Education among Reported Adults, Detail"
+2023,higrade_tvis,"Highest Level of Education among Reported Adults, Detail"
 2022,homeevic,Worried about Being Evicted 
+2023,homeevic,Worried about Being Evicted 
 2016,hopeful,Facing Problems - How Often Stay Hopeful
 2017,hopeful,Facing Problems - How Often Stay Hopeful
 2018,hopeful,Facing Problems - How Often Stay Hopeful
@@ -1164,6 +1345,7 @@ year,variable,desc
 2020,hopeful,Facing Problems - How Often Stay Hopeful
 2021,hopeful,Facing Problems - How Often Stay Hopeful
 2022,hopeful,Facing Problems - How Often Stay Hopeful
+2023,hopeful,Facing Problems - How Often Stay Hopeful
 2016,hospitaler,Hospital Emergency Room Visits
 2017,hospitaler,Hospital Emergency Room Visits
 2018,hospitaler,Hospital Emergency Room Visits
@@ -1171,11 +1353,13 @@ year,variable,desc
 2020,hospitaler,Hospital Emergency Room Visits
 2021,hospitaler,Hospital Emergency Room Visits
 2022,hospitaler,Hospital Emergency Room Visits
+2023,hospitaler,Hospital Emergency Room Visits
 2018,hospitalstay,Admitted to Hospital
 2019,hospitalstay,Admitted to Hospital
 2020,hospitalstay,Admitted to Hospital
 2021,hospitalstay,Admitted to Hospital
 2022,hospitalstay,Admitted to Hospital
+2023,hospitalstay,Admitted to Hospital
 2016,hoursleep,Past Week - How Many Hours of Sleep Average
 2017,hoursleep,Past Week - How Many Hours of Sleep Average
 2018,hoursleep,Past Week - How Many Hours of Sleep Average
@@ -1183,6 +1367,7 @@ year,variable,desc
 2020,hoursleep,Past Week - How Many Hours of Sleep Average
 2021,hoursleep,Past Week - How Many Hours of Sleep Average
 2022,hoursleep,Past Week - How Many Hours of Sleep Average
+2023,hoursleep,Past Week - How Many Hours of Sleep Average
 2016,hoursleep05,Past Week - How Many Hours of Sleep Average
 2017,hoursleep05,Past Week - How Many Hours of Sleep Average
 2018,hoursleep05,Past Week - How Many Hours of Sleep Average
@@ -1190,6 +1375,7 @@ year,variable,desc
 2020,hoursleep05,Past Week - How Many Hours of Sleep Average
 2021,hoursleep05,Past Week - How Many Hours of Sleep Average
 2022,hoursleep05,Past Week - How Many Hours of Sleep Average
+2023,hoursleep05,Past Week - How Many Hours of Sleep Average
 2016,house_gen,Parental Nativity
 2017,house_gen,Parental Nativity
 2018,house_gen,Parental Nativity
@@ -1197,6 +1383,7 @@ year,variable,desc
 2020,house_gen,Parental Nativity
 2021,house_gen,Parental Nativity
 2022,house_gen,Parental Nativity
+2023,house_gen,Parental Nativity
 2016,howmuch,How Much Medical Health Care - Past 12 Months
 2017,howmuch,How Much Medical Health Care - Past 12 Months
 2018,howmuch,How Much Medical Health Care - Past 12 Months
@@ -1204,6 +1391,7 @@ year,variable,desc
 2020,howmuch,How Much Medical Health Care - Past 12 Months
 2021,howmuch,How Much Medical Health Care - Past 12 Months
 2022,howmuch,How Much Medical Health Care - Past 12 Months
+2023,howmuch,How Much Medical Health Care - Past 12 Months
 2016,hurtsad,How Often - Show Concern
 2017,hurtsad,How Often - Show Concern
 2018,hurtsad,How Often - Show Concern
@@ -1211,6 +1399,7 @@ year,variable,desc
 2020,hurtsad,How Often - Show Concern
 2021,hurtsad,How Often - Show Concern
 2022,hurtsad,How Often - Show Concern
+2023,hurtsad,How Often - Show Concern
 2022,inq_edu,Black-White educational inequity
 2022,inq_employ,Black-White employment inequity
 2022,inq_home,Black-White homeownership inequity
@@ -1223,6 +1412,7 @@ year,variable,desc
 2020,insgap,Health Insurance Coverage - Past 12 Months
 2021,insgap,Health Insurance Coverage - Past 12 Months
 2022,insgap,Health Insurance Coverage - Past 12 Months
+2023,insgap,Health Insurance Coverage - Past 12 Months
 2016,instype,Insurance Type
 2017,instype,Insurance Type (Revised)
 2018,instype,Insurance Type (Revised)
@@ -1230,6 +1420,7 @@ year,variable,desc
 2020,instype,Insurance Type (Revised)
 2021,instype,Insurance Type (Revised)
 2022,instype,Insurance Type (Revised)
+2023,instype,Insurance Type (Revised)
 2016,issuecost,Needed Health Care Not Received Due to - Cost
 2017,issuecost,Needed Health Care Not Received Due to - Cost
 2018,issuecost,Needed Health Care Not Received Due to - Cost
@@ -1237,6 +1428,7 @@ year,variable,desc
 2020,issuecost,Needed Health Care Not Received Due to - Cost
 2021,issuecost,Needed Health Care Not Received Due to - Cost
 2022,issuecost,Needed Health Care Not Received Due to - Cost
+2023,issuecost,Needed Health Care Not Received Due to - Cost
 2016,k10q11,Neighborhood - Sidewalks or Walking Paths
 2017,k10q11,Neighborhood - Sidewalks or Walking Paths
 2018,k10q11,Neighborhood - Sidewalks or Walking Paths
@@ -1244,6 +1436,7 @@ year,variable,desc
 2020,k10q11,Neighborhood - Sidewalks or Walking Paths
 2021,k10q11,Neighborhood - Sidewalks or Walking Paths
 2022,k10q11,Neighborhood - Sidewalks or Walking Paths
+2023,k10q11,Neighborhood - Sidewalks or Walking Paths
 2016,k10q12,Neighborhood - Park or Playground
 2017,k10q12,Neighborhood - Park or Playground
 2018,k10q12,Neighborhood - Park or Playground
@@ -1251,6 +1444,7 @@ year,variable,desc
 2020,k10q12,Neighborhood - Park or Playground
 2021,k10q12,Neighborhood - Park or Playground
 2022,k10q12,Neighborhood - Park or Playground
+2023,k10q12,Neighborhood - Park or Playground
 2016,k10q13,Neighborhood - Recreation Center
 2017,k10q13,Neighborhood - Recreation Center
 2018,k10q13,Neighborhood - Recreation Center
@@ -1258,6 +1452,7 @@ year,variable,desc
 2020,k10q13,Neighborhood - Recreation Center
 2021,k10q13,Neighborhood - Recreation Center
 2022,k10q13,Neighborhood - Recreation Center
+2023,k10q13,Neighborhood - Recreation Center
 2016,k10q14,Neighborhood - Library or Bookmobile
 2017,k10q14,Neighborhood - Library or Bookmobile
 2018,k10q14,Neighborhood - Library or Bookmobile
@@ -1265,6 +1460,7 @@ year,variable,desc
 2020,k10q14,Neighborhood - Library or Bookmobile
 2021,k10q14,Neighborhood - Library or Bookmobile
 2022,k10q14,Neighborhood - Library or Bookmobile
+2023,k10q14,Neighborhood - Library or Bookmobile
 2016,k10q20,Neighborhood - Litter or Garbage
 2017,k10q20,Neighborhood - Litter or Garbage
 2018,k10q20,Neighborhood - Litter or Garbage
@@ -1272,6 +1468,7 @@ year,variable,desc
 2020,k10q20,Neighborhood - Litter or Garbage
 2021,k10q20,Neighborhood - Litter or Garbage
 2022,k10q20,Neighborhood - Litter or Garbage
+2023,k10q20,Neighborhood - Litter or Garbage
 2016,k10q22,Neighborhood - Poorly Kept or Rundown Housing
 2017,k10q22,Neighborhood - Poorly Kept or Rundown Housing
 2018,k10q22,Neighborhood - Poorly Kept or Rundown Housing
@@ -1279,6 +1476,7 @@ year,variable,desc
 2020,k10q22,Neighborhood - Poorly Kept or Rundown Housing
 2021,k10q22,Neighborhood - Poorly Kept or Rundown Housing
 2022,k10q22,Neighborhood - Poorly Kept or Rundown Housing
+2023,k10q22,Neighborhood - Poorly Kept or Rundown Housing
 2016,k10q23,Neighborhood - Vandalism
 2017,k10q23,Neighborhood - Vandalism
 2018,k10q23,Neighborhood - Vandalism
@@ -1286,6 +1484,7 @@ year,variable,desc
 2020,k10q23,Neighborhood - Vandalism
 2021,k10q23,Neighborhood - Vandalism
 2022,k10q23,Neighborhood - Vandalism
+2023,k10q23,Neighborhood - Vandalism
 2016,k10q30,People In Neighborhood Help Each Other Out
 2017,k10q30,People In Neighborhood Help Each Other Out
 2018,k10q30,People In Neighborhood Help Each Other Out
@@ -1293,6 +1492,7 @@ year,variable,desc
 2020,k10q30,People In Neighborhood Help Each Other Out
 2021,k10q30,People In Neighborhood Help Each Other Out
 2022,k10q30,People In Neighborhood Help Each Other Out
+2023,k10q30,People In Neighborhood Help Each Other Out
 2016,k10q31,Watch Out for Other's Children
 2017,k10q31,Watch Out for Other's Children
 2018,k10q31,Watch Out for Other's Children
@@ -1300,6 +1500,7 @@ year,variable,desc
 2020,k10q31,Watch Out for Other's Children
 2021,k10q31,Watch Out for Other's Children
 2022,k10q31,Watch Out for Other's Children
+2023,k10q31,Watch Out for Other's Children
 2016,k10q40_r,Child is Safe In Neighborhood
 2017,k10q40_r,Child is Safe In Neighborhood
 2018,k10q40_r,Child is Safe In Neighborhood
@@ -1307,6 +1508,7 @@ year,variable,desc
 2020,k10q40_r,Child is Safe In Neighborhood
 2021,k10q40_r,Child is Safe In Neighborhood
 2022,k10q40_r,Child is Safe In Neighborhood
+2023,k10q40_r,Child is Safe In Neighborhood
 2016,k10q41_r,Child Is Safe at School
 2017,k10q41_r,Child Is Safe at School
 2018,k10q41_r,Child Is Safe at School
@@ -1314,6 +1516,7 @@ year,variable,desc
 2020,k10q41_r,Child Is Safe at School
 2021,k10q41_r,Child Is Safe at School
 2022,k10q41_r,Child Is Safe at School
+2023,k10q41_r,Child Is Safe at School
 2016,k11q03r,Health Insurance - Indian Health Service
 2017,k11q03r,Health Insurance - Indian Health Service
 2018,k11q03r,Health Insurance - Indian Health Service
@@ -1321,6 +1524,7 @@ year,variable,desc
 2020,k11q03r,Health Insurance - Indian Health Service
 2021,k11q03r,Health Insurance - Indian Health Service
 2022,k11q03r,Health Insurance - Indian Health Service
+2023,k11q03r,Health Insurance - Indian Health Service
 2016,k11q43r,How Many Times Moved to New Address
 2017,k11q43r,How Many Times Moved to New Address
 2018,k11q43r,How Many Times Moved to New Address
@@ -1328,6 +1532,7 @@ year,variable,desc
 2020,k11q43r,How Many Times Moved to New Address
 2021,k11q43r,How Many Times Moved to New Address
 2022,k11q43r,How Many Times Moved to New Address
+2023,k11q43r,How Many Times Moved to New Address
 2016,k11q60,Cash Assistance from Government - Past 12 Months
 2017,k11q60,Cash Assistance from Government - Past 12 Months
 2018,k11q60,Cash Assistance from Government - Past 12 Months
@@ -1335,6 +1540,7 @@ year,variable,desc
 2020,k11q60,Cash Assistance from Government - Past 12 Months
 2021,k11q60,Cash Assistance from Government - Past 12 Months
 2022,k11q60,Cash Assistance from Government - Past 12 Months
+2023,k11q60,Cash Assistance from Government - Past 12 Months
 2016,k11q61,Food Stamps - Past 12 Months
 2017,k11q61,Food Stamps - Past 12 Months
 2018,k11q61,Food Stamps - Past 12 Months
@@ -1342,6 +1548,7 @@ year,variable,desc
 2020,k11q61,Food Stamps - Past 12 Months
 2021,k11q61,Food Stamps - Past 12 Months
 2022,k11q61,Food Stamps - Past 12 Months
+2023,k11q61,Food Stamps - Past 12 Months
 2016,k11q62,Free or Reduced Cost Meals - Past 12 Months
 2017,k11q62,Free or Reduced Cost Meals - Past 12 Months
 2018,k11q62,Free or Reduced Cost Meals - Past 12 Months
@@ -1349,6 +1556,7 @@ year,variable,desc
 2020,k11q62,Free or Reduced Cost Meals - Past 12 Months
 2021,k11q62,Free or Reduced Cost Meals - Past 12 Months
 2022,k11q62,Free or Reduced Cost Meals - Past 12 Months
+2023,k11q62,Free or Reduced Cost Meals - Past 12 Months
 2016,k12q01_a,Reason Not Covered - Change in Employer/Employment
 2017,k12q01_a,Reason Not Covered - Change in Employer/Employment
 2018,k12q01_a,Reason Not Covered - Change in Employer/Employment
@@ -1405,6 +1613,7 @@ year,variable,desc
 2020,k12q03,Health Insurance - Current/Former Employer or Union
 2021,k12q03,Health Insurance - Current/Former Employer or Union
 2022,k12q03,Health Insurance - Current/Former Employer or Union
+2023,k12q03,Health Insurance - Current/Former Employer or Union
 2016,k12q04,Health Insurance - Insurance Company
 2017,k12q04,Health Insurance - Insurance Company
 2018,k12q04,Health Insurance - Insurance Company
@@ -1412,6 +1621,7 @@ year,variable,desc
 2020,k12q04,Health Insurance - Insurance Company
 2021,k12q04,Health Insurance - Insurance Company
 2022,k12q04,Health Insurance - Insurance Company
+2023,k12q04,Health Insurance - Insurance Company
 2016,k12q12,Health Insurance - Government Assistance Plan
 2017,k12q12,Health Insurance - Government Assistance Plan
 2018,k12q12,Health Insurance - Government Assistance Plan
@@ -1419,6 +1629,7 @@ year,variable,desc
 2020,k12q12,Health Insurance - Government Assistance Plan
 2021,k12q12,Health Insurance - Government Assistance Plan
 2022,k12q12,Health Insurance - Government Assistance Plan
+2023,k12q12,Health Insurance - Government Assistance Plan
 2016,k2q01,Health Description
 2017,k2q01,General Health
 2018,k2q01,General Health
@@ -1426,6 +1637,7 @@ year,variable,desc
 2020,k2q01,General Health
 2021,k2q01,General Health
 2022,k2q01,General Health
+2023,k2q01,General Health
 2016,k2q01_d,Teeth Description
 2017,k2q01_d,Teeth Description
 2018,k2q01_d,Teeth Description
@@ -1433,6 +1645,7 @@ year,variable,desc
 2020,k2q01_d,Teeth Description
 2021,k2q01_d,Teeth Description
 2022,k2q01_d,Teeth Description
+2023,k2q01_d,Teeth Description
 2016,k2q05,Born 3 Weeks Before Due Date
 2017,k2q05,Born 3 or More Weeks Before Due Date
 2018,k2q05,Born 3 or More Weeks Before Due Date
@@ -1440,6 +1653,7 @@ year,variable,desc
 2020,k2q05,Born 3 or More Weeks Before Due Date
 2021,k2q05,Born 3 or More Weeks Before Due Date
 2022,k2q05,Born 3 or More Weeks Before Due Date
+2023,k2q05,Born 3 or More Weeks Before Due Date
 2016,k2q30a,Learning Disability
 2017,k2q30a,Learning Disability
 2018,k2q30a,Learning Disability
@@ -1447,6 +1661,7 @@ year,variable,desc
 2020,k2q30a,Learning Disability
 2021,k2q30a,Learning Disability
 2022,k2q30a,Learning Disability
+2023,k2q30a,Learning Disability
 2016,k2q30b,Learning Disability Currently
 2017,k2q30b,Learning Disability Currently
 2018,k2q30b,Learning Disability Currently
@@ -1454,6 +1669,7 @@ year,variable,desc
 2020,k2q30b,Learning Disability Currently
 2021,k2q30b,Learning Disability Currently
 2022,k2q30b,Learning Disability Currently
+2023,k2q30b,Learning Disability Currently
 2016,k2q30c,Learning Disability Description
 2017,k2q30c,Learning Disability Severity Description
 2018,k2q30c,Learning Disability Severity Description
@@ -1461,6 +1677,7 @@ year,variable,desc
 2020,k2q30c,Learning Disability Severity Description
 2021,k2q30c,Learning Disability Severity Description
 2022,k2q30c,Learning Disability Severity Description
+2023,k2q30c,Learning Disability Severity Description
 2016,k2q31a,ADD/ADHD
 2017,k2q31a,ADD/ADHD
 2018,k2q31a,ADD/ADHD
@@ -1468,6 +1685,7 @@ year,variable,desc
 2020,k2q31a,ADD/ADHD
 2021,k2q31a,ADD/ADHD
 2022,k2q31a,ADD/ADHD
+2023,k2q31a,ADD/ADHD
 2016,k2q31b,ADD/ADHD Currently
 2017,k2q31b,ADD/ADHD Currently
 2018,k2q31b,ADD/ADHD Currently
@@ -1475,6 +1693,7 @@ year,variable,desc
 2020,k2q31b,ADD/ADHD Currently
 2021,k2q31b,ADD/ADHD Currently
 2022,k2q31b,ADD/ADHD Currently
+2023,k2q31b,ADD/ADHD Currently
 2016,k2q31c,ADD/ADHD Description
 2017,k2q31c,ADD/ADHD Severity Description
 2018,k2q31c,ADD/ADHD Severity Description
@@ -1482,6 +1701,7 @@ year,variable,desc
 2020,k2q31c,ADD/ADHD Severity Description
 2021,k2q31c,ADD/ADHD Severity Description
 2022,k2q31c,ADD/ADHD Severity Description
+2023,k2q31c,ADD/ADHD Severity Description
 2016,k2q31d,ADD/ADHD - Medication Currently
 2017,k2q31d,ADD/ADHD - Medication Currently
 2018,k2q31d,ADD/ADHD - Medication Currently
@@ -1489,6 +1709,7 @@ year,variable,desc
 2020,k2q31d,ADD/ADHD - Medication Currently
 2021,k2q31d,ADD/ADHD - Medication Currently
 2022,k2q31d,ADD/ADHD - Medication Currently
+2023,k2q31d,ADD/ADHD - Medication Currently
 2016,k2q32a,Depression
 2017,k2q32a,Depression
 2018,k2q32a,Depression
@@ -1496,6 +1717,7 @@ year,variable,desc
 2020,k2q32a,Depression
 2021,k2q32a,Depression
 2022,k2q32a,Depression
+2023,k2q32a,Depression
 2016,k2q32b,Depression Currently
 2017,k2q32b,Depression Currently
 2018,k2q32b,Depression Currently
@@ -1503,6 +1725,7 @@ year,variable,desc
 2020,k2q32b,Depression Currently
 2021,k2q32b,Depression Currently
 2022,k2q32b,Depression Currently
+2023,k2q32b,Depression Currently
 2016,k2q32c,Depression Description
 2017,k2q32c,Depression Severity Description
 2018,k2q32c,Depression Severity Description
@@ -1510,6 +1733,7 @@ year,variable,desc
 2020,k2q32c,Depression Severity Description
 2021,k2q32c,Depression Severity Description
 2022,k2q32c,Depression Severity Description
+2023,k2q32c,Depression Severity Description
 2016,k2q33a,Anxiety
 2017,k2q33a,Anxiety
 2018,k2q33a,Anxiety
@@ -1517,6 +1741,7 @@ year,variable,desc
 2020,k2q33a,Anxiety
 2021,k2q33a,Anxiety
 2022,k2q33a,Anxiety
+2023,k2q33a,Anxiety
 2016,k2q33b,Anxiety Currently
 2017,k2q33b,Anxiety Currently
 2018,k2q33b,Anxiety Currently
@@ -1524,6 +1749,7 @@ year,variable,desc
 2020,k2q33b,Anxiety Currently
 2021,k2q33b,Anxiety Currently
 2022,k2q33b,Anxiety Currently
+2023,k2q33b,Anxiety Currently
 2016,k2q33c,Anxiety Description
 2017,k2q33c,Anxiety Severity Description
 2018,k2q33c,Anxiety Severity Description
@@ -1531,6 +1757,7 @@ year,variable,desc
 2020,k2q33c,Anxiety Severity Description
 2021,k2q33c,Anxiety Severity Description
 2022,k2q33c,Anxiety Severity Description
+2023,k2q33c,Anxiety Severity Description
 2016,k2q34a,Behavior Problems
 2017,k2q34a,Behavior Problems
 2018,k2q34a,Behavior Problems
@@ -1538,6 +1765,7 @@ year,variable,desc
 2020,k2q34a,Behavior Problems
 2021,k2q34a,Behavior Problems
 2022,k2q34a,Behavior Problems
+2023,k2q34a,Behavior Problems
 2016,k2q34b,Behavior Problems Currently
 2017,k2q34b,Behavior Problems Currently
 2018,k2q34b,Behavior Problems Currently
@@ -1545,6 +1773,7 @@ year,variable,desc
 2020,k2q34b,Behavior Problems Currently
 2021,k2q34b,Behavior Problems Currently
 2022,k2q34b,Behavior Problems Currently
+2023,k2q34b,Behavior Problems Currently
 2016,k2q34c,Behavior Problems Description
 2017,k2q34c,Behavior Problems Severity Description
 2018,k2q34c,Behavior Problems Severity Description
@@ -1552,6 +1781,7 @@ year,variable,desc
 2020,k2q34c,Behavior Problems Severity Description
 2021,k2q34c,Behavior Problems Severity Description
 2022,k2q34c,Behavior Problems Severity Description
+2023,k2q34c,Behavior Problems Severity Description
 2016,k2q35a,Autism ASD
 2017,k2q35a,Autism ASD
 2018,k2q35a,Autism ASD
@@ -1559,6 +1789,7 @@ year,variable,desc
 2020,k2q35a,Autism ASD
 2021,k2q35a,Autism ASD
 2022,k2q35a,Autism ASD
+2023,k2q35a,Autism ASD
 2016,k2q35a_1_years,Autism ASD How Old - Age in Years
 2017,k2q35a_1_years,Autism ASD - First Told Age in Years
 2018,k2q35a_1_years,Autism ASD - First Told Age in Years
@@ -1566,6 +1797,7 @@ year,variable,desc
 2020,k2q35a_1_years,Autism ASD - First Told Age in Years
 2021,k2q35a_1_years,Autism ASD - First Told Age in Years
 2022,k2q35a_1_years,Autism ASD - First Told Age in Years
+2023,k2q35a_1_years,Autism ASD - First Told Age in Years
 2016,k2q35b,Autism ASD Currently
 2017,k2q35b,Autism ASD Currently
 2018,k2q35b,Autism ASD Currently
@@ -1573,6 +1805,7 @@ year,variable,desc
 2020,k2q35b,Autism ASD Currently
 2021,k2q35b,Autism ASD Currently
 2022,k2q35b,Autism ASD Currently
+2023,k2q35b,Autism ASD Currently
 2016,k2q35c,Autism ASD Description
 2017,k2q35c,Autism ASD Severity Description
 2018,k2q35c,Autism ASD Severity Description
@@ -1580,6 +1813,7 @@ year,variable,desc
 2020,k2q35c,Autism ASD Severity Description
 2021,k2q35c,Autism ASD Severity Description
 2022,k2q35c,Autism ASD Severity Description
+2023,k2q35c,Autism ASD Severity Description
 2016,k2q35d,Autism ASD - Doctor Diagnose
 2017,k2q35d,Autism ASD - First Told Doctor Type
 2018,k2q35d,Autism ASD - First Told Doctor Type
@@ -1587,6 +1821,7 @@ year,variable,desc
 2020,k2q35d,Autism ASD - First Told Doctor Type
 2021,k2q35d,Autism ASD - First Told Doctor Type
 2022,k2q35d,Autism ASD - First Told Doctor Type
+2023,k2q35d,Autism ASD - First Told Doctor Type
 2016,k2q36a,Developmental Delay
 2017,k2q36a,Developmental Delay
 2018,k2q36a,Developmental Delay
@@ -1594,6 +1829,7 @@ year,variable,desc
 2020,k2q36a,Developmental Delay
 2021,k2q36a,Developmental Delay
 2022,k2q36a,Developmental Delay
+2023,k2q36a,Developmental Delay
 2016,k2q36b,Developmental Delay Currently
 2017,k2q36b,Developmental Delay Currently
 2018,k2q36b,Developmental Delay Currently
@@ -1601,6 +1837,7 @@ year,variable,desc
 2020,k2q36b,Developmental Delay Currently
 2021,k2q36b,Developmental Delay Currently
 2022,k2q36b,Developmental Delay Currently
+2023,k2q36b,Developmental Delay Currently
 2016,k2q36c,Developmental Delay Description
 2017,k2q36c,Developmental Delay Severity Description
 2018,k2q36c,Developmental Delay Severity Description
@@ -1608,6 +1845,7 @@ year,variable,desc
 2020,k2q36c,Developmental Delay Severity Description
 2021,k2q36c,Developmental Delay Severity Description
 2022,k2q36c,Developmental Delay Severity Description
+2023,k2q36c,Developmental Delay Severity Description
 2016,k2q37a,Speech Disorder
 2017,k2q37a,Speech Disorder
 2018,k2q37a,Speech Disorder
@@ -1615,6 +1853,7 @@ year,variable,desc
 2020,k2q37a,Speech Disorder
 2021,k2q37a,Speech Disorder
 2022,k2q37a,Speech Disorder
+2023,k2q37a,Speech Disorder
 2016,k2q37b,Speech Disorder Currently
 2017,k2q37b,Speech Disorder Currently
 2018,k2q37b,Speech Disorder Currently
@@ -1622,6 +1861,7 @@ year,variable,desc
 2020,k2q37b,Speech Disorder Currently
 2021,k2q37b,Speech Disorder Currently
 2022,k2q37b,Speech Disorder Currently
+2023,k2q37b,Speech Disorder Currently
 2016,k2q37c,Speech Disorder Description
 2017,k2q37c,Speech Disorder Severity Description
 2018,k2q37c,Speech Disorder Severity Description
@@ -1629,6 +1869,7 @@ year,variable,desc
 2020,k2q37c,Speech Disorder Severity Description
 2021,k2q37c,Speech Disorder Severity Description
 2022,k2q37c,Speech Disorder Severity Description
+2023,k2q37c,Speech Disorder Severity Description
 2016,k2q38a,Tourette Syndrome
 2017,k2q38a,Tourette Syndrome
 2018,k2q38a,Tourette Syndrome
@@ -1636,6 +1877,7 @@ year,variable,desc
 2020,k2q38a,Tourette Syndrome
 2021,k2q38a,Tourette Syndrome
 2022,k2q38a,Tourette Syndrome
+2023,k2q38a,Tourette Syndrome
 2016,k2q38b,Tourette Syndrome Currently
 2017,k2q38b,Tourette Syndrome Currently
 2018,k2q38b,Tourette Syndrome Currently
@@ -1643,6 +1885,7 @@ year,variable,desc
 2020,k2q38b,Tourette Syndrome Currently
 2021,k2q38b,Tourette Syndrome Currently
 2022,k2q38b,Tourette Syndrome Currently
+2023,k2q38b,Tourette Syndrome Currently
 2016,k2q38c,Tourette Syndrome Description
 2017,k2q38c,Tourette Syndrome Severity Description
 2018,k2q38c,Tourette Syndrome Severity Description
@@ -1650,6 +1893,7 @@ year,variable,desc
 2020,k2q38c,Tourette Syndrome Severity Description
 2021,k2q38c,Tourette Syndrome Severity Description
 2022,k2q38c,Tourette Syndrome Severity Description
+2023,k2q38c,Tourette Syndrome Severity Description
 2016,k2q40a,Asthma
 2017,k2q40a,Asthma
 2018,k2q40a,Asthma
@@ -1657,6 +1901,7 @@ year,variable,desc
 2020,k2q40a,Asthma
 2021,k2q40a,Asthma
 2022,k2q40a,Asthma
+2023,k2q40a,Asthma
 2016,k2q40b,Asthma Currently
 2017,k2q40b,Asthma Currently
 2018,k2q40b,Asthma Currently
@@ -1664,6 +1909,7 @@ year,variable,desc
 2020,k2q40b,Asthma Currently
 2021,k2q40b,Asthma Currently
 2022,k2q40b,Asthma Currently
+2023,k2q40b,Asthma Currently
 2016,k2q40c,Asthma Description
 2017,k2q40c,Asthma Severity Description
 2018,k2q40c,Asthma Severity Description
@@ -1671,6 +1917,7 @@ year,variable,desc
 2020,k2q40c,Asthma Severity Description
 2021,k2q40c,Asthma Severity Description
 2022,k2q40c,Asthma Severity Description
+2023,k2q40c,Asthma Severity Description
 2016,k2q41a,Diabetes
 2017,k2q41a,Diabetes
 2018,k2q41a,Diabetes
@@ -1696,6 +1943,7 @@ year,variable,desc
 2020,k2q42a,Epilepsy
 2021,k2q42a,Epilepsy
 2022,k2q42a,Epilepsy
+2023,k2q42a,Epilepsy
 2016,k2q42b,Epilepsy Currently
 2017,k2q42b,Epilepsy Currently
 2018,k2q42b,Epilepsy Currently
@@ -1703,6 +1951,7 @@ year,variable,desc
 2020,k2q42b,Epilepsy Currently
 2021,k2q42b,Epilepsy Currently
 2022,k2q42b,Epilepsy Currently
+2023,k2q42b,Epilepsy Currently
 2016,k2q42c,Epilepsy Description
 2017,k2q42c,Epilepsy Severity Description
 2018,k2q42c,Epilepsy Severity Description
@@ -1710,6 +1959,7 @@ year,variable,desc
 2020,k2q42c,Epilepsy Severity Description
 2021,k2q42c,Epilepsy Severity Description
 2022,k2q42c,Epilepsy Severity Description
+2023,k2q42c,Epilepsy Severity Description
 2016,k2q43b,Deafness
 2017,k2q43b,Deafness
 2018,k2q43b,Deafness
@@ -1717,6 +1967,7 @@ year,variable,desc
 2020,k2q43b,Deafness
 2021,k2q43b,Deafness
 2022,k2q43b,Deafness
+2023,k2q43b,Deafness
 2016,k2q46a,Brain Injury
 2017,k2q46a,Brain Injury
 2018,k2q46a,Brain Injury
@@ -1736,6 +1987,7 @@ year,variable,desc
 2020,k2q60a,Intellectual Disability
 2021,k2q60a,Intellectual Disability
 2022,k2q60a,Intellectual Disability
+2023,k2q60a,Intellectual Disability
 2016,k2q60b,Intellectual Disability Currently
 2017,k2q60b,Intellectual Disability Currently
 2018,k2q60b,Intellectual Disability Currently
@@ -1743,6 +1995,7 @@ year,variable,desc
 2020,k2q60b,Intellectual Disability Currently
 2021,k2q60b,Intellectual Disability Currently
 2022,k2q60b,Intellectual Disability Currently
+2023,k2q60b,Intellectual Disability Currently
 2016,k2q60c,Intellectual Disability Description
 2017,k2q60c,Intellectual Disability Severity Description
 2018,k2q60c,Intellectual Disability Severity Description
@@ -1750,6 +2003,7 @@ year,variable,desc
 2020,k2q60c,Intellectual Disability Severity Description
 2021,k2q60c,Intellectual Disability Severity Description
 2022,k2q60c,Intellectual Disability Severity Description
+2023,k2q60c,Intellectual Disability Severity Description
 2016,k2q61a,Cerebral Palsy
 2017,k2q61a,Cerebral Palsy
 2018,k2q61a,Cerebral Palsy
@@ -1757,6 +2011,7 @@ year,variable,desc
 2020,k2q61a,Cerebral Palsy
 2021,k2q61a,Cerebral Palsy
 2022,k2q61a,Cerebral Palsy
+2023,k2q61a,Cerebral Palsy
 2016,k2q61b,Cerebral Palsy Currently
 2017,k2q61b,Cerebral Palsy Currently
 2018,k2q61b,Cerebral Palsy Currently
@@ -1770,6 +2025,7 @@ year,variable,desc
 2020,k3q04_r,Health Insurance Coverage - Past 12 Months (Use INSGAP)
 2021,k3q04_r,Health Insurance Coverage - Past 12 Months (Use INSGAP)
 2022,k3q04_r,Health Insurance Coverage - Past 12 Months (Use INSGAP)
+2023,k3q04_r,Health Insurance Coverage - Past 12 Months (Use INSGAP)
 2016,k3q20,Health Insurance - Benefits Cover Services
 2017,k3q20,Health Insurance - Benefits Cover Services
 2018,k3q20,Health Insurance - Benefits Cover Services
@@ -1777,6 +2033,7 @@ year,variable,desc
 2020,k3q20,Health Insurance - Benefits Cover Services
 2021,k3q20,Health Insurance - Benefits Cover Services
 2022,k3q20,Health Insurance - Benefits Cover Services
+2023,k3q20,Health Insurance - Benefits Cover Services
 2016,k3q21b,How Often Costs Reasonable
 2017,k3q21b,How Often Costs Reasonable
 2018,k3q21b,How Often Costs Reasonable
@@ -1784,6 +2041,7 @@ year,variable,desc
 2020,k3q21b,How Often Costs Reasonable
 2021,k3q21b,How Often Costs Reasonable
 2022,k3q21b,How Often Costs Reasonable
+2023,k3q21b,How Often Costs Reasonable
 2016,k3q22,Health Insurance - Allow to See Provider
 2017,k3q22,Health Insurance - Allow to See Provider
 2018,k3q22,Health Insurance - Allow to See Provider
@@ -1791,6 +2049,7 @@ year,variable,desc
 2020,k3q22,Health Insurance - Allow to See Provider
 2021,k3q22,Health Insurance - Allow to See Provider
 2022,k3q22,Health Insurance - Allow to See Provider
+2023,k3q22,Health Insurance - Allow to See Provider
 2016,k3q25,Problems Paying for Medical or Health Care
 2017,k3q25,Problems Paying for Medical or Health Care
 2018,k3q25,Problems Paying for Medical or Health Care
@@ -1798,6 +2057,7 @@ year,variable,desc
 2020,k3q25,Problems Paying for Medical or Health Care
 2021,k3q25,Problems Paying for Medical or Health Care
 2022,k3q25,Problems Paying for Medical or Health Care
+2023,k3q25,Problems Paying for Medical or Health Care
 2016,k4q01,Place Usually Goes Sick
 2017,k4q01,Place Usually Goes Sick
 2018,k4q01,Place Usually Goes Sick
@@ -1805,6 +2065,7 @@ year,variable,desc
 2020,k4q01,Place Usually Goes Sick
 2021,k4q01,Place Usually Goes Sick
 2022,k4q01,Place Usually Goes Sick
+2023,k4q01,Place Usually Goes Sick
 2016,k4q02_r,Place Usually Goes Sick - Where
 2017,k4q02_r,Place Usually Goes Sick - Where
 2018,k4q02_r,Place Usually Goes Sick - Where
@@ -1819,6 +2080,7 @@ year,variable,desc
 2020,k4q04_r,Personal Doctor or Nurse - One or More
 2021,k4q04_r,Personal Doctor or Nurse - One or More
 2022,k4q04_r,Personal Doctor or Nurse - One or More
+2023,k4q04_r,Personal Doctor or Nurse - One or More
 2016,k4q20r,Doctor Visit - How Many Times
 2017,k4q20r,Preventive Visit - How Many Times
 2018,k4q20r,Preventive Visit - How Many Times
@@ -1826,6 +2088,7 @@ year,variable,desc
 2020,k4q20r,Preventive Visit - How Many Times
 2021,k4q20r,Preventive Visit - How Many Times
 2022,k4q20r,Preventive Visit - How Many Times
+2023,k4q20r,Preventive Visit - How Many Times
 2016,k4q22_r,Mental Health Professional Treatment
 2017,k4q22_r,Mental Health Professional Treatment
 2018,k4q22_r,Mental Health Professional Treatment
@@ -1833,6 +2096,7 @@ year,variable,desc
 2020,k4q22_r,Mental Health Professional Treatment
 2021,k4q22_r,Mental Health Professional Treatment
 2022,k4q22_r,Mental Health Professional Treatment
+2023,k4q22_r,Mental Health Professional Treatment
 2016,k4q23,Emotions Concentration Behavior Medication
 2017,k4q23,Emotions Concentration Behavior Medication
 2018,k4q23,Emotions Concentration Behavior Medication
@@ -1840,6 +2104,7 @@ year,variable,desc
 2020,k4q23,Emotions Concentration Behavior Medication
 2021,k4q23,Emotions Concentration Behavior Medication
 2022,k4q23,Emotions Concentration Behavior Medication
+2023,k4q23,Emotions Concentration Behavior Medication
 2016,k4q24_r,Specialist Visit
 2017,k4q24_r,Specialist Visit
 2018,k4q24_r,Specialist Visit
@@ -1847,6 +2112,7 @@ year,variable,desc
 2020,k4q24_r,Specialist Visit
 2021,k4q24_r,Specialist Visit
 2022,k4q24_r,Specialist Visit
+2023,k4q24_r,Specialist Visit
 2016,k4q26,Specialist Visit - Problem
 2017,k4q26,Specialist Visit - Problem
 2018,k4q26,Specialist Visit - Problem
@@ -1854,6 +2120,7 @@ year,variable,desc
 2020,k4q26,Specialist Visit - Problem
 2021,k4q26,Specialist Visit - Problem
 2022,k4q26,Specialist Visit - Problem
+2023,k4q26,Specialist Visit - Problem
 2016,k4q27,Needed Health Care Not Received
 2017,k4q27,Needed Health Care Not Received
 2018,k4q27,Needed Health Care Not Received
@@ -1861,6 +2128,7 @@ year,variable,desc
 2020,k4q27,Needed Health Care Not Received
 2021,k4q27,Needed Health Care Not Received
 2022,k4q27,Needed Health Care Not Received
+2023,k4q27,Needed Health Care Not Received
 2016,k4q28x01,Needed Health Care Not Received - Medical Care
 2017,k4q28x01,Needed Health Care Not Received - Medical Care
 2018,k4q28x01,Needed Health Care Not Received - Medical Care
@@ -1868,6 +2136,7 @@ year,variable,desc
 2020,k4q28x01,Needed Health Care Not Received - Medical Care
 2021,k4q28x01,Needed Health Care Not Received - Medical Care
 2022,k4q28x01,Needed Health Care Not Received - Medical Care
+2023,k4q28x01,Needed Health Care Not Received - Medical Care
 2016,k4q28x02,Needed Health Care Not Received - Dental Care
 2017,k4q28x02,Needed Health Care Not Received - Dental Care
 2018,k4q28x02,Needed Health Care Not Received - Dental Care
@@ -1875,6 +2144,7 @@ year,variable,desc
 2020,k4q28x02,Needed Health Care Not Received - Dental Care
 2021,k4q28x02,Needed Health Care Not Received - Dental Care
 2022,k4q28x02,Needed Health Care Not Received - Dental Care
+2023,k4q28x02,Needed Health Care Not Received - Dental Care
 2016,k4q28x03,Needed Health Care Not Received - Vision Care
 2017,k4q28x03,Needed Health Care Not Received - Vision Care
 2018,k4q28x03,Needed Health Care Not Received - Vision Care
@@ -1882,6 +2152,7 @@ year,variable,desc
 2020,k4q28x03,Needed Health Care Not Received - Vision Care
 2021,k4q28x03,Needed Health Care Not Received - Vision Care
 2022,k4q28x03,Needed Health Care Not Received - Vision Care
+2023,k4q28x03,Needed Health Care Not Received - Vision Care
 2016,k4q28x04,Needed Health Care Not Received - Mental Health Services
 2017,k4q28x04,Needed Health Care Not Received - Mental Health Services
 2018,k4q28x04,Needed Health Care Not Received - Mental Health Services
@@ -1889,6 +2160,7 @@ year,variable,desc
 2020,k4q28x04,Needed Health Care Not Received - Mental Health Services
 2021,k4q28x04,Needed Health Care Not Received - Mental Health Services
 2022,k4q28x04,Needed Health Care Not Received - Mental Health Services
+2023,k4q28x04,Needed Health Care Not Received - Mental Health Services
 2016,k4q28x05,Needed Health Care Not Received - Other
 2017,k4q28x05,Needed Health Care Not Received - Other
 2018,k4q28x05,Needed Health Care Not Received - Other
@@ -1896,6 +2168,7 @@ year,variable,desc
 2020,k4q28x05,Needed Health Care Not Received - Other
 2021,k4q28x05,Needed Health Care Not Received - Other
 2022,k4q28x05,Needed Health Care Not Received - Other
+2023,k4q28x05,Needed Health Care Not Received - Other
 2016,k4q28x_ear,Needed Health Care Not Received - Hearing Care
 2017,k4q28x_ear,Needed Health Care Not Received - Hearing Care
 2018,k4q28x_ear,Needed Health Care Not Received - Hearing Care
@@ -1903,6 +2176,7 @@ year,variable,desc
 2020,k4q28x_ear,Needed Health Care Not Received - Hearing Care
 2021,k4q28x_ear,Needed Health Care Not Received - Hearing Care
 2022,k4q28x_ear,Needed Health Care Not Received - Hearing Care
+2023,k4q28x_ear,Needed Health Care Not Received - Hearing Care
 2016,k4q30_r,Dental Provider Visit
 2017,k4q30_r,Dental Provider Visit
 2018,k4q30_r,Dental Provider Visit
@@ -1910,10 +2184,13 @@ year,variable,desc
 2020,k4q30_r,Dental Provider Visit
 2021,k4q30_r_1,Dental Provider Visit - Dentist
 2022,k4q30_r_1,Dental Provider Visit - Dentist
+2023,k4q30_r_1,Dental Provider Visit - Dentist
 2021,k4q30_r_2,Dental Provider Visit - Other
 2022,k4q30_r_2,Dental Provider Visit - Other
+2023,k4q30_r_2,Dental Provider Visit - Other
 2021,k4q30_r_3,Dental Provider Visit - No
 2022,k4q30_r_3,Dental Provider Visit - No
+2023,k4q30_r_3,Dental Provider Visit - No
 2016,k4q31_r,Vision Tested
 2017,k4q31_r,Vision Tested
 2018,k4q31_r,Vision Tested
@@ -1951,6 +2228,7 @@ year,variable,desc
 2020,k4q36,Received Special Services
 2021,k4q36,Received Special Services
 2022,k4q36,Received Special Services
+2023,k4q36,Received Special Services
 2016,k4q37,Received Special Services - Age in Years
 2017,k4q37,Received Special Services - Age in Years
 2018,k4q37,Received Special Services - Age in Years
@@ -1958,6 +2236,7 @@ year,variable,desc
 2020,k4q37,Received Special Services - Age in Years
 2021,k4q37,Received Special Services - Age in Years
 2022,k4q37,Received Special Services - Age in Years
+2023,k4q37,Received Special Services - Age in Years
 2016,k4q38,Received Special Services - Currently
 2017,k4q38,Received Special Services - Currently
 2018,k4q38,Received Special Services - Currently
@@ -1965,6 +2244,7 @@ year,variable,desc
 2020,k4q38,Received Special Services - Currently
 2021,k4q38,Received Special Services - Currently
 2022,k4q38,Received Special Services - Currently
+2023,k4q38,Received Special Services - Currently
 2016,k5q10,Need a Referral
 2017,k5q10,Need a Referral
 2018,k5q10,Need a Referral
@@ -1972,6 +2252,7 @@ year,variable,desc
 2020,k5q10,Need a Referral
 2021,k5q10,Need a Referral
 2022,k5q10,Need a Referral
+2023,k5q10,Need a Referral
 2016,k5q11,Need a Referral - Problem
 2017,k5q11,Need a Referral - Problem
 2018,k5q11,Need a Referral - Problem
@@ -1979,6 +2260,7 @@ year,variable,desc
 2020,k5q11,Need a Referral - Problem
 2021,k5q11,Need a Referral - Problem
 2022,k5q11,Need a Referral - Problem
+2023,k5q11,Need a Referral - Problem
 2016,k5q20_r,Arrange Or Coordinate Care Among Doctors
 2017,k5q20_r,Arrange Or Coordinate Care Among Doctors
 2018,k5q20_r,Arrange Or Coordinate Care Among Doctors
@@ -1986,6 +2268,7 @@ year,variable,desc
 2020,k5q20_r,Arrange Or Coordinate Care Among Doctors
 2021,k5q20_r,Arrange Or Coordinate Care Among Doctors
 2022,k5q20_r,Arrange Or Coordinate Care Among Doctors
+2023,k5q20_r,Arrange Or Coordinate Care Among Doctors
 2016,k5q21,Arrange Or Coordinate Care Extra Help
 2017,k5q21,Arrange Or Coordinate Care Extra Help
 2018,k5q21,Arrange Or Coordinate Care Extra Help
@@ -1993,6 +2276,7 @@ year,variable,desc
 2020,k5q21,Arrange Or Coordinate Care Extra Help
 2021,k5q21,Arrange Or Coordinate Care Extra Help
 2022,k5q21,Arrange Or Coordinate Care Extra Help
+2023,k5q21,Arrange Or Coordinate Care Extra Help
 2016,k5q22,Arrange Or Coordinate As Much Help As Wanted
 2017,k5q22,Arrange Or Coordinate As Much Help As Wanted
 2018,k5q22,Arrange Or Coordinate As Much Help As Wanted
@@ -2000,6 +2284,7 @@ year,variable,desc
 2020,k5q22,Arrange Or Coordinate As Much Help As Wanted
 2021,k5q22,Arrange Or Coordinate As Much Help As Wanted
 2022,k5q22,Arrange Or Coordinate As Much Help As Wanted
+2023,k5q22,Arrange Or Coordinate As Much Help As Wanted
 2016,k5q30,Communication Satisfaction Among Doctors
 2017,k5q30,Communication Satisfaction Among Doctors
 2018,k5q30,Communication Satisfaction Among Doctors
@@ -2007,6 +2292,7 @@ year,variable,desc
 2020,k5q30,Communication Satisfaction Among Doctors
 2021,k5q30,Communication Satisfaction Among Doctors
 2022,k5q30,Communication Satisfaction Among Doctors
+2023,k5q30,Communication Satisfaction Among Doctors
 2016,k5q31_r,"Communication with School, Child Care, Special Education Program"
 2017,k5q31_r,"Provider Communication with School, Child Care, Special Education Program"
 2018,k5q31_r,"Provider Communication with School, Child Care, Special Education Program"
@@ -2014,6 +2300,7 @@ year,variable,desc
 2020,k5q31_r,"Provider Communication with School, Child Care, Special Education Program"
 2021,k5q31_r,"Provider Communication with School, Child Care, Special Education Program"
 2022,k5q31_r,"Provider Communication with School, Child Care, Special Education Program"
+2023,k5q31_r,"Provider Communication with School, Child Care, Special Education Program"
 2016,k5q32,"Communication Satisfaction with School, Child Care, Special Education Program"
 2017,k5q32,"Communication Satisfaction with School, Child Care, Special Education Program"
 2018,k5q32,"Communication Satisfaction with School, Child Care, Special Education Program"
@@ -2021,6 +2308,7 @@ year,variable,desc
 2020,k5q32,"Communication Satisfaction with School, Child Care, Special Education Program"
 2021,k5q32,"Communication Satisfaction with School, Child Care, Special Education Program"
 2022,k5q32,"Communication Satisfaction with School, Child Care, Special Education Program"
+2023,k5q32,"Communication Satisfaction with School, Child Care, Special Education Program"
 2016,k5q40,How Often - Spend Enough Time
 2017,k5q40,How Often - Spend Enough Time
 2018,k5q40,How Often - Spend Enough Time
@@ -2028,6 +2316,7 @@ year,variable,desc
 2020,k5q40,How Often - Spend Enough Time
 2021,k5q40,How Often - Spend Enough Time
 2022,k5q40,How Often - Spend Enough Time
+2023,k5q40,How Often - Spend Enough Time
 2016,k5q41,How Often - Listen Carefully
 2017,k5q41,How Often - Listen Carefully
 2018,k5q41,How Often - Listen Carefully
@@ -2035,6 +2324,7 @@ year,variable,desc
 2020,k5q41,How Often - Listen Carefully
 2021,k5q41,How Often - Listen Carefully
 2022,k5q41,How Often - Listen Carefully
+2023,k5q41,How Often - Listen Carefully
 2016,k5q42,How Often - Show Sensitivity
 2017,k5q42,How Often - Show Sensitivity
 2018,k5q42,How Often - Show Sensitivity
@@ -2042,6 +2332,7 @@ year,variable,desc
 2020,k5q42,How Often - Show Sensitivity
 2021,k5q42,How Often - Show Sensitivity
 2022,k5q42,How Often - Show Sensitivity
+2023,k5q42,How Often - Show Sensitivity
 2016,k5q43,How Often - Provide Specific Information
 2017,k5q43,How Often - Provide Specific Information
 2018,k5q43,How Often - Provide Specific Information
@@ -2049,6 +2340,7 @@ year,variable,desc
 2020,k5q43,How Often - Provide Specific Information
 2021,k5q43,How Often - Provide Specific Information
 2022,k5q43,How Often - Provide Specific Information
+2023,k5q43,How Often - Provide Specific Information
 2016,k5q44,How Often - Feel Like a Partner
 2017,k5q44,How Often - Feel Like a Partner
 2018,k5q44,How Often - Feel Like a Partner
@@ -2056,6 +2348,7 @@ year,variable,desc
 2020,k5q44,How Often - Feel Like a Partner
 2021,k5q44,How Often - Feel Like a Partner
 2022,k5q44,How Often - Feel Like a Partner
+2023,k5q44,How Often - Feel Like a Partner
 2016,k6q08_r,Learning to Do Things For Him or Herself
 2017,k6q08_r,Learning to Do Things For Him or Herself
 2018,k6q08_r,Learning to Do Things For Him or Herself
@@ -2069,6 +2362,7 @@ year,variable,desc
 2020,k6q10,"Asked about Learning, Development, Behavior Concerns"
 2021,k6q10,"Asked about Learning, Development, Behavior Concerns"
 2022,k6q10,"Asked about Learning, Development, Behavior Concerns"
+2023,k6q10,"Asked about Learning, Development, Behavior Concerns"
 2016,k6q12,Questionnaire - Development Concerns
 2017,k6q12,Questionnaire - Development Concerns
 2018,k6q12,Questionnaire - Development Concerns
@@ -2076,6 +2370,7 @@ year,variable,desc
 2020,k6q12,Questionnaire - Development Concerns
 2021,k6q12,Questionnaire - Development Concerns
 2022,k6q12,Questionnaire - Development Concerns
+2023,k6q12,Questionnaire - Development Concerns
 2016,k6q13a,Talks or Speech Sounds Concerns
 2017,k6q13a,Questionnaire Covers Talks or Speech Sounds Concerns
 2018,k6q13a,Questionnaire Covers Talks or Speech Sounds Concerns
@@ -2083,6 +2378,7 @@ year,variable,desc
 2020,k6q13a,Questionnaire Covers Talks or Speech Sounds Concerns
 2021,k6q13a,Questionnaire Covers Talks or Speech Sounds Concerns
 2022,k6q13a,Questionnaire Covers Talks or Speech Sounds Concerns
+2023,k6q13a,Questionnaire Covers Talks or Speech Sounds Concerns
 2016,k6q13b,Interaction Concerns
 2017,k6q13b,Questionnaire Covers Interaction Concerns
 2018,k6q13b,Questionnaire Covers Interaction Concerns
@@ -2090,6 +2386,7 @@ year,variable,desc
 2020,k6q13b,Questionnaire Covers Interaction Concerns
 2021,k6q13b,Questionnaire Covers Interaction Concerns
 2022,k6q13b,Questionnaire Covers Interaction Concerns
+2023,k6q13b,Questionnaire Covers Interaction Concerns
 2016,k6q14a,Words and Phrases Concerns
 2017,k6q14a,Questionnaire Covers Words and Phrases Concerns
 2018,k6q14a,Questionnaire Covers Words and Phrases Concerns
@@ -2097,6 +2394,7 @@ year,variable,desc
 2020,k6q14a,Questionnaire Covers Words and Phrases Concerns
 2021,k6q14a,Questionnaire Covers Words and Phrases Concerns
 2022,k6q14a,Questionnaire Covers Words and Phrases Concerns
+2023,k6q14a,Questionnaire Covers Words and Phrases Concerns
 2016,k6q14b,Behaves and Gets Along Concerns
 2017,k6q14b,Questionnaire Covers Behaves and Gets Along Concerns
 2018,k6q14b,Questionnaire Covers Behaves and Gets Along Concerns
@@ -2104,6 +2402,7 @@ year,variable,desc
 2020,k6q14b,Questionnaire Covers Behaves and Gets Along Concerns
 2021,k6q14b,Questionnaire Covers Behaves and Gets Along Concerns
 2022,k6q14b,Questionnaire Covers Behaves and Gets Along Concerns
+2023,k6q14b,Questionnaire Covers Behaves and Gets Along Concerns
 2016,k6q15,Special Education Plan
 2017,k6q15,Special Education Plan
 2018,k6q15,Special Education Plan
@@ -2111,6 +2410,7 @@ year,variable,desc
 2020,k6q15,Special Education Plan
 2021,k6q15,Special Education Plan
 2022,k6q15,Special Education Plan
+2023,k6q15,Special Education Plan
 2016,k6q20,Receive Care From Others at Least 10 Hours Per Week
 2017,k6q20,Receive Care From Others at Least 10 Hours Per Week
 2018,k6q20,Receive Care From Others at Least 10 Hours Per Week
@@ -2125,6 +2425,7 @@ year,variable,desc
 2020,k6q27,Job Change Because Problems with Child Care
 2021,k6q27,Job Change Because Problems with Child Care
 2022,k6q27,Job Change Because Problems with Child Care
+2023,k6q27,Job Change Because Problems with Child Care
 2016,k6q40,Breastfed
 2017,k6q40,Ever Breastfed
 2018,k6q40,Ever Breastfed
@@ -2132,6 +2433,7 @@ year,variable,desc
 2020,k6q40,Ever Breastfed
 2021,k6q40,Ever Breastfed
 2022,k6q40,Ever Breastfed
+2023,k6q40,Ever Breastfed
 2016,k6q41r_still,Stopped Breastfeeding - Still Breastfeeding
 2017,k6q41r_still,Stopped Breastfeeding - Still Breastfeeding
 2018,k6q41r_still,Stopped Breastfeeding - Still Breastfeeding
@@ -2139,6 +2441,7 @@ year,variable,desc
 2020,k6q41r_still,Stopped Breastfeeding - Still Breastfeeding
 2021,k6q41r_still,Stopped Breastfeeding - Still Breastfeeding
 2022,k6q41r_still,Stopped Breastfeeding - Still Breastfeeding
+2023,k6q41r_still,Stopped Breastfeeding - Still Breastfeeding
 2016,k6q42r_never,First Fed Formula - Never
 2017,k6q42r_never,First Fed Formula - Never
 2018,k6q42r_never,First Fed Formula - Never
@@ -2146,6 +2449,7 @@ year,variable,desc
 2020,k6q42r_never,First Fed Formula - Never
 2021,k6q42r_never,First Fed Formula - Never
 2022,k6q42r_never,First Fed Formula - Never
+2023,k6q42r_never,First Fed Formula - Never
 2016,k6q43r_never,First Fed Other - Never
 2017,k6q43r_never,First Fed Other - Never
 2018,k6q43r_never,First Fed Other - Never
@@ -2153,6 +2457,7 @@ year,variable,desc
 2020,k6q43r_never,First Fed Other - Never
 2021,k6q43r_never,First Fed Other - Never
 2022,k6q43r_never,First Fed Other - Never
+2023,k6q43r_never,First Fed Other - Never
 2016,k6q60_r,How Many Days Read to Child
 2017,k6q60_r,How Many Days Read to Child
 2018,k6q60_r,How Many Days Read to Child
@@ -2160,6 +2465,7 @@ year,variable,desc
 2020,k6q60_r,How Many Days Read to Child
 2021,k6q60_r,How Many Days Read to Child
 2022,k6q60_r,How Many Days Read to Child
+2023,k6q60_r,How Many Days Read to Child
 2016,k6q61_r,How Many Days Tell Stories or Sing to Child
 2017,k6q61_r,How Many Days Tell Stories or Sing to Child
 2018,k6q61_r,How Many Days Tell Stories or Sing to Child
@@ -2167,6 +2473,7 @@ year,variable,desc
 2020,k6q61_r,How Many Days Tell Stories or Sing to Child
 2021,k6q61_r,How Many Days Tell Stories or Sing to Child
 2022,k6q61_r,How Many Days Tell Stories or Sing to Child
+2023,k6q61_r,How Many Days Tell Stories or Sing to Child
 2016,k6q70_r,Affectionate
 2017,k6q70_r,Affectionate
 2018,k6q70_r,Affectionate
@@ -2174,6 +2481,7 @@ year,variable,desc
 2020,k6q70_r,Affectionate
 2021,k6q70_r,Affectionate
 2022,k6q70_r,Affectionate
+2023,k6q70_r,Affectionate
 2016,k6q71_r,Interest Curiosity
 2017,k6q71_r,Show Interest and Curiosity
 2018,k6q71_r,Show Interest and Curiosity
@@ -2181,6 +2489,7 @@ year,variable,desc
 2020,k6q71_r,Show Interest and Curiosity
 2021,k6q71_r,Show Interest and Curiosity
 2022,k6q71_r,Show Interest and Curiosity
+2023,k6q71_r,Show Interest and Curiosity
 2016,k6q72_r,Smiles Laughs
 2017,k6q72_r,Smiles Laughs
 2018,k6q72_r,Smiles Laughs
@@ -2188,6 +2497,7 @@ year,variable,desc
 2020,k6q72_r,Smiles Laughs
 2021,k6q72_r,Smiles Laughs
 2022,k6q72_r,Smiles Laughs
+2023,k6q72_r,Smiles Laughs
 2016,k6q73_r,Bounces Back
 2017,k6q73_r,Bounces Back
 2018,k6q73_r,Bounces Back
@@ -2195,6 +2505,7 @@ year,variable,desc
 2020,k6q73_r,Bounces Back
 2021,k6q73_r,Bounces Back
 2022,k6q73_r,Bounces Back
+2023,k6q73_r,Bounces Back
 2016,k7q02r_r,Days Child Missed School - Illness or Injury
 2017,k7q02r_r,Days Child Missed School - Illness or Injury
 2018,k7q02r_r,Days Child Missed School - Illness or Injury
@@ -2202,6 +2513,7 @@ year,variable,desc
 2020,k7q02r_r,Days Child Missed School - Illness or Injury
 2021,k7q02r_r,Days Child Missed School - Illness or Injury
 2022,k7q02r_r,Days Child Missed School - Illness or Injury
+2023,k7q02r_r,Days Child Missed School - Illness or Injury
 2016,k7q04r_r,Times School Contacted Household About Problems
 2017,k7q04r_r,Times School Contacted Household About Problems
 2018,k7q04r_r,Times School Contacted Household About Problems
@@ -2209,6 +2521,7 @@ year,variable,desc
 2020,k7q04r_r,Times School Contacted Household About Problems
 2021,k7q04r_r,Times School Contacted Household About Problems
 2022,k7q04r_r,Times School Contacted Household About Problems
+2023,k7q04r_r,Times School Contacted Household About Problems
 2016,k7q30,Sports Team or Sports Lessons - Past 12 Months
 2017,k7q30,Sports Team or Sports Lessons - Past 12 Months
 2018,k7q30,Sports Team or Sports Lessons - Past 12 Months
@@ -2216,6 +2529,7 @@ year,variable,desc
 2020,k7q30,Sports Team or Sports Lessons - Past 12 Months
 2021,k7q30,Sports Team or Sports Lessons - Past 12 Months
 2022,k7q30,Sports Team or Sports Lessons - Past 12 Months
+2023,k7q30,Sports Team or Sports Lessons - Past 12 Months
 2016,k7q31,Clubs or Organizations - Past 12 Months
 2017,k7q31,Clubs or Organizations - Past 12 Months
 2018,k7q31,Clubs or Organizations - Past 12 Months
@@ -2223,6 +2537,7 @@ year,variable,desc
 2020,k7q31,Clubs or Organizations - Past 12 Months
 2021,k7q31,Clubs or Organizations - Past 12 Months
 2022,k7q31,Clubs or Organizations - Past 12 Months
+2023,k7q31,Clubs or Organizations - Past 12 Months
 2016,k7q32,Organized Activities or Lessons - Past 12 Months
 2017,k7q32,Organized Activities or Lessons - Past 12 Months
 2018,k7q32,Organized Activities or Lessons - Past 12 Months
@@ -2230,6 +2545,7 @@ year,variable,desc
 2020,k7q32,Organized Activities or Lessons - Past 12 Months
 2021,k7q32,Organized Activities or Lessons - Past 12 Months
 2022,k7q32,Organized Activities or Lessons - Past 12 Months
+2023,k7q32,Organized Activities or Lessons - Past 12 Months
 2016,k7q33,How Often Attend Events or Activities
 2017,k7q33,How Often Attend Events or Activities
 2018,k7q33,How Often Attend Events or Activities
@@ -2237,6 +2553,7 @@ year,variable,desc
 2020,k7q33,How Often Attend Events or Activities
 2021,k7q33,How Often Attend Events or Activities
 2022,k7q33,How Often Attend Events or Activities
+2023,k7q33,How Often Attend Events or Activities
 2016,k7q37,Community Service or Volunteer Work - Past 12 Months
 2017,k7q37,Community Service or Volunteer Work - Past 12 Months
 2018,k7q37,Community Service or Volunteer Work - Past 12 Months
@@ -2244,6 +2561,7 @@ year,variable,desc
 2020,k7q37,Community Service or Volunteer Work - Past 12 Months
 2021,k7q37,Community Service or Volunteer Work - Past 12 Months
 2022,k7q37,Community Service or Volunteer Work - Past 12 Months
+2023,k7q37,Community Service or Volunteer Work - Past 12 Months
 2016,k7q38,Paid Work or Regular Job - Past 12 Months
 2017,k7q38,Paid Work or Regular Job - Past 12 Months
 2018,k7q38,Paid Work or Regular Job - Past 12 Months
@@ -2251,6 +2569,7 @@ year,variable,desc
 2020,k7q38,Paid Work or Regular Job - Past 12 Months
 2021,k7q38,Paid Work or Regular Job - Past 12 Months
 2022,k7q38,Paid Work or Regular Job - Past 12 Months
+2023,k7q38,Paid Work or Regular Job - Past 12 Months
 2016,k7q60_r,How Much Time Spent Watching TV
 2017,k7q60_r,How Much Time Spent Watching TV
 2016,k7q70_r,Argues Too Much
@@ -2260,6 +2579,7 @@ year,variable,desc
 2020,k7q70_r,Argues Too Much
 2021,k7q70_r,Argues Too Much
 2022,k7q70_r,Argues Too Much
+2023,k7q70_r,Argues Too Much
 2016,k7q71_r,"Bullies Others, Picks on Them, or Excludes Them"
 2017,k7q71_r,"Bullies Others, Picks on Them, or Excludes Them"
 2016,k7q82_r,Cares About Doing Well in School
@@ -2269,6 +2589,7 @@ year,variable,desc
 2020,k7q82_r,Cares About Doing Well in School
 2021,k7q82_r,Cares About Doing Well in School
 2022,k7q82_r,Cares About Doing Well in School
+2023,k7q82_r,Cares About Doing Well in School
 2016,k7q83_r,Does All Required Homework
 2017,k7q83_r,Does All Required Homework
 2018,k7q83_r,Does All Required Homework
@@ -2276,6 +2597,7 @@ year,variable,desc
 2020,k7q83_r,Does All Required Homework
 2021,k7q83_r,Does All Required Homework
 2022,k7q83_r,Does All Required Homework
+2023,k7q83_r,Does All Required Homework
 2016,k7q84_r,Works to Finish Tasks Started
 2017,k7q84_r,Works to Finish Tasks Started
 2018,k7q84_r,Works to Finish Tasks Started
@@ -2283,6 +2605,7 @@ year,variable,desc
 2020,k7q84_r,Works to Finish Tasks Started
 2021,k7q84_r,Works to Finish Tasks Started
 2022,k7q84_r,Works to Finish Tasks Started
+2023,k7q84_r,Works to Finish Tasks Started
 2016,k7q85_r,Stays Calm and In Control When Challenged
 2017,k7q85_r,Stays Calm and In Control When Challenged
 2018,k7q85_r,Stays Calm and In Control When Challenged
@@ -2290,6 +2613,7 @@ year,variable,desc
 2020,k7q85_r,Stays Calm and In Control When Challenged
 2021,k7q85_r,Stays Calm and In Control When Challenged
 2022,k7q85_r,Stays Calm and In Control When Challenged
+2023,k7q85_r,Stays Calm and In Control When Challenged
 2016,k7q91_r,How Much Time Spent with Computers
 2017,k7q91_r,How Much Time Spent with Computers
 2016,k8q11,How Many Days - Family Eat Meal Together
@@ -2299,6 +2623,7 @@ year,variable,desc
 2020,k8q11,How Many Days - Family Eat Meal Together
 2021,k8q11,How Many Days - Family Eat Meal Together
 2022,k8q11,How Many Days - Family Eat Meal Together
+2023,k8q11,How Many Days - Family Eat Meal Together
 2016,k8q21,Share Ideas or Talk About Things That Matter
 2017,k8q21,Share Ideas or Talk About Things That Matter
 2018,k8q21,Share Ideas or Talk About Things That Matter
@@ -2306,6 +2631,7 @@ year,variable,desc
 2020,k8q21,Share Ideas or Talk About Things That Matter
 2021,k8q21,Share Ideas or Talk About Things That Matter
 2022,k8q21,Share Ideas or Talk About Things That Matter
+2023,k8q21,Share Ideas or Talk About Things That Matter
 2016,k8q30,How Well Handling Demands of Raising Children
 2017,k8q30,How Well Handling Demands of Raising Children
 2018,k8q30,How Well Handling Demands of Raising Children
@@ -2313,6 +2639,7 @@ year,variable,desc
 2020,k8q30,How Well Handling Demands of Raising Children
 2021,k8q30,How Well Handling Demands of Raising Children
 2022,k8q30,How Well Handling Demands of Raising Children
+2023,k8q30,How Well Handling Demands of Raising Children
 2016,k8q31,How Often Have You Felt - Child Hard to Care For
 2017,k8q31,How Often Have You Felt - Child Hard to Care For
 2018,k8q31,How Often Have You Felt - Child Hard to Care For
@@ -2320,6 +2647,7 @@ year,variable,desc
 2020,k8q31,How Often Have You Felt - Child Hard to Care For
 2021,k8q31,How Often Have You Felt - Child Hard to Care For
 2022,k8q31,How Often Have You Felt - Child Hard to Care For
+2023,k8q31,How Often Have You Felt - Child Hard to Care For
 2016,k8q32,How Often Have You Felt - Child Really Bothers You
 2017,k8q32,How Often Have You Felt - Child Really Bothers You
 2018,k8q32,How Often Have You Felt - Child Really Bothers You
@@ -2327,6 +2655,7 @@ year,variable,desc
 2020,k8q32,How Often Have You Felt - Child Really Bothers You
 2021,k8q32,How Often Have You Felt - Child Really Bothers You
 2022,k8q32,How Often Have You Felt - Child Really Bothers You
+2023,k8q32,How Often Have You Felt - Child Really Bothers You
 2016,k8q34,How Often Have You Felt - Angry with Child
 2017,k8q34,How Often Have You Felt - Angry with Child
 2018,k8q34,How Often Have You Felt - Angry with Child
@@ -2334,6 +2663,7 @@ year,variable,desc
 2020,k8q34,How Often Have You Felt - Angry with Child
 2021,k8q34,How Often Have You Felt - Angry with Child
 2022,k8q34,How Often Have You Felt - Angry with Child
+2023,k8q34,How Often Have You Felt - Angry with Child
 2016,k8q35,Someone to Turn To for Emotional Support
 2017,k8q35,Someone to Turn To for Emotional Support
 2018,k8q35,Someone to Turn To for Emotional Support
@@ -2341,6 +2671,7 @@ year,variable,desc
 2020,k8q35,Someone to Turn To for Emotional Support
 2021,k8q35,Someone to Turn To for Emotional Support
 2022,k8q35,Someone to Turn To for Emotional Support
+2023,k8q35,Someone to Turn To for Emotional Support
 2016,k9q40,Anyone in Household Use Cigarettes
 2017,k9q40,Anyone in Household Use Cigarettes
 2018,k9q40,Anyone in Household Use Cigarettes
@@ -2348,6 +2679,7 @@ year,variable,desc
 2020,k9q40,Anyone in Household Use Cigarettes
 2021,k9q40,Anyone in Household Use Cigarettes
 2022,k9q40,Anyone in Household Use Cigarettes
+2023,k9q40,Anyone in Household Use Cigarettes
 2016,k9q41,Anyone Smoke Inside of Home
 2017,k9q41,Anyone Smoke Inside of Home
 2018,k9q41,Anyone Smoke Inside of Home
@@ -2355,6 +2687,7 @@ year,variable,desc
 2020,k9q41,Anyone Smoke Inside of Home
 2021,k9q41,Anyone Smoke Inside of Home
 2022,k9q41,Anyone Smoke Inside of Home
+2023,k9q41,Anyone Smoke Inside of Home
 2016,k9q96,Other Adult Child Can Rely On For Advice
 2017,k9q96,Other Adult Child Can Rely On For Advice
 2018,k9q96,Other Adult Child Can Rely On For Advice
@@ -2362,6 +2695,7 @@ year,variable,desc
 2020,k9q96,Other Adult Child Can Rely On For Advice
 2021,k9q96,Other Adult Child Can Rely On For Advice
 2022,k9q96,Other Adult Child Can Rely On For Advice
+2023,k9q96,Other Adult Child Can Rely On For Advice
 2016,keepinsadult,How to Obtain/Keep Health Insurance as Child Becomes Adult
 2017,keepinsadult,How to Obtain/Keep Health Insurance as Child Becomes Adult
 2018,keepinsadult,How to Obtain/Keep Health Insurance as Child Becomes Adult
@@ -2369,6 +2703,7 @@ year,variable,desc
 2020,keepinsadult,How to Obtain/Keep Health Insurance as Child Becomes Adult
 2021,keepinsadult,How to Obtain/Keep Health Insurance as Child Becomes Adult
 2022,keepinsadult,How to Obtain/Keep Health Insurance as Child Becomes Adult
+2023,keepinsadult,How to Obtain/Keep Health Insurance as Child Becomes Adult
 2016,liveusa_mo,How Long Living in the United States - Months
 2017,liveusa_mo,How Long Living in the United States - Months
 2018,liveusa_mo,How Long Living in the United States - Months
@@ -2376,6 +2711,7 @@ year,variable,desc
 2020,liveusa_mo,How Long Living in the United States - Months
 2021,liveusa_mo,How Long Living in the United States - Months
 2022,liveusa_mo,How Long Living in the United States - Months
+2023,liveusa_mo,How Long Living in the United States - Months
 2016,liveusa_yr,How Long Living in the United States - Years
 2017,liveusa_yr,How Long Living in the United States - Years
 2018,liveusa_yr,How Long Living in the United States - Years
@@ -2383,6 +2719,7 @@ year,variable,desc
 2020,liveusa_yr,How Long Living in the United States - Years
 2021,liveusa_yr,How Long Living in the United States - Years
 2022,liveusa_yr,How Long Living in the United States - Years
+2023,liveusa_yr,How Long Living in the United States - Years
 2016,makefriend,Difficulty Making or Keeping Friends
 2017,makefriend,Difficulty Making or Keeping Friends
 2018,makefriend,Difficulty Making or Keeping Friends
@@ -2390,11 +2727,13 @@ year,variable,desc
 2020,makefriend,Difficulty Making or Keeping Friends
 2021,makefriend,Difficulty Making or Keeping Friends
 2022,makefriend,Difficulty Making or Keeping Friends
+2023,makefriend,Difficulty Making or Keeping Friends
 2018,medhistory,Receive Summary of Medical History
 2019,medhistory,Receive Summary of Medical History
 2020,medhistory,Receive Summary of Medical History
 2021,medhistory,Receive Summary of Medical History
 2022,medhistory,Receive Summary of Medical History
+2023,medhistory,Receive Summary of Medical History
 2016,memorycond,"Serious Difficulty Concentrating, Remembering, or Making Decisions"
 2017,memorycond,"Serious Difficulty Concentrating, Remembering, or Making Decisions"
 2018,memorycond,"Serious Difficulty Concentrating, Remembering, or Making Decisions"
@@ -2402,6 +2741,7 @@ year,variable,desc
 2020,memorycond,"Serious Difficulty Concentrating, Remembering, or Making Decisions"
 2021,memorycond,"Serious Difficulty Concentrating, Remembering, or Making Decisions"
 2022,memorycond,"Serious Difficulty Concentrating, Remembering, or Making Decisions"
+2023,memorycond,"Serious Difficulty Concentrating, Remembering, or Making Decisions"
 2016,menbevcov,Health Insurance - Cover Mental Behavioral Needs
 2017,menbevcov,Health Insurance - Cover Mental Behavioral Needs
 2018,menbevcov,Health Insurance - Cover Mental Behavioral Needs
@@ -2416,7 +2756,9 @@ year,variable,desc
 2020,metro_yn,Metropolitan Statistical Area Status
 2021,metro_yn,Metropolitan Statistical Area Status
 2022,metro_yn,Metropolitan Statistical Area Status
+2023,metro_yn,Metropolitan Statistical Area Status
 2022,missmortgage,Not Able to Pay Mortgage or Rent
+2023,missmortgage,Not Able to Pay Mortgage or Rent
 2017,mold,Mold Inside of Home
 2018,mold,Mold Inside of Home
 2019,mold,Mold Inside of Home
@@ -2434,7 +2776,9 @@ year,variable,desc
 2020,mpc_yn,Metropolitan Principal City Status
 2021,mpc_yn,Metropolitan Principal City Status
 2022,mpc_yn,Metropolitan Principal City Status
+2023,mpc_yn,Metropolitan Principal City Status
 2022,nameemotions,Recognize Emotion
+2023,nameemotions,Recognize Emotion
 2016,newactivity,How Often - Become Angry or Anxious
 2017,newactivity,How Often - Become Angry or Anxious
 2018,newactivity,How Often - Become Angry or Anxious
@@ -2448,6 +2792,7 @@ year,variable,desc
 2020,notelig,Needed Health Care Not Received Due to - Not Eligible
 2021,notelig,Needed Health Care Not Received Due to - Not Eligible
 2022,notelig,Needed Health Care Not Received Due to - Not Eligible
+2023,notelig,Needed Health Care Not Received Due to - Not Eligible
 2016,notopen,Needed Health Care Not Received Due to - Office Not Open
 2017,notopen,Needed Health Care Not Received Due to - Office Not Open
 2018,notopen,Needed Health Care Not Received Due to - Office Not Open
@@ -2455,20 +2800,25 @@ year,variable,desc
 2020,notopen,Needed Health Care Not Received Due to - Office Not Open
 2021,notopen,Needed Health Care Not Received Due to - Office Not Open
 2022,notopen,Needed Health Care Not Received Due to - Office Not Open
+2023,notopen,Needed Health Care Not Received Due to - Office Not Open
 2018,oneword,Say One Word
 2019,oneword,Say One Word
 2020,oneword,Say One Word
 2021,oneword,Say One Word
 2022,oneword,Say One Word
+2023,oneword,Say One Word
 2021,outdoorswkday,Time Spent Playing Outdoors - Weekday
 2022,outdoorswkday,Time Spent Playing Outdoors - Weekday
+2023,outdoorswkday,Time Spent Playing Outdoors - Weekday
 2021,outdoorswkend,Time Spent Playing Outdoors - Weekend
 2022,outdoorswkend,Time Spent Playing Outdoors - Weekend
+2023,outdoorswkend,Time Spent Playing Outdoors - Weekend
 2018,overweight,Doctor Identified as Overweight
 2019,overweight,Doctor Identified as Overweight
 2020,overweight,Doctor Identified as Overweight
 2021,overweight,Doctor Identified as Overweight
 2022,overweight,Doctor Identified as Overweight
+2023,overweight,Doctor Identified as Overweight
 2017,pesticide,Pesticides Used Inside of Home
 2018,pesticide,Pesticides Used Inside of Home
 2019,pesticide,Pesticides Used Inside of Home
@@ -2479,6 +2829,7 @@ year,variable,desc
 2020,physactiv,"Exercise, Play Sport, or Physical Activity for 60 Minutes"
 2021,physactiv,"Exercise, Play Sport, or Physical Activity for 60 Minutes"
 2022,physactiv,"Exercise, Play Sport, or Physical Activity for 60 Minutes"
+2023,physactiv,"Exercise, Play Sport, or Physical Activity for 60 Minutes"
 2016,physicalpain,Difficulty Physical Pain
 2017,physicalpain,Difficulty Physical Pain Past 12 Months
 2018,physicalpain,Difficulty Physical Pain Past 12 Months
@@ -2486,7 +2837,9 @@ year,variable,desc
 2020,physicalpain,Difficulty Physical Pain Past 12 Months
 2021,physicalpain,Difficulty Physical Pain Past 12 Months
 2022,physicalpain,Difficulty Physical Pain Past 12 Months
+2023,physicalpain,Difficulty Physical Pain Past 12 Months
 2022,placeslived,Number of placed the child has lived 
+2023,placeslived,Number of placed the child has lived 
 2016,planfuture,Doctor Worked with Child to Plan For Future
 2017,planfuture,Doctor Worked with Child to Plan For Future
 2016,planneeds,Plan Identify Specific Health Goals or Needs
@@ -2496,6 +2849,7 @@ year,variable,desc
 2020,planneeds_r,Plan Address Transition
 2021,planneeds_r,Plan Address Transition
 2022,planneeds_r,Plan Address Transition
+2023,planneeds_r,Plan Address Transition
 2016,planutd,Plan Currently Up-To-Date
 2017,planutd,Plan Currently Up-To-Date
 2016,playwell,How Often - Play Well with Others
@@ -2505,11 +2859,13 @@ year,variable,desc
 2020,playwell,How Often - Play Well with Others
 2021,playwell,How Often - Play Well with Others
 2022,playwell,How Often - Play Well with Others
+2023,playwell,How Often - Play Well with Others
 2018,point,Point to Things
 2019,point,Point to Things
 2020,point,Point to Things
 2021,point,Point to Things
 2022,point,Point to Things
+2023,point,Point to Things
 2016,poschoice,Doctor Worked with Child to Make Positive Choices
 2017,poschoice,Doctor Worked with Child to Make Positive Choices
 2018,poschoice,Doctor Worked with Child to Make Positive Choices
@@ -2517,6 +2873,7 @@ year,variable,desc
 2020,poschoice,Doctor Worked with Child to Make Positive Choices
 2021,poschoice,Doctor Worked with Child to Make Positive Choices
 2022,poschoice,Doctor Worked with Child to Make Positive Choices
+2023,poschoice,Doctor Worked with Child to Make Positive Choices
 2016,raiseconc,How Often - Easy to Raise Concerns or Disagree
 2017,raiseconc,How Often - Easy to Raise Concerns or Disagree
 2018,raiseconc,How Often - Easy to Raise Concerns or Disagree
@@ -2524,7 +2881,9 @@ year,variable,desc
 2020,raiseconc,How Often - Easy to Raise Concerns or Disagree
 2021,raiseconc,How Often - Easy to Raise Concerns or Disagree
 2022,raiseconc,How Often - Easy to Raise Concerns or Disagree
+2023,raiseconc,How Often - Easy to Raise Concerns or Disagree
 2022,readonedigit,Read One Digit
+2023,readonedigit,Read One Digit
 2016,receivecopy,Receive Written Copy of Plan
 2017,receivecopy,Receive Written Copy of Plan
 2018,receivecopy,Have Access to Plan of Care
@@ -2532,7 +2891,9 @@ year,variable,desc
 2020,receivecopy,Have Access to Plan of Care
 2021,receivecopy,Have Access to Plan of Care
 2022,receivecopy,Have Access to Plan of Care
+2023,receivecopy,Have Access to Plan of Care
 2022,recevalfasd,Received an Evaluation for FASD
+2023,recevalfasd,Received an Evaluation for FASD
 2016,recogabc,Recognize Letters of Alphabet
 2017,recogabc,Recognize Letters of Alphabet
 2018,recogabc,Recognize Letters of Alphabet
@@ -2540,6 +2901,7 @@ year,variable,desc
 2020,recogabc,Recognize Letters of Alphabet
 2021,recogabc,Recognize Letters of Alphabet
 2022,recogabc,Recognize Letters of Alphabet
+2023,recogabc,Recognize Letters of Alphabet
 2016,recogbegin,Recognize Beginning Sound of a Word
 2017,recogbegin,Recognize Beginning Sound of a Word
 2018,recogbegin,Recognize Beginning Sound of a Word
@@ -2547,6 +2909,7 @@ year,variable,desc
 2020,recogbegin,Recognize Beginning Sound of a Word
 2021,recogbegin,Recognize Beginning Sound of a Word
 2022,recogbegin,Recognize Beginning Sound of a Word
+2023,recogbegin,Recognize Beginning Sound of a Word
 2016,recshapes,How Often - Identify Basic Shapes
 2017,recshapes,How Often - Identify Basic Shapes
 2018,recshapes,How Often - Identify Basic Shapes
@@ -2560,6 +2923,7 @@ year,variable,desc
 2020,repeated,Child Repeated Any Grades
 2021,repeated,Child Repeated Any Grades
 2022,repeated,Child Repeated Any Grades
+2023,repeated,Child Repeated Any Grades
 2016,rhymeword,Rhyme Words
 2017,rhymeword,Rhyme Words
 2018,rhymeword,Rhyme Words
@@ -2567,6 +2931,7 @@ year,variable,desc
 2020,rhymeword,Rhyme Words
 2021,rhymeword,Rhyme Words
 2022,rhymeword_r,Rhyme Words
+2023,rhymeword_r,Rhyme Words
 2016,s4q01,Doctor Visit
 2017,s4q01,Doctor Visit
 2018,s4q01,Doctor Visit
@@ -2574,6 +2939,7 @@ year,variable,desc
 2020,s4q01,Doctor Visit
 2021,s4q01,Doctor Visit
 2022,s4q01,Doctor Visit
+2023,s4q01,Doctor Visit
 2016,s9q34,WIC Benefits - Past 12 Months
 2017,s9q34,WIC Benefits - Past 12 Months
 2018,s9q34,WIC Benefits - Past 12 Months
@@ -2581,7 +2947,9 @@ year,variable,desc
 2020,s9q34,WIC Benefits - Past 12 Months
 2021,s9q34,WIC Benefits - Past 12 Months
 2022,s9q34,WIC Benefits - Past 12 Months
+2023,s9q34,WIC Benefits - Past 12 Months
 2022,samesound,Words with Same Start Sound
+2023,samesound,Words with Same Start Sound
 2016,sc_age_lt10,Age of Selected Child - Less than 10 Months
 2017,sc_age_lt10,Age of Selected Child - Less than 10 Months
 2018,sc_age_lt10,Age of Selected Child - Less than 10 Months
@@ -2589,6 +2957,7 @@ year,variable,desc
 2020,sc_age_lt10,Age of Selected Child - Less than 10 Months
 2021,sc_age_lt10,Age of Selected Child - Less than 10 Months
 2022,sc_age_lt10,Age of Selected Child - Less than 10 Months
+2023,sc_age_lt10,Age of Selected Child - Less than 10 Months
 2016,sc_age_lt4,Age of Selected Child - Less than 4 Months
 2017,sc_age_lt4,Age of Selected Child - Less than 4 Months
 2018,sc_age_lt4,Age of Selected Child - Less than 4 Months
@@ -2596,6 +2965,7 @@ year,variable,desc
 2020,sc_age_lt4,Age of Selected Child - Less than 4 Months
 2021,sc_age_lt4,Age of Selected Child - Less than 4 Months
 2022,sc_age_lt4,Age of Selected Child - Less than 4 Months
+2023,sc_age_lt4,Age of Selected Child - Less than 4 Months
 2016,sc_age_lt6,Age of Selected Child - Less than 6 Months
 2017,sc_age_lt6,Age of Selected Child - Less than 6 Months
 2018,sc_age_lt6,Age of Selected Child - Less than 6 Months
@@ -2603,6 +2973,7 @@ year,variable,desc
 2020,sc_age_lt6,Age of Selected Child - Less than 6 Months
 2021,sc_age_lt6,Age of Selected Child - Less than 6 Months
 2022,sc_age_lt6,Age of Selected Child - Less than 6 Months
+2023,sc_age_lt6,Age of Selected Child - Less than 6 Months
 2016,sc_age_lt9,Age of Selected Child - Less than 9 Months
 2017,sc_age_lt9,Age of Selected Child - Less than 9 Months
 2018,sc_age_lt9,Age of Selected Child - Less than 9 Months
@@ -2610,6 +2981,7 @@ year,variable,desc
 2020,sc_age_lt9,Age of Selected Child - Less than 9 Months
 2021,sc_age_lt9,Age of Selected Child - Less than 9 Months
 2022,sc_age_lt9,Age of Selected Child - Less than 9 Months
+2023,sc_age_lt9,Age of Selected Child - Less than 9 Months
 2016,sc_age_years,Age of Selected Child - In Years
 2017,sc_age_years,Age of Selected Child - In Years
 2018,sc_age_years,Age of Selected Child - In Years
@@ -2617,6 +2989,7 @@ year,variable,desc
 2020,sc_age_years,Age of Selected Child - In Years
 2021,sc_age_years,Age of Selected Child - In Years
 2022,sc_age_years,Age of Selected Child - In Years
+2023,sc_age_years,Age of Selected Child - In Years
 2016,sc_aian,American Indian or Alaska Native Alone or in Combination with Other Race
 2017,sc_aian,American Indian or Alaska Native Alone or in Combination with Other Race
 2018,sc_aian,American Indian or Alaska Native Alone or in Combination with Other Race
@@ -2624,6 +2997,7 @@ year,variable,desc
 2020,sc_aian,American Indian or Alaska Native Alone or in Combination with Other Race
 2021,sc_aian,American Indian or Alaska Native Alone or in Combination with Other Race
 2022,sc_aian,American Indian or Alaska Native Alone or in Combination with Other Race
+2023,sc_aian,American Indian or Alaska Native Alone or in Combination with Other Race
 2016,sc_asian,Asian Alone or in Combination with Other Race
 2017,sc_asian,Asian Alone or in Combination with Other Race
 2018,sc_asian,Asian Alone or in Combination with Other Race
@@ -2631,6 +3005,7 @@ year,variable,desc
 2020,sc_asian,Asian Alone or in Combination with Other Race
 2021,sc_asian,Asian Alone or in Combination with Other Race
 2022,sc_asian,Asian Alone or in Combination with Other Race
+2023,sc_asian,Asian Alone or in Combination with Other Race
 2016,sc_cshcn,Special Health Care Needs Status of Selected Child
 2017,sc_cshcn,Special Health Care Needs Status of Selected Child
 2018,sc_cshcn,Special Health Care Needs Status of Selected Child
@@ -2638,10 +3013,12 @@ year,variable,desc
 2020,sc_cshcn,Special Health Care Needs Status of Selected Child
 2021,sc_cshcn,Special Health Care Needs Status of Selected Child
 2022,sc_cshcn,Special Health Care Needs Status of Selected Child
+2023,sc_cshcn,Special Health Care Needs Status of Selected Child
 2019,sc_english,SC  Speaks English
 2020,sc_english,SC  Speaks English
 2021,sc_english,SC  Speaks English
 2022,sc_english,SC  Speaks English
+2023,sc_english,SC  Speaks English
 2016,sc_hispanic_r,"Hispanic Origin of Selected Child, Recode"
 2017,sc_hispanic_r,"Hispanic Origin of Selected Child, Recode"
 2018,sc_hispanic_r,"Hispanic Origin of Selected Child, Recode"
@@ -2649,6 +3026,7 @@ year,variable,desc
 2020,sc_hispanic_r,"Hispanic Origin of Selected Child, Recode"
 2021,sc_hispanic_r,"Hispanic Origin of Selected Child, Recode"
 2022,sc_hispanic_r,"Hispanic Origin of Selected Child, Recode"
+2023,sc_hispanic_r,"Hispanic Origin of Selected Child, Recode"
 2016,sc_hispanic_r_if,Imputation Flag for SC_HISPANIC_R
 2017,sc_hispanic_r_if,Imputation Flag for SC_HISPANIC_R
 2018,sc_hispanic_r_if,Imputation Flag for SC_HISPANIC_R
@@ -2656,6 +3034,7 @@ year,variable,desc
 2020,sc_hispanic_r_if,Imputation Flag for SC_HISPANIC_R
 2021,sc_hispanic_r_if,Imputation Flag for SC_HISPANIC_R
 2022,sc_hispanic_r_if,Imputation Flag for SC_HISPANIC_R
+2023,sc_hispanic_r_if,Imputation Flag for SC_HISPANIC_R
 2016,sc_k2q10,SC Medication Currently
 2017,sc_k2q10,SC Needs or Uses Medication Currently
 2018,sc_k2q10,SC Needs or Uses Medication Currently
@@ -2663,6 +3042,7 @@ year,variable,desc
 2020,sc_k2q10,SC Needs or Uses Medication Currently
 2021,sc_k2q10,SC Needs or Uses Medication Currently
 2022,sc_k2q10,SC Needs or Uses Medication Currently
+2023,sc_k2q10,SC Needs or Uses Medication Currently
 2016,sc_k2q11,SC Medication Currently Condition
 2017,sc_k2q11,SC Medication Used or Needed for Health Condition
 2018,sc_k2q11,SC Medication Used or Needed for Health Condition
@@ -2670,6 +3050,7 @@ year,variable,desc
 2020,sc_k2q11,SC Medication Used or Needed for Health Condition
 2021,sc_k2q11,SC Medication Used or Needed for Health Condition
 2022,sc_k2q11,SC Medication Used or Needed for Health Condition
+2023,sc_k2q11,SC Medication Used or Needed for Health Condition
 2016,sc_k2q12,SC Medication Currently 12 Months
 2017,sc_k2q12,SC Medication Currently for 12 Months
 2018,sc_k2q12,SC Medication Currently for 12 Months
@@ -2677,6 +3058,7 @@ year,variable,desc
 2020,sc_k2q12,SC Medication Currently for 12 Months
 2021,sc_k2q12,SC Medication Currently for 12 Months
 2022,sc_k2q12,SC Medication Currently for 12 Months
+2023,sc_k2q12,SC Medication Currently for 12 Months
 2016,sc_k2q13,SC Medical Care Currently
 2017,sc_k2q13,SC Needs or Uses More Medical Care than Others
 2018,sc_k2q13,SC Needs or Uses More Medical Care than Others
@@ -2684,6 +3066,7 @@ year,variable,desc
 2020,sc_k2q13,SC Needs or Uses More Medical Care than Others
 2021,sc_k2q13,SC Needs or Uses More Medical Care than Others
 2022,sc_k2q13,SC Needs or Uses More Medical Care than Others
+2023,sc_k2q13,SC Needs or Uses More Medical Care than Others
 2016,sc_k2q14,SC Medical Care Currently Condition
 2017,sc_k2q14,SC Medical Care Used or Needed for Health Condition
 2018,sc_k2q14,SC Medical Care Used or Needed for Health Condition
@@ -2691,6 +3074,7 @@ year,variable,desc
 2020,sc_k2q14,SC Medical Care Used or Needed for Health Condition
 2021,sc_k2q14,SC Medical Care Used or Needed for Health Condition
 2022,sc_k2q14,SC Medical Care Used or Needed for Health Condition
+2023,sc_k2q14,SC Medical Care Used or Needed for Health Condition
 2016,sc_k2q15,SC Medical Care Currently 12 Months
 2017,sc_k2q15,SC Medical Care Currently for 12 Months
 2018,sc_k2q15,SC Medical Care Currently for 12 Months
@@ -2698,6 +3082,7 @@ year,variable,desc
 2020,sc_k2q15,SC Medical Care Currently for 12 Months
 2021,sc_k2q15,SC Medical Care Currently for 12 Months
 2022,sc_k2q15,SC Medical Care Currently for 12 Months
+2023,sc_k2q15,SC Medical Care Currently for 12 Months
 2016,sc_k2q16,SC Limited Ability Currently
 2017,sc_k2q16,SC Limited Ability
 2018,sc_k2q16,SC Limited Ability
@@ -2705,6 +3090,7 @@ year,variable,desc
 2020,sc_k2q16,SC Limited Ability
 2021,sc_k2q16,SC Limited Ability
 2022,sc_k2q16,SC Limited Ability
+2023,sc_k2q16,SC Limited Ability
 2016,sc_k2q17,SC Limited Ability Currently Condition
 2017,sc_k2q17,SC Limited Ability from Health Condition
 2018,sc_k2q17,SC Limited Ability from Health Condition
@@ -2712,6 +3098,7 @@ year,variable,desc
 2020,sc_k2q17,SC Limited Ability from Health Condition
 2021,sc_k2q17,SC Limited Ability from Health Condition
 2022,sc_k2q17,SC Limited Ability from Health Condition
+2023,sc_k2q17,SC Limited Ability from Health Condition
 2016,sc_k2q18,SC Limited Ability Currently 12 Months
 2017,sc_k2q18,SC Limited Ability from Health Condition for 12 Months
 2018,sc_k2q18,SC Limited Ability from Health Condition for 12 Months
@@ -2719,6 +3106,7 @@ year,variable,desc
 2020,sc_k2q18,SC Limited Ability from Health Condition for 12 Months
 2021,sc_k2q18,SC Limited Ability from Health Condition for 12 Months
 2022,sc_k2q18,SC Limited Ability from Health Condition for 12 Months
+2023,sc_k2q18,SC Limited Ability from Health Condition for 12 Months
 2016,sc_k2q19,SC Special Therapy Currently
 2017,sc_k2q19,SC Special Therapy
 2018,sc_k2q19,SC Special Therapy
@@ -2726,6 +3114,7 @@ year,variable,desc
 2020,sc_k2q19,SC Special Therapy
 2021,sc_k2q19,SC Special Therapy
 2022,sc_k2q19,SC Special Therapy
+2023,sc_k2q19,SC Special Therapy
 2016,sc_k2q20,SC Special Therapy Currently Condition
 2017,sc_k2q20,SC Special Therapy for Health Condition
 2018,sc_k2q20,SC Special Therapy for Health Condition
@@ -2733,6 +3122,7 @@ year,variable,desc
 2020,sc_k2q20,SC Special Therapy for Health Condition
 2021,sc_k2q20,SC Special Therapy for Health Condition
 2022,sc_k2q20,SC Special Therapy for Health Condition
+2023,sc_k2q20,SC Special Therapy for Health Condition
 2016,sc_k2q21,SC Special Therapy Currently 12 Months
 2017,sc_k2q21,SC Special Therapy for Health Condition for 12 Months
 2018,sc_k2q21,SC Special Therapy for Health Condition for 12 Months
@@ -2740,6 +3130,7 @@ year,variable,desc
 2020,sc_k2q21,SC Special Therapy for Health Condition for 12 Months
 2021,sc_k2q21,SC Special Therapy for Health Condition for 12 Months
 2022,sc_k2q21,SC Special Therapy for Health Condition for 12 Months
+2023,sc_k2q21,SC Special Therapy for Health Condition for 12 Months
 2016,sc_k2q22,SC Emotion Develop Behave Treatment
 2017,sc_k2q22,SC Needs Treatment for Emotion Develop Behave
 2018,sc_k2q22,SC Needs Treatment for Emotion Develop Behave
@@ -2747,6 +3138,7 @@ year,variable,desc
 2020,sc_k2q22,SC Needs Treatment for Emotion Develop Behave
 2021,sc_k2q22,SC Needs Treatment for Emotion Develop Behave
 2022,sc_k2q22,SC Needs Treatment for Emotion Develop Behave
+2023,sc_k2q22,SC Needs Treatment for Emotion Develop Behave
 2016,sc_k2q23,SC Emotion Develop Behave 12 Months
 2017,sc_k2q23,SC Treatment for Chronic Emotion Develop Behave
 2018,sc_k2q23,SC Treatment for Chronic Emotion Develop Behave
@@ -2754,6 +3146,7 @@ year,variable,desc
 2020,sc_k2q23,SC Treatment for Chronic Emotion Develop Behave
 2021,sc_k2q23,SC Treatment for Chronic Emotion Develop Behave
 2022,sc_k2q23,SC Treatment for Chronic Emotion Develop Behave
+2023,sc_k2q23,SC Treatment for Chronic Emotion Develop Behave
 2016,sc_nhpi,Native Hawaiian or Other Pacific Islanders Alone or in Combination with Other Race
 2017,sc_nhpi,Native Hawaiian or Other Pacific Islanders Alone or in Combination with Other Race
 2018,sc_nhpi,Native Hawaiian or Other Pacific Islanders Alone or in Combination with Other Race
@@ -2761,6 +3154,7 @@ year,variable,desc
 2020,sc_nhpi,Native Hawaiian or Other Pacific Islanders Alone or in Combination with Other Race
 2021,sc_nhpi,Native Hawaiian or Other Pacific Islanders Alone or in Combination with Other Race
 2022,sc_nhpi,Native Hawaiian or Other Pacific Islanders Alone or in Combination with Other Race
+2023,sc_nhpi,Native Hawaiian or Other Pacific Islanders Alone or in Combination with Other Race
 2016,sc_race_r,"Race of Selected Child, Detailed"
 2017,sc_race_r,"Race of Selected Child, Detailed"
 2018,sc_race_r,"Race of Selected Child, Detailed"
@@ -2768,6 +3162,7 @@ year,variable,desc
 2020,sc_race_r,"Race of Selected Child, Detailed"
 2021,sc_race_r,"Race of Selected Child, Detailed"
 2022,sc_race_r,"Race of Selected Child, Detailed"
+2023,sc_race_r,"Race of Selected Child, Detailed"
 2016,sc_race_r_if,Imputation Flag for SC_RACE_R
 2017,sc_race_r_if,Imputation Flag for SC_RACE_R
 2018,sc_race_r_if,Imputation Flag for SC_RACE_R
@@ -2775,6 +3170,7 @@ year,variable,desc
 2020,sc_race_r_if,Imputation Flag for SC_RACE_R
 2021,sc_race_r_if,Imputation Flag for SC_RACE_R
 2022,sc_race_r_if,Imputation Flag for SC_RACE_R
+2023,sc_race_r_if,Imputation Flag for SC_RACE_R
 2016,sc_raceaian,"Race of Selected Child, Recode, AIAN Included. Reported for AK, AZ, NM, MT, ND, OK, SD"
 2017,sc_raceaian,"Race of Selected Child, Recode, AIAN Included. Reported for AK, AZ, NM, MT, ND, OK, SD"
 2018,sc_raceaian,"Race of Selected Child, Recode, AIAN Included,||Reported for AK, AZ, NM, MT, ND, OK, SD"
@@ -2794,6 +3190,7 @@ year,variable,desc
 2020,sc_racer,"Race of Selected Child, Recode"
 2021,sc_racer,"Race of Selected Child, Recode"
 2022,sc_racer,"Race of Selected Child, Recode"
+2023,sc_racer,"Race of Selected Child, Recode"
 2016,sc_sex,Sex of Selected Child
 2017,sc_sex,Sex of Selected Child
 2018,sc_sex,Sex of Selected Child
@@ -2801,6 +3198,7 @@ year,variable,desc
 2020,sc_sex,Sex of Selected Child
 2021,sc_sex,Sex of Selected Child
 2022,sc_sex,Sex of Selected Child
+2023,sc_sex,Sex of Selected Child
 2016,sc_sex_if,Imputation Flag for SC_SEX
 2017,sc_sex_if,Imputation Flag for SC_SEX
 2018,sc_sex_if,Imputation Flag for SC_SEX
@@ -2808,14 +3206,17 @@ year,variable,desc
 2020,sc_sex_if,Imputation Flag for SC_SEX
 2021,sc_sex_if,Imputation Flag for SC_SEX
 2022,sc_sex_if,Imputation Flag for SC_SEX
+2023,sc_sex_if,Imputation Flag for SC_SEX
 2018,screentime,"How Much Time Spent with TV, Cellphone, Computer"
 2019,screentime,"How Much Time Spent with TV, Cellphone, Computer"
 2020,screentime,"How Much Time Spent with TV, Cellphone, Computer"
 2021,screentime,"How Much Time Spent with TV, Cellphone, Computer"
 2022,screentime,"How Much Time Spent with TV, Cellphone, Computer"
+2023,screentime,"How Much Time Spent with TV, Cellphone, Computer"
 2020,seekcare,Concussion/Brain Injury - Seek Care
 2021,seekcare,Concussion/Brain Injury - Seek Care
 2022,seekcare,Concussion/Brain Injury - Seek Care
+2023,seekcare,Concussion/Brain Injury - Seek Care
 2016,sescurrsvc,Special Education Plan - Currently
 2017,sescurrsvc,Special Education Plan - Currently
 2018,sescurrsvc,Special Education Plan - Currently
@@ -2823,6 +3224,7 @@ year,variable,desc
 2020,sescurrsvc,Special Education Plan - Currently
 2021,sescurrsvc,Special Education Plan - Currently
 2022,sescurrsvc,Special Education Plan - Currently
+2023,sescurrsvc,Special Education Plan - Currently
 2016,sesplanmo,Special Education Plan - Age in Months
 2017,sesplanmo,Special Education Plan - Age in Months (use with SESPLANYR)
 2018,sesplanmo,Special Education Plan - Age in Months (use with SESPLANYR)
@@ -2830,6 +3232,7 @@ year,variable,desc
 2020,sesplanmo,Special Education Plan - Age in Months (use with SESPLANYR)
 2021,sesplanmo,Special Education Plan - Age in Months (use with SESPLANYR)
 2022,sesplanmo,Special Education Plan - Age in Months (use with SESPLANYR)
+2023,sesplanmo,Special Education Plan - Age in Months (use with SESPLANYR)
 2016,sesplanyr,Special Education Plan - Age in Years
 2017,sesplanyr,Special Education Plan - Age in Years
 2018,sesplanyr,Special Education Plan - Age in Years
@@ -2837,11 +3240,15 @@ year,variable,desc
 2020,sesplanyr,Special Education Plan - Age in Years
 2021,sesplanyr,Special Education Plan - Age in Years
 2022,sesplanyr,Special Education Plan - Age in Years
+2023,sesplanyr,Special Education Plan - Age in Years
 2022,sharetoys,Share Toys
+2023,sharetoys,Share Toys
 2020,sicklecell,Blood Disorder Sickle Cell
 2021,sicklecell,Blood Disorder Sickle Cell
 2022,sicklecell,Blood Disorder Sickle Cell
+2023,sicklecell,Blood Disorder Sickle Cell
 2022,simpleaddition,Simple Addition
+2023,simpleaddition,Simple Addition
 2016,simpleinst,How Often - Follow Instructions for Simple Task
 2017,simpleinst,How Often - Follow Instructions for Simple Task
 2018,simpleinst,How Often - Follow Instructions for Simple Task
@@ -2868,9 +3275,13 @@ year,variable,desc
 2020,spcservmo,Received Special Services - Age in Months (use with K4Q37)
 2021,spcservmo,Received Special Services - Age in Months (use with K4Q37)
 2022,spcservmo,Received Special Services - Age in Months (use with K4Q37)
+2023,spcservmo,Received Special Services - Age in Months (use with K4Q37)
 2022,ssi,Receive SSI 
+2023,ssi,Receive SSI 
 2022,ssidisability,Receive SSI for Disability 
+2023,ssidisability,Receive SSI for Disability 
 2022,startnewact,How Often - Difficulty End/Starting Activities
+2023,startnewact,How Often - Difficulty End/Starting Activities
 2016,startschool,Has Child Started School
 2017,startschool,Has Child Started School
 2018,startschool,Has Child Started School
@@ -2878,6 +3289,7 @@ year,variable,desc
 2020,startschool,Has Child Started School
 2021,startschool,Has Child Started School
 2022,startschool,Has Child Started School
+2023,startschool,Has Child Started School
 2016,stomach,Difficulty Stomach
 2017,stomach,Difficulty Stomach Past 12 Months
 2018,stomach,Difficulty Stomach Past 12 Months
@@ -2885,6 +3297,7 @@ year,variable,desc
 2020,stomach,Difficulty Stomach Past 12 Months
 2021,stomach,Difficulty Stomach Past 12 Months
 2022,stomach,Difficulty Stomach Past 12 Months
+2023,stomach,Difficulty Stomach Past 12 Months
 2016,stopwork,Past 12 Months - Stopped Working because of Health Status
 2017,stopwork,Past 12 Months - Stopped Working because of Health Status
 2018,stopwork,Past 12 Months - Stopped Working because of Health Status
@@ -2892,6 +3305,7 @@ year,variable,desc
 2020,stopwork,Past 12 Months - Stopped Working because of Health Status
 2021,stopwork,Past 12 Months - Stopped Working because of Health Status
 2022,stopwork,Past 12 Months - Stopped Working because of Health Status
+2023,stopwork,Past 12 Months - Stopped Working because of Health Status
 2016,stratum,Sampling Stratum
 2017,stratum,Sampling Stratum
 2018,stratum,Sampling Stratum
@@ -2899,6 +3313,7 @@ year,variable,desc
 2020,stratum,Sampling Stratum
 2021,stratum,Sampling Stratum
 2022,stratum,Sampling Stratum
+2023,stratum,Sampling Stratum
 2016,strengths,Facing Problems - How Often Draw on Strengths
 2017,strengths,Facing Problems - How Often Draw on Strengths
 2018,strengths,Facing Problems - How Often Draw on Strengths
@@ -2906,6 +3321,7 @@ year,variable,desc
 2020,strengths,Facing Problems - How Often Draw on Strengths
 2021,strengths,Facing Problems - How Often Draw on Strengths
 2022,strengths,Facing Problems - How Often Draw on Strengths
+2023,strengths,Facing Problems - How Often Draw on Strengths
 2016,subabuse,Substance Abuse Disorder
 2017,subabuse,Substance Abuse Disorder
 2018,subabuse,Substance Use Disorder
@@ -2919,6 +3335,7 @@ year,variable,desc
 2019,subabuse_desc,Substance Use Disorder Severity Description
 2021,sugardrink,How Many Surgary Drinks
 2022,sugardrink,How Many Surgary Drinks
+2023,sugardrink,How Many Surgary Drinks
 2016,swallowing,Difficulty Swallowing
 2017,swallowing,Difficulty Swallowing Past 12 Months
 2018,swallowing,Difficulty Swallowing Past 12 Months
@@ -2926,6 +3343,7 @@ year,variable,desc
 2020,swallowing,Difficulty Swallowing Past 12 Months
 2021,swallowing,Difficulty Swallowing Past 12 Months
 2022,swallowing,Difficulty Swallowing Past 12 Months
+2023,swallowing,Difficulty Swallowing Past 12 Months
 2016,talkabout,Facing Problems - How Often Talk Together
 2017,talkabout,Facing Problems - How Often Talk Together
 2018,talkabout,Facing Problems - How Often Talk Together
@@ -2933,11 +3351,13 @@ year,variable,desc
 2020,talkabout,Facing Problems - How Often Talk Together
 2021,talkabout,Facing Problems - How Often Talk Together
 2022,talkabout,Facing Problems - How Often Talk Together
+2023,talkabout,Facing Problems - How Often Talk Together
 2018,tellstory,Tell a Story
 2019,tellstory,Tell a Story
 2020,tellstory,Tell a Story
 2021,tellstory,Tell a Story
 2022,tellstory,Tell a Story
+2023,tellstory,Tell a Story
 2016,temper,How Often - Lose Control
 2017,temper,How Often - Lose Control
 2018,temper,How Often - Lose Control
@@ -2945,24 +3365,29 @@ year,variable,desc
 2020,temper,How Often - Lose Control
 2021,temper,How Often - Lose Control
 2022,temper_r,How Often - Loses Temper
+2023,temper_r,How Often - Loses Temper
 2018,tenure,The Conditions under Which Land or Buildings Are Held or Occupied
 2019,tenure,The Conditions under Which Land or Buildings Are Held or Occupied
 2020,tenure,The Conditions under Which Land or Buildings Are Held or Occupied
 2021,tenure,The Conditions under Which Land or Buildings Are Held or Occupied
 2022,tenure,The Conditions under Which Land or Buildings Are Held or Occupied
+2023,tenure,The Conditions under Which Land or Buildings Are Held or Occupied
 2018,tenure_if,Imputation Flag for TENURE
 2019,tenure_if,Imputation Flag for TENURE
 2020,tenure_if,Imputation Flag for TENURE
 2021,tenure_if,Imputation Flag for TENURE
 2022,tenure_if,Imputation Flag for TENURE
+2023,tenure_if,Imputation Flag for TENURE
 2020,thalassemia,Blood Disorder Thalassemia
 2021,thalassemia,Blood Disorder Thalassemia
 2022,thalassemia,Blood Disorder Thalassemia
+2023,thalassemia,Blood Disorder Thalassemia
 2018,threewords,Use Three Words Together
 2019,threewords,Use Three Words Together
 2020,threewords,Use Three Words Together
 2021,threewords,Use Three Words Together
 2022,threewords,Use Three Words Together
+2023,threewords,Use Three Words Together
 2016,toothaches,Difficulty Toothaches
 2017,toothaches,Difficulty Toothaches Past 12 Months
 2018,toothaches,Difficulty Toothaches Past 12 Months
@@ -2970,6 +3395,7 @@ year,variable,desc
 2020,toothaches,Difficulty Toothaches Past 12 Months
 2021,toothaches,Difficulty Toothaches Past 12 Months
 2022,toothaches,Difficulty Toothaches Past 12 Months
+2023,toothaches,Difficulty Toothaches Past 12 Months
 2016,totage_0_5,Count of Children Ages 0 to 5 in Household
 2017,totage_0_5,Count of Children Ages 0 to 5 in Household
 2018,totage_0_5,Count of Children Ages 0 to 5 in Household
@@ -2977,6 +3403,7 @@ year,variable,desc
 2020,totage_0_5,Count of Children Ages 0 to 5 in Household
 2021,totage_0_5,Count of Children Ages 0 to 5 in Household
 2022,totage_0_5,Count of Children Ages 0 to 5 in Household
+2023,totage_0_5,Count of Children Ages 0 to 5 in Household
 2016,totage_12_17,Count of Children Ages 12 to 17 in Household
 2017,totage_12_17,Count of Children Ages 12 to 17 in Household
 2018,totage_12_17,Count of Children Ages 12 to 17 in Household
@@ -2984,6 +3411,7 @@ year,variable,desc
 2020,totage_12_17,Count of Children Ages 12 to 17 in Household
 2021,totage_12_17,Count of Children Ages 12 to 17 in Household
 2022,totage_12_17,Count of Children Ages 12 to 17 in Household
+2023,totage_12_17,Count of Children Ages 12 to 17 in Household
 2016,totage_6_11,Count of Children Ages 6 to 11 in Household
 2017,totage_6_11,Count of Children Ages 6 to 11 in Household
 2018,totage_6_11,Count of Children Ages 6 to 11 in Household
@@ -2991,6 +3419,7 @@ year,variable,desc
 2020,totage_6_11,Count of Children Ages 6 to 11 in Household
 2021,totage_6_11,Count of Children Ages 6 to 11 in Household
 2022,totage_6_11,Count of Children Ages 6 to 11 in Household
+2023,totage_6_11,Count of Children Ages 6 to 11 in Household
 2016,totcshcn,Count of Children with Special Health Care Needs in Household
 2017,totcshcn,Count of Children with Special Health Care Needs in Household
 2018,totcshcn,Count of Children with Special Health Care Needs in Household
@@ -2998,6 +3427,7 @@ year,variable,desc
 2020,totcshcn,Count of Children with Special Health Care Needs in Household
 2021,totcshcn,Count of Children with Special Health Care Needs in Household
 2022,totcshcn,Count of Children with Special Health Care Needs in Household
+2023,totcshcn,Count of Children with Special Health Care Needs in Household
 2016,totfemale,Count of Female Children in Household
 2017,totfemale,Count of Female Children in Household
 2018,totfemale,Count of Female Children in Household
@@ -3005,6 +3435,7 @@ year,variable,desc
 2020,totfemale,Count of Female Children in Household
 2021,totfemale,Count of Female Children in Household
 2022,totfemale,Count of Female Children in Household
+2023,totfemale,Count of Female Children in Household
 2016,totkids_r,Number of Children
 2017,totkids_r,Number of Children in Household
 2018,totkids_r,Number of Children in Household
@@ -3012,6 +3443,7 @@ year,variable,desc
 2020,totkids_r,Number of Children in Household
 2021,totkids_r,Number of Children in Household
 2022,totkids_r,Number of Children in Household
+2023,totkids_r,Number of Children in Household
 2016,totmale,Count of Male Children in Household
 2017,totmale,Count of Male Children in Household
 2018,totmale,Count of Male Children in Household
@@ -3019,6 +3451,7 @@ year,variable,desc
 2020,totmale,Count of Male Children in Household
 2021,totmale,Count of Male Children in Household
 2022,totmale,Count of Male Children in Household
+2023,totmale,Count of Male Children in Household
 2016,totnonshcn,Count of Children without Special Health Care Needs in Household
 2017,totnonshcn,Count of Children without Special Health Care Needs in Household
 2018,totnonshcn,Count of Children without Special Health Care Needs in Household
@@ -3026,6 +3459,7 @@ year,variable,desc
 2020,totnonshcn,Count of Children without Special Health Care Needs in Household
 2021,totnonshcn,Count of Children without Special Health Care Needs in Household
 2022,totnonshcn,Count of Children without Special Health Care Needs in Household
+2023,totnonshcn,Count of Children without Special Health Care Needs in Household
 2016,transportcc,Needed Health Care Not Received Due to - Getting Transportation
 2017,transportcc,Needed Health Care Not Received Due to - Getting Transportation
 2018,transportcc,Needed Health Care Not Received Due to - Getting Transportation
@@ -3033,6 +3467,7 @@ year,variable,desc
 2020,transportcc,Needed Health Care Not Received Due to - Getting Transportation
 2021,transportcc,Needed Health Care Not Received Due to - Getting Transportation
 2022,transportcc,Needed Health Care Not Received Due to - Getting Transportation
+2023,transportcc,Needed Health Care Not Received Due to - Getting Transportation
 2016,treatadult,Talked About Child Seeing Doctors Who Treat Adults
 2017,treatadult,Talked About Child Seeing Doctors Who Treat Adults
 2018,treatadult,Talked About Child Seeing Doctors Who Treat Adults
@@ -3040,6 +3475,7 @@ year,variable,desc
 2020,treatadult,Talked About Child Seeing Doctors Who Treat Adults
 2021,treatadult,Talked About Child Seeing Doctors Who Treat Adults
 2022,treatadult,Talked About Child Seeing Doctors Who Treat Adults
+2023,treatadult,Talked About Child Seeing Doctors Who Treat Adults
 2016,treatchild,Doctors Treat Only Children
 2017,treatchild,Doctors Treat Only Children
 2018,treatchild,Doctors Treat Only Children
@@ -3047,6 +3483,7 @@ year,variable,desc
 2020,treatchild,Doctors Treat Only Children
 2021,treatchild,Doctors Treat Only Children
 2022,treatchild,Doctors Treat Only Children
+2023,treatchild,Doctors Treat Only Children
 2016,treatneed,Mental Health Professional Treatment - Problem
 2017,treatneed,Mental Health Professional Treatment - Problem
 2018,treatneed,Mental Health Professional Treatment - Problem
@@ -3054,6 +3491,7 @@ year,variable,desc
 2020,treatneed,Mental Health Professional Treatment - Problem
 2021,treatneed,Mental Health Professional Treatment - Problem
 2022,treatneed,Mental Health Professional Treatment - Problem
+2023,treatneed,Mental Health Professional Treatment - Problem
 2016,tricare,Health Insurance - TRICARE
 2017,tricare,Health Insurance - TRICARE
 2018,tricare,Health Insurance - TRICARE
@@ -3061,21 +3499,25 @@ year,variable,desc
 2020,tricare,Health Insurance - TRICARE
 2021,tricare,Health Insurance - TRICARE
 2022,tricare,Health Insurance - TRICARE
+2023,tricare,Health Insurance - TRICARE
 2018,twowords,Use Two Words Together
 2019,twowords,Use Two Words Together
 2020,twowords,Use Two Words Together
 2021,twowords,Use Two Words Together
 2022,twowords,Use Two Words Together
+2023,twowords,Use Two Words Together
 2018,understand,Understand 'No'
 2019,understand,Understand 'No'
 2020,understand,Understand 'No'
 2021,understand,Understand 'No'
 2022,understand,Understand 'No'
+2023,understand,Understand 'No'
 2018,understand2,"Understand 'In', 'On', 'Under'"
 2019,understand2,"Understand 'In', 'On', 'Under'"
 2020,understand2,"Understand 'In', 'On', 'Under''"
 2021,understand2,"Understand 'In', 'On', 'Under'"
 2022,understand2,"Understand 'In', 'On', 'Under'"
+2023,understand2,"Understand 'In', 'On', 'Under'"
 2016,usepencil,How Child Holds a Pencil
 2017,usepencil,How Child Holds a Pencil
 2018,usepencil,How Child Holds a Pencil
@@ -3089,6 +3531,7 @@ year,variable,desc
 2020,usualgo,Place Usually Goes for Preventive Care
 2021,usualgo,Place Usually Goes for Preventive Care
 2022,usualgo,Place Usually Goes for Preventive Care
+2023,usualgo,Place Usually Goes for Preventive Care
 2016,usualsick,Place Usually Goes Routine Same As Sick
 2017,usualsick,Place Usually Goes for Sick Same As Preventive
 2018,usualsick,Place Usually Goes for Sick Same As Preventive
@@ -3096,18 +3539,25 @@ year,variable,desc
 2020,usualsick,Place Usually Goes for Sick Same As Preventive
 2021,usualsick,Place Usually Goes for Sick Same As Preventive
 2022,usualsick,Place Usually Goes for Sick Same As Preventive
+2023,usualsick,Place Usually Goes for Sick Same As Preventive
 2022,vape,Vape/E-Cigarettes inside of Home
+2023,vape,Vape/E-Cigarettes inside of Home
 2021,vegetables,How Many Vegetables
 2022,vegetables,How Many Vegetables
+2023,vegetables,How Many Vegetables
 2021,videophone,COVID - Virtual Health Care Visits
 2022,videophone,COVID - Virtual Health Care Visits
+2023,videophone,COVID - Virtual Health Care Visits
 2021,videophonecovid,COVID - Virtual Health Care Visits Due to COVID
 2022,videophonecovid,COVID - Virtual Health Care Visits Due to COVID
 2021,visionexamrec,Vision Test Recommended 
 2022,visionexamrec,Vision Test Recommended 
+2023,visionexamrec,Vision Test Recommended 
 2021,visionscreenother,Vision Screening from Other Provider
 2022,visionscreenother,Vision Screening from Other Provider
+2023,visionscreenother,Vision Screening from Other Provider
 2022,waitforturn,How Often - Waits for Their Turn
+2023,waitforturn,How Often - Waits for Their Turn
 2016,walkstairs,Serious Difficulty Walking or Climbing Stairs
 2017,walkstairs,Serious Difficulty Walking or Climbing Stairs
 2018,walkstairs,Serious Difficulty Walking or Climbing Stairs
@@ -3115,6 +3565,7 @@ year,variable,desc
 2020,walkstairs,Serious Difficulty Walking or Climbing Stairs
 2021,walkstairs,Serious Difficulty Walking or Climbing Stairs
 2022,walkstairs,Serious Difficulty Walking or Climbing Stairs
+2023,walkstairs,Serious Difficulty Walking or Climbing Stairs
 2016,weight,Weight in KG
 2017,weight,Weight in KG
 2018,weight,Weight in KG
@@ -3122,6 +3573,7 @@ year,variable,desc
 2020,weight,Weight in KG
 2021,weight,Weight in KG
 2022,weight,WEIGHT
+2023,weight,Child's Weight (KG)
 2016,wgtconc,Concerned About Weight
 2017,wgtconc,Concerned About Weight
 2018,wgtconc,Concerned About Weight
@@ -3129,6 +3581,7 @@ year,variable,desc
 2020,wgtconc,Concerned About Weight
 2021,wgtconc,Concerned About Weight
 2022,wgtconc,Concerned About Weight
+2023,wgtconc,Concerned About Weight
 2016,wktosolve,Facing Problems - How Often Work Together
 2017,wktosolve,Facing Problems - How Often Work Together
 2018,wktosolve,Facing Problems - How Often Work Together
@@ -3136,6 +3589,7 @@ year,variable,desc
 2020,wktosolve,Facing Problems - How Often Work Together
 2021,wktosolve,Facing Problems - How Often Work Together
 2022,wktosolve,Facing Problems - How Often Work Together
+2023,wktosolve,Facing Problems - How Often Work Together
 2016,worktofin,How Often - Work Until Finished
 2017,worktofin,How Often - Work Until Finished
 2018,worktofin,How Often - Work Until Finished
@@ -3149,6 +3603,7 @@ year,variable,desc
 2020,writename,How Often - Write First Name
 2021,writename,How Often - Write First Name
 2022,writename,How Often - Write First Name
+2023,writename,How Often - Write First Name
 2016,writeplan,Doctor Worked with You and Child To Create Written Plan
 2017,writeplan,Doctor Worked with You and Child To Create Written Plan
 2018,writeplan,Doctor Worked with You and Child To Create Written Plan
@@ -3156,6 +3611,7 @@ year,variable,desc
 2020,writeplan,Doctor Worked with You and Child To Create Written Plan
 2021,writeplan,Doctor Worked with You and Child To Create Written Plan
 2022,writeplan,Doctor Worked with You and Child To Create Written Plan
+2023,writeplan,Doctor Worked with You and Child To Create Written Plan
 2016,year,Survey Year
 2017,year,Survey Year
 2018,year,Survey Year
@@ -3163,3 +3619,4 @@ year,variable,desc
 2020,year,Survey Year
 2021,year,Survey Year
 2022,year,Survey Year
+2023,year,Survey Year

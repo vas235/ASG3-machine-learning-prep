@@ -67,8 +67,6 @@ apply_labels_to_data_csv <- function(data, labels_dt) {
 }
 
 
-
-
 # Directory containing the .csv files
 csv_dir <- "ml-data-prep/download-nsch-data"
 
@@ -76,11 +74,32 @@ csv_dir <- "ml-data-prep/download-nsch-data"
 all_data_list <- list()
 
 for (year in 2016:2022) {
-  rds_file <- file.path(csv_dir, paste0("nsch_", year, "_topical.rds"))
+  dta_file <- file.path(csv_dir, paste0("nsch_", year, "_topical.dta"))
   csv_file <- file.path(csv_dir, paste0("nsch_", year, "_topical.do.define.csv"))
   
-  # Read the .rds file
-  raw_data <- readRDS(rds_file)
+  # Read the .dta file using haven (this will automatically handle tagged NA values)
+  raw_data <- read_dta(dta_file)
+  
+  # Identify and replace tagged NA values with numeric codes
+  for (col in names(raw_data)) {
+    raw_data[[col]][is_tagged_na(raw_data[[col]], "m")] <- 996
+    raw_data[[col]][is_tagged_na(raw_data[[col]], "n")] <- 997
+    raw_data[[col]][is_tagged_na(raw_data[[col]], "l")] <- 998
+    raw_data[[col]][is_tagged_na(raw_data[[col]], "d")] <- 999
+  }
+  
+  # Handle the 'stratum' column: replace '2A' (non-case sensitive) with '2' and convert to numeric
+  if ("stratum" %in% names(raw_data)) {
+    # Convert to character to handle case-insensitive replacement
+    raw_data$stratum <- as.character(raw_data$stratum)
+    
+    # Replace '2A' or '2a' with '2'
+    raw_data$stratum[grepl("^2a?$", raw_data$stratum, ignore.case = TRUE)] <- "2"
+    
+    # Convert the 'stratum' column to numeric
+    raw_data$stratum <- as.numeric(raw_data$stratum)
+  }
+  
   
   # Parse labels from the .csv file
   parsed_labels <- parse_label_csv(csv_file)
@@ -100,6 +119,41 @@ for (year in 2016:2022) {
   # Store processed data
   all_data_list[[as.character(year)]] <- data.table(labeled_data)
 }
+
+
+
+# 
+# # Directory containing the .csv files
+# csv_dir <- "ml-data-prep/download-nsch-data"
+# 
+# # Process each year's data
+# all_data_list <- list()
+# 
+# for (year in 2016:2022) {
+#   rds_file <- file.path(csv_dir, paste0("nsch_", year, "_topical.rds"))
+#   csv_file <- file.path(csv_dir, paste0("nsch_", year, "_topical.do.define.csv"))
+#   
+#   # Read the .rds file
+#   raw_data <- readRDS(rds_file)
+#   
+#   # Parse labels from the .csv file
+#   parsed_labels <- parse_label_csv(csv_file)
+#   
+#   # Remove stratum entries from 2016's parsed labels
+#   if (year == 2016) {
+#     parsed_labels <- parsed_labels[variable != "stratum"]
+#   }
+#   
+#   # Apply labels to the data
+#   labeled_data <- apply_labels_to_data_csv(raw_data, parsed_labels)
+#   
+#   # Print the unique stratum values for the current year
+#   cat(paste("\n[DEBUG] Unique stratum values for year:", year, "\n"))
+#   print(unique(labeled_data$stratum))
+#   
+#   # Store processed data
+#   all_data_list[[as.character(year)]] <- data.table(labeled_data)
+# }
 
 
 
