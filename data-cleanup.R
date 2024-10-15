@@ -237,24 +237,33 @@ combined_data <- rbindlist(processed_datasets, use.names = TRUE, fill = TRUE)
 
 
 
+# Function to replace missing numeric data codes with NA and handle factor conversion
 final_conversion_to_factors <- function(data) {
-  # Define the missing data labels
+  # Define the missing data labels for categorical variables
   na_labels <- c("No valid response", "Not in universe", "Logical skip", "Suppressed for confidentiality")
+  
+  # Define the missing numeric data codes
+  na_numeric_codes <- c(996, 997, 998, 999)
   
   for (var in names(data)) {
     label_col <- paste0(var, "_label")
     
-    # Check if there is a corresponding "_label" column
+    # Check if there is a corresponding "_label" column (indicating this is a categorical variable)
     if (label_col %in% names(data)) {
-      
       # Convert the original column to a factor using the labels from the "_label" column
       data[[var]] <- factor(data[[var]], levels = unique(data[[var]]), labels = unique(data[[label_col]]))
       
-      # Replace missing data labels with NA
+      # Replace missing data labels with NA for categorical columns
       levels(data[[var]])[levels(data[[var]]) %in% na_labels] <- NA
       
       # Remove the "_label" column as it is no longer needed
       data[[label_col]] <- NULL
+    } else {
+      # If there is no label column, treat this as a numeric column
+      if (is.numeric(data[[var]])) {
+        # Replace numeric missing data codes with NA
+        data[[var]][data[[var]] %in% na_numeric_codes] <- NA
+      }
     }
   }
   
