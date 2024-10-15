@@ -121,46 +121,6 @@ for (year in 2016:2022) {
 }
 
 
-
-# 
-# # Directory containing the .csv files
-# csv_dir <- "ml-data-prep/download-nsch-data"
-# 
-# # Process each year's data
-# all_data_list <- list()
-# 
-# for (year in 2016:2022) {
-#   rds_file <- file.path(csv_dir, paste0("nsch_", year, "_topical.rds"))
-#   csv_file <- file.path(csv_dir, paste0("nsch_", year, "_topical.do.define.csv"))
-#   
-#   # Read the .rds file
-#   raw_data <- readRDS(rds_file)
-#   
-#   # Parse labels from the .csv file
-#   parsed_labels <- parse_label_csv(csv_file)
-#   
-#   # Remove stratum entries from 2016's parsed labels
-#   if (year == 2016) {
-#     parsed_labels <- parsed_labels[variable != "stratum"]
-#   }
-#   
-#   # Apply labels to the data
-#   labeled_data <- apply_labels_to_data_csv(raw_data, parsed_labels)
-#   
-#   # Print the unique stratum values for the current year
-#   cat(paste("\n[DEBUG] Unique stratum values for year:", year, "\n"))
-#   print(unique(labeled_data$stratum))
-#   
-#   # Store processed data
-#   all_data_list[[as.character(year)]] <- data.table(labeled_data)
-# }
-
-
-
-
-
-
-
 apply_transformations <- function(data, transformations, year) {
   for (variable_name in names(transformations)) {
     details <- transformations[[variable_name]]
