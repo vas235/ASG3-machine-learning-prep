@@ -14,7 +14,7 @@
 		"headache", "heart", "k2q01", "k2q01_d", "k2q30a", "k2q31a", "k2q32a", 
 		"k2q33a", "k2q34a", "k2q35a", "k2q35a_1_years", "k2q35b", "k2q35c", 
 		"k2q35d", "k2q36a", "k2q37a", "k2q38a", "k2q40a", "diabetes", "k2q42a", 
-		"k2q43b", "k2q60a", "k2q61a", "k6q71_r", "physicalpain", "stomach", "swallowing", 
+		"k2q43b", "k2q60a", "k2q61a", "physicalpain", "stomach", "swallowing", 
 		"toothaches",
 
 		"birthwt", "k2q05", "momage",
@@ -50,12 +50,6 @@
 	"transformations": {
 		
 		"transform": {
-			"k6q71_r": {
-				"years": ["2016", "2017"],
-				"value": ["1", "2", "3"],
-				"new_value": ["1", "2", "4"],
-				"new_label": ["Always", "Sometimes", "Never"]
-			},
 			"k2q01_d": {
 				"years": ["2016", "2017"],
 				"value": ["6"],

@@ -73,6 +73,16 @@ csv_dir <- "ml-data-prep/download-nsch-data"
 # Process each year's data
 all_data_list <- list()
 
+# Create a table to store the proportions of imputed values for each year
+imputation_proportions <- data.frame(
+  year = integer(),
+  category = integer(),
+  proportion = numeric()
+)
+
+# Placeholder for 2016 special case
+imputed_data_2016 <- NULL
+
 for (year in 2016:2022) {
   dta_file <- file.path(csv_dir, paste0("nsch_", year, "_topical.dta"))
   csv_file <- file.path(csv_dir, paste0("nsch_", year, "_topical.do.define.csv"))
@@ -112,6 +122,30 @@ for (year in 2016:2022) {
   # Apply labels to the data
   labeled_data <- apply_labels_to_data_csv(raw_data, parsed_labels)
   
+  # This section is to handle the imputations needed for a1_grade, higrade, and higrade_tvis in 2016
+  # For year 2016, split off the imputation flag and a1_grade_i columns
+  if (year == 2016) {
+    imputed_data_2016 <- labeled_data[, c("hhid", "a1_grade_if", "a1_grade_i"), with = FALSE]
+  }
+  
+  
+  # For years 2017-2022, calculate proportions for imputed values in a1_grade
+  if (year >= 2017) {
+    # Filter for rows where imputation flag is true
+    imputed_subset <- labeled_data[labeled_data$a1_grade_if == TRUE, ]
+    
+    # Calculate proportions for each category in a1_grade
+    prop_table <- prop.table(table(imputed_subset$a1_grade))
+    
+    # Add to the imputation proportions table
+    for (category in names(prop_table)) {
+      imputation_proportions <- rbind(
+        imputation_proportions,
+        data.frame(year = year, category = as.integer(category), proportion = prop_table[category])
+      )
+    }
+  }
+  
   # Print the unique stratum values for the current year
   cat(paste("\n[DEBUG] Unique stratum values for year:", year, "\n"))
   print(unique(labeled_data$stratum))
@@ -121,6 +155,7 @@ for (year in 2016:2022) {
 }
 
 
+# Function to recode, collapse, or reassign categories in a variable
 apply_transformations <- function(data, transformations, year) {
   for (variable_name in names(transformations)) {
     details <- transformations[[variable_name]]
@@ -149,7 +184,7 @@ apply_transformations <- function(data, transformations, year) {
 
 
 
-
+# Function to handle merging of two variables
 merge_columns <- function(data, merge_config, year) {
   for (variable_name in names(merge_config)) {
     details <- merge_config[[variable_name]]
@@ -173,7 +208,7 @@ merge_columns <- function(data, merge_config, year) {
   return(data)
 }
 
-
+# Function to rename a variable
 rename_columns <- function(data, rename_config, year) {
   for (old_name in names(rename_config)) {
     details <- rename_config[[old_name]]
@@ -213,7 +248,7 @@ processed_datasets <- lapply(names(all_data_list), function(year) {
   # Apply column merges
   merged_data <- merge_columns(renamed_data, config$transformations$merge_columns, year)
   
-  # Subset to desired variables, including their corresponding _label columns if they exist
+  # Subset to desired variables, including their corresponding _label columns
   label_columns <- paste0(desired_variables, "_label")
   existing_label_columns <- intersect(label_columns, names(merged_data))
   
@@ -237,6 +272,8 @@ combined_data <- rbindlist(processed_datasets, use.names = TRUE, fill = TRUE)
 
 
 
+
+
 # Function to replace missing numeric data codes with NA and handle factor conversion
 final_conversion_to_factors <- function(data) {
   # Define the missing data labels for categorical variables
@@ -248,10 +285,29 @@ final_conversion_to_factors <- function(data) {
   for (var in names(data)) {
     label_col <- paste0(var, "_label")
     
+    print(var)
+    
     # Check if there is a corresponding "_label" column (indicating this is a categorical variable)
     if (label_col %in% names(data)) {
+      
+      
+      # Create a named vector to map values to labels
+      value_label_map <- setNames(unique(data[[label_col]]), unique(data[[var]]))
+      
+      # Sort the map by the numeric values
+      values <- as.numeric(names(value_label_map))
+      sorted_labels <- value_label_map[order(values)]
+      sorted_values <- as.numeric(names(sorted_labels))
+      
+      if (var == "k2q35d"){
+        print(sorted_values)
+        print(str(sorted_labels))
+        print(sorted_labels)
+      }
+      
+      
       # Convert the original column to a factor using the labels from the "_label" column
-      data[[var]] <- factor(data[[var]], levels = unique(data[[var]]), labels = unique(data[[label_col]]))
+      data[[var]] <- factor(data[[var]], levels = order(sorted_values), labels = sorted_labels)
       
       # Replace missing data labels with NA for categorical columns
       levels(data[[var]])[levels(data[[var]]) %in% na_labels] <- NA
@@ -276,9 +332,16 @@ final_conversion_to_factors <- function(data) {
 combined_data <- final_conversion_to_factors(combined_data)
 
 
+# In this section of code we handle special cases
 
-# Additional processing (fipsst to state conversion, merging additional data, etc.)
-# Properly sets the fipsst codes to state names
+
+
+
+# The fipsst codes processed from the individual define.csv files always seem to result in unexpected missing data
+# When attempting to create a state variable with state names
+# The workaround is to manually use this map to create a state name variable
+
+# Correct fipsst to state name map
 fips_to_state <- setNames(
   c("Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", 
     "Delaware", "District of Columbia", "Florida", "Georgia", "Hawaii", "Idaho", 
@@ -298,8 +361,107 @@ fips_to_state <- setNames(
 combined_data$state <- fips_to_state[as.character(combined_data$fipsst)]
 
 
+print(class(combined_data$family))
 
-# Read in the devscrnng variable extracted from CAHMI datasets
+
+
+# Now we need to collapse grandparent and single father categories in family into other relative
+# This is because these two categories are missing from the 2016 data
+combined_data$family <- fct_recode(combined_data$family,
+                                   "Other relation" = "Single father",
+                                   "Other relation" = "Grandparent household")
+
+
+
+# Ensure the data is ordered on hhid and that the imputation data for 2016 is also ordered
+imputed_data_2016 <- imputed_data_2016[order(imputed_data_2016$hhid),]
+combined_data <- combined_data[order(combined_data$hhid),]
+
+
+# This is a large section of code but this is where we use the existing 2016 imputed values
+# to fill in a1_grade higrade and higrade_tvis
+# Higrade is a direct transfer of the a1_grade_i values
+# A1_grade requires us to randomly assign categories based on average proportions of imputed data in 2017-2022
+# Based on the imputed values we made for A1 grade we can assign higrade_tvis which is just a slightly more detailed version of higrade
+# This results in no missing data for all three variables across the entire dataset.
+
+
+# Copy a1_grade_i to higrade_impute as strings
+imputed_data_2016$higrade_impute <- as.character(imputed_data_2016$a1_grade_i)
+
+# Map numeric values from a1_grade_i to their corresponding string descriptions
+imputed_data_2016$higrade_impute[imputed_data_2016$a1_grade_i == 1] <- "Less than high school"
+imputed_data_2016$higrade_impute[imputed_data_2016$a1_grade_i == 2] <- "High school (including vocational, trade, or business school)"
+imputed_data_2016$higrade_impute[imputed_data_2016$a1_grade_i == 3] <- "More than high school"
+
+
+# Step 1: Calculate the average proportion for each category
+average_proportions <- imputation_proportions %>%
+  group_by(category) %>%
+  summarise(avg_proportion = mean(proportion))
+
+# Create a new column a1_grade_impute from a1_grade_i as a character
+imputed_data_2016$a1_grade_impute <- as.character(imputed_data_2016$a1_grade_i)
+
+# Define the possible values for each category
+grade_1_options <- c("8th grade or less", "9th-12th grade; No diploma")
+grade_2_options <- c("High School Graduate or GED Completed", "Completed a vocational, trade, or business school program")
+grade_3_options <- c("Some College Credit, but No Degree", "Associate Degree (AA, AS)", "Bachelors Degree (BA, BS, AB)", 
+                     "Masters Degree (MA, MS, MSW, MBA)", "Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, JD)")
+
+# weight schemes pulled from average proportions of imputed data from other years
+grade_1_weights <- c(average_proportions[1,2], average_proportions[2,2])
+grade_2_weights <- c(average_proportions[3,2], average_proportions[4,2])
+grade_3_weights <- c(average_proportions[5,2], average_proportions[6,2],
+                     average_proportions[7,2], average_proportions[8,2], 
+                     average_proportions[9,2])
+
+# Function to randomly assign based on proportions
+assign_grade <- function(value, options, weights) {
+  sample(options, size = 1, prob = weights)
+}
+
+# Assign values based on a1_grade_i
+imputed_data_2016$a1_grade_impute[imputed_data_2016$a1_grade_i == 1] <- sapply(
+  imputed_data_2016$a1_grade_i[imputed_data_2016$a1_grade_i == 1],
+  function(x) assign_grade(x, grade_1_options, grade_1_weights)
+)
+
+imputed_data_2016$a1_grade_impute[imputed_data_2016$a1_grade_i == 2] <- sapply(
+  imputed_data_2016$a1_grade_i[imputed_data_2016$a1_grade_i == 2],
+  function(x) assign_grade(x, grade_2_options, grade_2_weights)
+)
+
+imputed_data_2016$a1_grade_impute[imputed_data_2016$a1_grade_i == 3] <- sapply(
+  imputed_data_2016$a1_grade_i[imputed_data_2016$a1_grade_i == 3],
+  function(x) assign_grade(x, grade_3_options, grade_3_weights)
+)
+
+
+
+
+# Assign the new column 'higrade_tvis' in imputed_data_2016 based on the values in 'a1_grade_impute'
+imputed_data_2016$higrade_tvis_impute <- case_when(
+  imputed_data_2016$a1_grade_impute %in% c("8th grade or less", "9th-12th grade; No diploma") ~ "Less than high school",
+  imputed_data_2016$a1_grade_impute %in% c("High School Graduate or GED Completed", "Completed a vocational, trade, or business school program") ~ "High school (including vocational, trade, or business school)",
+  imputed_data_2016$a1_grade_impute %in% c("Some College Credit, but No Degree", "Associate Degree (AA, AS)") ~ "Some college or Associate Degree",
+  imputed_data_2016$a1_grade_impute %in% c("Bachelors Degree (BA, BS, AB)", "Masters Degree (MA, MS, MSW, MBA)", "Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, JD)") ~ "College degree or higher",
+  TRUE ~ NA_character_  # Set any unmatched cases to NA
+)
+
+
+# Assign the imputed values to the missing data cells in combined dataset
+combined_data$higrade[is.na(combined_data$higrade)] <- imputed_data_2016$higrade_impute[is.na(combined_data$higrade)]
+combined_data$a1_grade[is.na(combined_data$a1_grade)] <- imputed_data_2016$a1_grade_impute[is.na(combined_data$a1_grade)]
+combined_data$higrade_tvis[is.na(combined_data$higrade_tvis)] <- imputed_data_2016$higrade_tvis_impute[is.na(combined_data$higrade_tvis)]
+
+
+
+
+# For this study it was requested that we use the developmental screening compound variable from cahmi
+# Since this data doesn't rely on imputed or weighted values we have just joined it from the cahmi datasets.
+
+# Load develeopmental screening dataset that has been extracted from the yearly cahmi datasets
 devscrnng_data <- readRDS("ml-data-prep/devscrnng.rds")
 
 # Ensure that hhid is a key in both data.tables

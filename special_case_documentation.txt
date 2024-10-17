@@ -1,0 +1,21 @@
+The variables used in this dataset are a subset of NSCH questions from both the screener and the topical questionnaire which are relevant to ASD diagnosed children. Only the variables included in all age group questionnaires [T1, T2, T3] and found in all years (2016 - 2022) have been included. The full list of included variables is found in the "desired_variables" section of the .json file.
+
+Over the years several variables have undergone minor changes, the .json file handles necessary transformations of categorical values and labels, renaming of certain variables, and merges between variables in order to standardize variables across all years.
+
+There are several special cases worth noting:
+
+k6q71_r - this variable is present in all years but the question and categories changed significantly enough and so did the proportion of responses that our team felt it should not be included.
+
+family - in 2016 this variable has two less categories than other years, because of this the additional categories were collapsed down in all other years to keep a consistent number of categories across all years.
+
+a1_grade - this variable is traditionally imputed but in 2016 the method of imputation was different. a1_grade_i holds the imputed values, but the categories are condensed into the 3 categories from higrade. After discussing this with census.gov we decided to disperse these 3 imputed categories across all 9 categories of a1_grade based on the average of imputed proportions for all other years, the email response is here:
+
+
+
+There's a similar situation with HHSIZE_I and HHCOUNT. HHSIZE_I is a collapsed, imputed version of HHCOUNT. We imputed these variables to inform weighting, and we didn't need to full range of values for weighting. In 2016, we collapsed categories and then imputed. After 2016, we imputed the full range of response options and then collapsed for weighting. 
+
+We don't have a formal recommendation on redistributing these values. Where categories match 1-to-1, that's easy. Where they match 1-to-gt1 (e.g., Less than High School -> 8th or less + 9th-12th, no diploma), you could distribute proportionally (e.g., where a1_grade_1 = 1 and a1_grade = .m, assign 28.3% to 8th or less). Ultimately, though, the 2016 file does not have the same level of detail, so you'll have to create detail if you want it to match 2017 and beyond.
+
+
+
+NOTE: a1_grade_i was also used to impute higrade and higrade_tvis since these variables depend on presence of either a1_grade or a2_grade data.
